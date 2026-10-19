@@ -1,0 +1,507 @@
+{
+ "reqs": [
+  {
+   "id": "REQ-101",
+   "title": "Immigration lawyer",
+   "team": "Legal",
+   "openings": 3,
+   "days_open": 24,
+   "manager": "Managing lawyer",
+   "interviewers": [
+    "Nadia (Senior lawyer)",
+    "Omar (Senior lawyer)"
+   ],
+   "funnel": [
+    65,
+    21,
+    10,
+    6,
+    3,
+    1
+   ],
+   "target_days": 45
+  },
+  {
+   "id": "REQ-102",
+   "title": "Regulated immigration consultant (RCIC)",
+   "team": "Legal",
+   "openings": 5,
+   "days_open": 22,
+   "manager": "Managing lawyer",
+   "interviewers": [
+    "Nadia (Senior lawyer)",
+    "Grace (Senior RCIC)"
+   ],
+   "funnel": [
+    130,
+    34,
+    17,
+    10,
+    6,
+    2
+   ],
+   "target_days": 40
+  },
+  {
+   "id": "REQ-103",
+   "title": "Case processing associate",
+   "team": "Case processing",
+   "openings": 8,
+   "days_open": 41,
+   "manager": "Case processing manager",
+   "interviewers": [
+    "Ravi (Senior case processor)",
+    "Grace (Senior RCIC)",
+    "Ines (Case processing manager)"
+   ],
+   "funnel": [
+    377,
+    90,
+    36,
+    18,
+    10,
+    4
+   ],
+   "target_days": 28
+  },
+  {
+   "id": "REQ-104",
+   "title": "Senior case processor",
+   "team": "Case processing",
+   "openings": 2,
+   "days_open": 46,
+   "manager": "Case processing manager",
+   "interviewers": [
+    "Ines (Case processing manager)",
+    "Ravi (Senior case processor)"
+   ],
+   "funnel": [
+    95,
+    27,
+    10,
+    5,
+    3,
+    1
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-105",
+   "title": "Client success specialist",
+   "team": "Client success",
+   "openings": 4,
+   "days_open": 8,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Chloe (CS team lead)",
+    "Marcus (CS team lead)"
+   ],
+   "funnel": [
+    353,
+    100,
+    37,
+    23,
+    15,
+    2
+   ],
+   "target_days": 25
+  },
+  {
+   "id": "REQ-106",
+   "title": "Client success team lead",
+   "team": "Client success",
+   "openings": 1,
+   "days_open": 14,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Chloe (CS team lead)",
+    "Ines (Case processing manager)"
+   ],
+   "funnel": [
+    83,
+    24,
+    9,
+    4,
+    2,
+    0
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-107",
+   "title": "Intake consultant",
+   "team": "Intake",
+   "openings": 4,
+   "days_open": 13,
+   "manager": "Intake manager",
+   "interviewers": [
+    "Sami (Intake manager)",
+    "Marcus (CS team lead)"
+   ],
+   "funnel": [
+    229,
+    57,
+    22,
+    14,
+    9,
+    2
+   ],
+   "target_days": 25
+  },
+  {
+   "id": "REQ-108",
+   "title": "Bilingual intake consultant (FR/EN)",
+   "team": "Intake",
+   "openings": 2,
+   "days_open": 39,
+   "manager": "Intake manager",
+   "interviewers": [
+    "Sami (Intake manager)",
+    "Elise (Bilingual intake lead)"
+   ],
+   "funnel": [
+    75,
+    21,
+    10,
+    5,
+    3,
+    1
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-109",
+   "title": "People operations generalist",
+   "team": "Operations & people",
+   "openings": 1,
+   "days_open": 11,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Tara (Recruiting coordinator)",
+    "Ines (Case processing manager)"
+   ],
+   "funnel": [
+    146,
+    27,
+    10,
+    5,
+    3,
+    0
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-110",
+   "title": "Recruiting coordinator",
+   "team": "Operations & people",
+   "openings": 1,
+   "days_open": 37,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Tara (Recruiting coordinator)",
+    "Chloe (CS team lead)"
+   ],
+   "funnel": [
+    127,
+    25,
+    10,
+    6,
+    3,
+    0
+   ],
+   "target_days": 30
+  },
+  {
+   "id": "REQ-111",
+   "title": "Operations analyst",
+   "team": "Operations & people",
+   "openings": 1,
+   "days_open": 48,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Dev (Automation engineer)",
+    "Tara (Recruiting coordinator)"
+   ],
+   "funnel": [
+    126,
+    34,
+    12,
+    7,
+    4,
+    0
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-112",
+   "title": "Automation engineer",
+   "team": "Technology & AI",
+   "openings": 2,
+   "days_open": 47,
+   "manager": "Head of Technology",
+   "interviewers": [
+    "Dev (Automation engineer)",
+    "Kai (Head of Technology)"
+   ],
+   "funnel": [
+    177,
+    31,
+    14,
+    7,
+    4,
+    1
+   ],
+   "target_days": 45
+  },
+  {
+   "id": "REQ-113",
+   "title": "Data analyst",
+   "team": "Technology & AI",
+   "openings": 1,
+   "days_open": 19,
+   "manager": "Head of Technology",
+   "interviewers": [
+    "Kai (Head of Technology)",
+    "Dev (Automation engineer)"
+   ],
+   "funnel": [
+    162,
+    40,
+    18,
+    9,
+    4,
+    0
+   ],
+   "target_days": 40
+  },
+  {
+   "id": "REQ-114",
+   "title": "Practice management (Clio) administrator",
+   "team": "Technology & AI",
+   "openings": 1,
+   "days_open": 8,
+   "manager": "Head of Technology",
+   "interviewers": [
+    "Kai (Head of Technology)",
+    "Ines (Case processing manager)"
+   ],
+   "funnel": [
+    52,
+    14,
+    5,
+    3,
+    1,
+    0
+   ],
+   "target_days": 35
+  }
+ ],
+ "hires": [
+  {
+   "id": "H-1",
+   "team": "Case processing",
+   "title": "Case processing associate",
+   "days_to_hire": 23
+  },
+  {
+   "id": "H-2",
+   "team": "Technology & AI",
+   "title": "Practice management (Clio) administrator",
+   "days_to_hire": 50
+  },
+  {
+   "id": "H-3",
+   "team": "Intake",
+   "title": "Intake consultant",
+   "days_to_hire": 38
+  },
+  {
+   "id": "H-4",
+   "team": "Case processing",
+   "title": "Senior case processor",
+   "days_to_hire": 43
+  },
+  {
+   "id": "H-5",
+   "team": "Legal",
+   "title": "Regulated immigration consultant (RCIC)",
+   "days_to_hire": 52
+  },
+  {
+   "id": "H-6",
+   "team": "Operations & people",
+   "title": "People operations generalist",
+   "days_to_hire": 27
+  },
+  {
+   "id": "H-7",
+   "team": "Client success",
+   "title": "Client success specialist",
+   "days_to_hire": 32
+  },
+  {
+   "id": "H-8",
+   "team": "Intake",
+   "title": "Intake consultant",
+   "days_to_hire": 19
+  },
+  {
+   "id": "H-9",
+   "team": "Case processing",
+   "title": "Case processing associate",
+   "days_to_hire": 37
+  },
+  {
+   "id": "H-10",
+   "team": "Legal",
+   "title": "Regulated immigration consultant (RCIC)",
+   "days_to_hire": 32
+  },
+  {
+   "id": "H-11",
+   "team": "Legal",
+   "title": "Immigration lawyer",
+   "days_to_hire": 45
+  },
+  {
+   "id": "H-12",
+   "team": "Client success",
+   "title": "Client success team lead",
+   "days_to_hire": 27
+  },
+  {
+   "id": "H-13",
+   "team": "Legal",
+   "title": "Regulated immigration consultant (RCIC)",
+   "days_to_hire": 56
+  },
+  {
+   "id": "H-14",
+   "team": "Client success",
+   "title": "Client success team lead",
+   "days_to_hire": 20
+  },
+  {
+   "id": "H-15",
+   "team": "Operations & people",
+   "title": "Operations analyst",
+   "days_to_hire": 35
+  },
+  {
+   "id": "H-16",
+   "team": "Operations & people",
+   "title": "People operations generalist",
+   "days_to_hire": 22
+  },
+  {
+   "id": "H-17",
+   "team": "Intake",
+   "title": "Bilingual intake consultant (FR/EN)",
+   "days_to_hire": 42
+  },
+  {
+   "id": "H-18",
+   "team": "Case processing",
+   "title": "Case processing associate",
+   "days_to_hire": 40
+  },
+  {
+   "id": "H-19",
+   "team": "Case processing",
+   "title": "Senior case processor",
+   "days_to_hire": 32
+  },
+  {
+   "id": "H-20",
+   "team": "Case processing",
+   "title": "Senior case processor",
+   "days_to_hire": 34
+  },
+  {
+   "id": "H-21",
+   "team": "Technology & AI",
+   "title": "Automation engineer",
+   "days_to_hire": 50
+  },
+  {
+   "id": "H-22",
+   "team": "Technology & AI",
+   "title": "Automation engineer",
+   "days_to_hire": 40
+  }
+ ],
+ "interviewers": [
+  {
+   "name": "Marcus (CS team lead)",
+   "hours": 7.5,
+   "interviews": 8,
+   "reqs": 2
+  },
+  {
+   "name": "Chloe (CS team lead)",
+   "hours": 6.9,
+   "interviews": 7,
+   "reqs": 3
+  },
+  {
+   "name": "Ines (Case processing manager)",
+   "hours": 6.6,
+   "interviews": 7,
+   "reqs": 5
+  },
+  {
+   "name": "Dev (Automation engineer)",
+   "hours": 5.1,
+   "interviews": 6,
+   "reqs": 3
+  },
+  {
+   "name": "Grace (Senior RCIC)",
+   "hours": 4.9,
+   "interviews": 5,
+   "reqs": 2
+  },
+  {
+   "name": "Kai (Head of Technology)",
+   "hours": 4.3,
+   "interviews": 5,
+   "reqs": 3
+  },
+  {
+   "name": "Sami (Intake manager)",
+   "hours": 4,
+   "interviews": 4,
+   "reqs": 2
+  },
+  {
+   "name": "Ravi (Senior case processor)",
+   "hours": 3.9,
+   "interviews": 4,
+   "reqs": 2
+  },
+  {
+   "name": "Tara (Recruiting coordinator)",
+   "hours": 3.9,
+   "interviews": 4,
+   "reqs": 3
+  },
+  {
+   "name": "Nadia (Senior lawyer)",
+   "hours": 3.4,
+   "interviews": 3,
+   "reqs": 2
+  },
+  {
+   "name": "Omar (Senior lawyer)",
+   "hours": 1.3,
+   "interviews": 1,
+   "reqs": 1
+  },
+  {
+   "name": "Elise (Bilingual intake lead)",
+   "hours": 1.1,
+   "interviews": 1,
+   "reqs": 1
+  }
+ ]
+}

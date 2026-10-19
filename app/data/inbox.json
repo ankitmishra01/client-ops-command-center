@@ -1,0 +1,4802 @@
+[
+ {
+  "id": "MSG-10247",
+  "channel": "email",
+  "received_at": "2026-10-19T12:44:00.000Z",
+  "client": "Mateo O.",
+  "matter": "M-26-13282",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the LMIA-based work permit. The checklist says bank statements but the last email said something different. My work permit expires on October 24, so the extension must be submitted by then. Please reply when you can.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": 5
+  }
+ },
+ {
+  "id": "MSG-10250",
+  "channel": "portal",
+  "received_at": "2026-10-19T12:31:00.000Z",
+  "client": "Wei U.",
+  "matter": "M-26-25869",
+  "subject": "Escalating my file",
+  "body": "I would like to speak to a manager. My citizenship application has had no update for 5 weeks and my emails are not answered. If I do not hear back I will leave a Google review describing this. Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "CIT",
+   "intent": "escalation",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10272",
+  "channel": "portal",
+  "received_at": "2026-10-19T12:30:00.000Z",
+  "client": "Marta P.",
+  "matter": "M-26-36830",
+  "subject": "Approved!",
+  "body": "We got it! My Express Entry profile was approved this morning. Thank you so much to the whole team. Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10223",
+  "channel": "email",
+  "received_at": "2026-10-19T12:29:00.000Z",
+  "client": "Ananya Z.",
+  "matter": "M-26-39416",
+  "subject": "Processing time question",
+  "body": "My temporary resident permit application has been with IRCC for 14 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10008",
+  "channel": "email",
+  "received_at": "2026-10-19T12:26:00.000Z",
+  "client": "Leila H.",
+  "matter": "M-26-41723",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my passport copies last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need?",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10275",
+  "channel": "portal",
+  "received_at": "2026-10-19T12:22:00.000Z",
+  "client": "Jun Y.",
+  "matter": "M-26-43812",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my Canadian Experience Class application? The last email I had from your office was in July. My ITA expires in 22 days and the document list is not finished. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 22
+  }
+ },
+ {
+  "id": "MSG-10102",
+  "channel": "email",
+  "received_at": "2026-10-19T12:20:00.000Z",
+  "client": "Rahul S.",
+  "matter": "M-26-35935",
+  "subject": "Who is handling my file now?",
+  "body": "My consultant changed and nobody told me. The new person asked me to explain everything again about my citizenship application for my son. I am disappointed. IRCC asked for more documents and the deadline is in 14 days.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "handoff",
+   "deadline_days": 14
+  }
+ },
+ {
+  "id": "MSG-10186",
+  "channel": "portal",
+  "received_at": "2026-10-19T12:17:00.000Z",
+  "client": "Amara D.",
+  "matter": "M-26-43634",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the LMIA-based work permit. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10293",
+  "channel": "email",
+  "received_at": "2026-10-19T12:14:00.000Z",
+  "client": "Ananya R.",
+  "matter": "M-26-40127",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my LMIA-based work permit. Great work.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10108",
+  "channel": "email",
+  "received_at": "2026-10-19T11:45:00.000Z",
+  "client": "Tariq V.",
+  "matter": "M-26-33189",
+  "subject": "Translation requirements",
+  "body": "Does my court records need a certified translation, or is a notarized copy enough for the inadmissibility file for my old DUI?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10183",
+  "channel": "portal",
+  "received_at": "2026-10-19T11:36:00.000Z",
+  "client": "Aarav V.",
+  "matter": "M-26-34608",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my work permit extension and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10114",
+  "channel": "email",
+  "received_at": "2026-10-19T11:15:00.000Z",
+  "client": "Diego C.",
+  "matter": "M-26-21982",
+  "subject": "Processing time question",
+  "body": "My citizenship application has been with IRCC for 14 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10011",
+  "channel": "email",
+  "received_at": "2026-10-19T11:05:00.000Z",
+  "client": "Arjun I.",
+  "matter": "M-26-11787",
+  "subject": "Request to speak with a senior lawyer",
+  "body": "My file has been handed over three times. I want to speak with a lawyer who knows my Express Entry PR application, not a different person every month. Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10214",
+  "channel": "portal",
+  "received_at": "2026-10-19T11:03:00.000Z",
+  "client": "Chiamaka K.",
+  "matter": "M-26-14255",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my open work permit application and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10240",
+  "channel": "portal",
+  "received_at": "2026-10-19T10:55:00.000Z",
+  "client": "Rahul G.",
+  "matter": "M-26-24259",
+  "subject": "Missed meeting",
+  "body": "I joined the Zoom link at the agreed time and no one showed. Can we book another meeting about my temporary resident permit application? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10096",
+  "channel": "portal",
+  "received_at": "2026-10-19T10:44:00.000Z",
+  "client": "Hana O.",
+  "matter": "M-26-45939",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my inadmissibility file for my old DUI. Could you explain which part is government fees and which part is your professional fee? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10228",
+  "channel": "portal",
+  "received_at": "2026-10-19T10:30:00.000Z",
+  "client": "Wei R.",
+  "matter": "M-26-17253",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my sponsorship of my dependent child and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10068",
+  "channel": "portal",
+  "received_at": "2026-10-19T10:25:00.000Z",
+  "client": "Arjun N.",
+  "matter": "M-26-24031",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the Canadian Experience Class application and have heard nothing since. What is the status? I can be reached at the number on file.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10230",
+  "channel": "email",
+  "received_at": "2026-10-19T10:12:00.000Z",
+  "client": "Javier F.",
+  "matter": "M-26-18851",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my PNP nomination application? The last email I had from your office was in August. Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10241",
+  "channel": "portal",
+  "received_at": "2026-10-19T10:12:00.000Z",
+  "client": "Emeka L.",
+  "matter": "M-26-13162",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the Express Entry PR application. The checklist says employment reference letter but the last email said something different.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10197",
+  "channel": "email",
+  "received_at": "2026-10-19T10:09:00.000Z",
+  "client": "Mei T.",
+  "matter": "M-26-45188",
+  "subject": "Approved!",
+  "body": "We got it! My sponsorship application for my parents was approved this morning. Thank you so much to the whole team. I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10066",
+  "channel": "email",
+  "received_at": "2026-10-19T10:07:00.000Z",
+  "client": "Yusuf X.",
+  "matter": "M-26-48534",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my citizenship application for my son. Could you explain which part is government fees and which part is your professional fee? This is stressful for our family.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10098",
+  "channel": "email",
+  "received_at": "2026-10-19T10:02:00.000Z",
+  "client": "Javier V.",
+  "matter": "M-26-37937",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My PGWP application has been in processing for 15 months and I want to understand what the officer is doing. How long can this take?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10212",
+  "channel": "email",
+  "received_at": "2026-10-19T09:57:00.000Z",
+  "client": "Isabela O.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in Canadian citizenship. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10190",
+  "channel": "email",
+  "received_at": "2026-10-19T09:56:00.000Z",
+  "client": "Tariq S.",
+  "matter": "M-26-46099",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my open work permit application. Great work.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10110",
+  "channel": "portal",
+  "received_at": "2026-10-19T09:51:00.000Z",
+  "client": "Yara Q.",
+  "matter": "M-26-39195",
+  "subject": "Approved!",
+  "body": "We got it! My sponsorship application for my parents was approved this morning. Thank you so much to the whole team.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10226",
+  "channel": "email",
+  "received_at": "2026-10-19T09:39:00.000Z",
+  "client": "Ananya L.",
+  "matter": "M-26-31859",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my PGWP application. Could you explain which part is government fees and which part is your professional fee? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10112",
+  "channel": "email",
+  "received_at": "2026-10-19T09:35:00.000Z",
+  "client": "Aarav T.",
+  "matter": "M-26-47388",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my PNP nomination application? The last email I had from your office was in July.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10208",
+  "channel": "email",
+  "received_at": "2026-10-19T09:28:00.000Z",
+  "client": "Leila P.",
+  "matter": "M-26-37720",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my Canadian Experience Class application? I can do any afternoon this week.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10116",
+  "channel": "portal",
+  "received_at": "2026-10-19T09:24:00.000Z",
+  "client": "Priya V.",
+  "matter": "M-26-46107",
+  "subject": "Paid, no update since",
+  "body": "We paid in September for the sponsorship of my dependent child and have heard nothing since. What is the status? Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10254",
+  "channel": "portal",
+  "received_at": "2026-10-19T09:24:00.000Z",
+  "client": "Andrei A.",
+  "matter": "M-26-15451",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the sponsorship application for my parents.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10074",
+  "channel": "portal",
+  "received_at": "2026-10-19T09:09:00.000Z",
+  "client": "Camila B.",
+  "matter": "M-26-37208",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my proof of funds letter last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10151",
+  "channel": "portal",
+  "received_at": "2026-10-19T09:08:00.000Z",
+  "client": "Elena D.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in Express Entry. Am I eligible, and how much would you charge? Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10081",
+  "channel": "email",
+  "received_at": "2026-10-19T09:00:00.000Z",
+  "client": "Andrei P.",
+  "matter": "M-26-20100",
+  "subject": "Upload not working",
+  "body": "I tried to upload my proof of funds letter for the Express Entry profile but the portal upload keeps failing with an error message. Maybe the file is too large? My ITA expires in 17 days and the document list is not finished. Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": 17
+  }
+ },
+ {
+  "id": "MSG-10150",
+  "channel": "email",
+  "received_at": "2026-10-19T08:56:00.000Z",
+  "client": "Lina E.",
+  "matter": "M-26-24778",
+  "subject": "Unexpected charge",
+  "body": "I was charged again for my sponsorship application for my parents and nobody explained why. What am I paying for at this point? I am frustrated. This is stressful for our family.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10291",
+  "channel": "email",
+  "received_at": "2026-10-19T08:56:00.000Z",
+  "client": "Tariq R.",
+  "matter": "M-26-20580",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my Express Entry PR application. Could you explain which part is government fees and which part is your professional fee? IRCC asked for additional documents and we must respond within 10 days. Please reply when you can.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": 10
+  }
+ },
+ {
+  "id": "MSG-10207",
+  "channel": "email",
+  "received_at": "2026-10-19T08:52:00.000Z",
+  "client": "Hana N.",
+  "matter": "M-26-42881",
+  "subject": "Processing time question",
+  "body": "My citizenship application for my son has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10136",
+  "channel": "email",
+  "received_at": "2026-10-19T08:50:00.000Z",
+  "client": "Aarav B.",
+  "matter": "M-26-38283",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my Express Entry PR application. Who is handling my file now, and is there any update? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10023",
+  "channel": "portal",
+  "received_at": "2026-10-19T08:43:00.000Z",
+  "client": "Mateo J.",
+  "matter": "M-26-47293",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My work permit extension has been in processing for 8 months and I want to understand what the officer is doing. How long can this take? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10119",
+  "channel": "email",
+  "received_at": "2026-10-19T08:32:00.000Z",
+  "client": "Yusuf R.",
+  "matter": "M-26-47903",
+  "subject": "Missed call again",
+  "body": "I was promised a call back on Wednesday about my proof of citizenship application and no one called. This is the second time. I am disappointed. I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10202",
+  "channel": "email",
+  "received_at": "2026-10-19T08:23:00.000Z",
+  "client": "Sofia F.",
+  "matter": "M-26-14117",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my common-law partner sponsorship and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. We received a biometrics instruction letter and must complete it within 8 days.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": 8
+  }
+ },
+ {
+  "id": "MSG-10117",
+  "channel": "email",
+  "received_at": "2026-10-19T08:02:00.000Z",
+  "client": "Camila V.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for entering Canada with an old DUI conviction. What are the next steps?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "INA",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10286",
+  "channel": "email",
+  "received_at": "2026-10-19T07:54:00.000Z",
+  "client": "Emeka J.",
+  "matter": "M-26-46384",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the sponsorship of my dependent child. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10174",
+  "channel": "email",
+  "received_at": "2026-10-19T07:49:00.000Z",
+  "client": "Hana O.",
+  "matter": "M-26-43570",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the Express Entry profile. The checklist says proof of funds letter but the last email said something different.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10032",
+  "channel": "email",
+  "received_at": "2026-10-19T07:48:00.000Z",
+  "client": "Elena G.",
+  "matter": "M-26-37041",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the Express Entry PR application and have heard nothing since. What is the status?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10053",
+  "channel": "email",
+  "received_at": "2026-10-19T07:44:00.000Z",
+  "client": "Tomasz A.",
+  "matter": "M-26-14632",
+  "subject": "Upload not working",
+  "body": "I tried to upload my joint lease for the common-law partner sponsorship but the portal upload keeps failing with an error message. Maybe the file is too large? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10026",
+  "channel": "email",
+  "received_at": "2026-10-19T07:43:00.000Z",
+  "client": "Chiamaka N.",
+  "matter": "M-26-28844",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my study permit application. Weeks without any update is unacceptable.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10017",
+  "channel": "portal",
+  "received_at": "2026-10-19T07:40:00.000Z",
+  "client": "Wei E.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in entering Canada with an old DUI conviction. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "INA",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10172",
+  "channel": "email",
+  "received_at": "2026-10-19T07:33:00.000Z",
+  "client": "Fatima P.",
+  "matter": "M-26-15762",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my Express Entry profile. Weeks without any update is unacceptable.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10049",
+  "channel": "portal",
+  "received_at": "2026-10-19T07:32:00.000Z",
+  "client": "Sana Q.",
+  "matter": "M-26-20783",
+  "subject": "Refund request",
+  "body": "I want a refund. I was charged for my PNP nomination application and I still do not understand what the fees covered. Please escalate this to a manager. This is stressful for our family.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10273",
+  "channel": "email",
+  "received_at": "2026-10-19T07:14:00.000Z",
+  "client": "Pablo V.",
+  "matter": "M-26-32329",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my PNP nomination application in 6 weeks. Could you tell me the status and what the next step is? IRCC asked for additional documents and we must respond within 21 days. Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 21
+  }
+ },
+ {
+  "id": "MSG-10078",
+  "channel": "portal",
+  "received_at": "2026-10-19T07:12:00.000Z",
+  "client": "Gabriel S.",
+  "matter": "M-26-36270",
+  "subject": "Translation requirements",
+  "body": "Does my police certificate need a certified translation, or is a notarized copy enough for the Canadian Experience Class application? I can be reached at the number on file.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10084",
+  "channel": "email",
+  "received_at": "2026-10-19T07:10:00.000Z",
+  "client": "Marta X.",
+  "matter": "M-26-42870",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my citizenship application for my son. Could you explain which part is government fees and which part is your professional fee? Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10191",
+  "channel": "portal",
+  "received_at": "2026-10-19T07:09:00.000Z",
+  "client": "Ananya Z.",
+  "matter": "M-26-33543",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my sponsorship of my dependent child and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10164",
+  "channel": "portal",
+  "received_at": "2026-10-19T07:06:00.000Z",
+  "client": "Amara Q.",
+  "matter": "M-26-32528",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my Express Entry profile. Who is handling my file now, and is there any update? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10070",
+  "channel": "email",
+  "received_at": "2026-10-19T07:02:00.000Z",
+  "client": "Amara H.",
+  "matter": "M-26-39299",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the PGWP application. The checklist says LMIA approval letter but the last email said something different. My current work permit ends in 27 days.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": 27
+  }
+ },
+ {
+  "id": "MSG-10170",
+  "channel": "portal",
+  "received_at": "2026-10-19T06:53:00.000Z",
+  "client": "Sofia M.",
+  "matter": "M-26-12324",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my record check and rehabilitation file in 5 weeks. Could you tell me the status and what the next step is? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10295",
+  "channel": "email",
+  "received_at": "2026-10-19T06:53:00.000Z",
+  "client": "Yusuf J.",
+  "matter": "M-26-43056",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My common-law partner sponsorship has been in processing for 10 months and I want to understand what the officer is doing. How long can this take? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10101",
+  "channel": "email",
+  "received_at": "2026-10-19T06:51:00.000Z",
+  "client": "Aisha H.",
+  "matter": "M-26-15465",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the open work permit application. The checklist says LMIA approval letter but the last email said something different.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10056",
+  "channel": "email",
+  "received_at": "2026-10-19T06:48:00.000Z",
+  "client": "Sana K.",
+  "matter": "M-26-26350",
+  "subject": "Why was my file closed?",
+  "body": "I got an email that you are closing my file for the criminal rehabilitation application without any explanation, and no one will call me back. I am disappointed. This is stressful for our family.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "INA",
+   "intent": "complaint",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10131",
+  "channel": "email",
+  "received_at": "2026-10-19T06:27:00.000Z",
+  "client": "Sana X.",
+  "matter": "M-26-21378",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the common-law partner sponsorship and have heard nothing since. What is the status? We received a biometrics instruction letter and must complete it within 24 days.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 24
+  }
+ },
+ {
+  "id": "MSG-10037",
+  "channel": "portal",
+  "received_at": "2026-10-19T06:20:00.000Z",
+  "client": "Tariq P.",
+  "matter": "M-26-17852",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the study permit application. The checklist says employer offer letter but the last email said something different. My current work permit ends in 4 days. I can be reached at the number on file.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": 4
+  }
+ },
+ {
+  "id": "MSG-10120",
+  "channel": "email",
+  "received_at": "2026-10-19T06:18:00.000Z",
+  "client": "Leila H.",
+  "matter": "M-26-31763",
+  "subject": "Processing time question",
+  "body": "My PNP nomination application has been with IRCC for 15 months now, which is beyond the posted processing time. Is there anything that can be done? Thank you for your help so far.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10229",
+  "channel": "email",
+  "received_at": "2026-10-19T06:18:00.000Z",
+  "client": "Ananya F.",
+  "matter": "M-26-14691",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my criminal rehabilitation application? The last email I had from your office was in August. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10006",
+  "channel": "email",
+  "received_at": "2026-10-19T06:15:00.000Z",
+  "client": "Hana K.",
+  "matter": "M-26-37720",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my PGWP application. Weeks without any update is unacceptable. My current work permit ends in 20 days. Merci.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": 20
+  }
+ },
+ {
+  "id": "MSG-10097",
+  "channel": "email",
+  "received_at": "2026-10-19T06:05:00.000Z",
+  "client": "Yara T.",
+  "matter": "M-26-43159",
+  "subject": "Missed meeting",
+  "body": "I joined the Zoom link at the agreed time and no one showed. Can we book another meeting about my PGWP application? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10153",
+  "channel": "email",
+  "received_at": "2026-10-19T05:55:00.000Z",
+  "client": "Lucas G.",
+  "matter": "M-26-26352",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my common-law partner sponsorship. Great work. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10002",
+  "channel": "email",
+  "received_at": "2026-10-19T05:32:00.000Z",
+  "client": "Lina O.",
+  "matter": "M-26-30794",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the common-law partner sponsorship. The checklist says joint lease but the last email said something different.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10015",
+  "channel": "email",
+  "received_at": "2026-10-19T05:30:00.000Z",
+  "client": "Sana C.",
+  "matter": "M-26-31481",
+  "subject": "Paid, no update since",
+  "body": "We paid in September for the Canadian Experience Class application and have heard nothing since. What is the status? This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10180",
+  "channel": "portal",
+  "received_at": "2026-10-19T05:14:00.000Z",
+  "client": "Noor P.",
+  "matter": "M-26-35613",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my work permit extension? I can do any afternoon this week. My work permit expires on November 4, so the extension must be submitted by then. Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": 16
+  }
+ },
+ {
+  "id": "MSG-10003",
+  "channel": "email",
+  "received_at": "2026-10-19T05:02:00.000Z",
+  "client": "Wei O.",
+  "matter": "M-26-46819",
+  "subject": "Paid, no update since",
+  "body": "We paid in August for the PNP nomination application and have heard nothing since. What is the status?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10283",
+  "channel": "email",
+  "received_at": "2026-10-19T04:39:00.000Z",
+  "client": "Mei O.",
+  "matter": "M-26-15071",
+  "subject": "Upload not working",
+  "body": "I tried to upload my bank statements for the study permit application but the portal upload keeps failing with an error message. Maybe the file is too large?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10090",
+  "channel": "email",
+  "received_at": "2026-10-19T04:32:00.000Z",
+  "client": "Amara S.",
+  "matter": "M-26-27395",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my sponsorship application for my parents. Who is handling my file now, and is there any update? Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10169",
+  "channel": "email",
+  "received_at": "2026-10-19T04:28:00.000Z",
+  "client": "Zainab B.",
+  "matter": "M-26-38858",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the spousal sponsorship application. It feels like we are in the dark. Where are we in the process? This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10182",
+  "channel": "email",
+  "received_at": "2026-10-19T04:28:00.000Z",
+  "client": "Noor Z.",
+  "matter": "M-26-15763",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the PNP nomination application. It feels like we are in the dark. Where are we in the process? Sent from my phone.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10121",
+  "channel": "portal",
+  "received_at": "2026-10-19T04:27:00.000Z",
+  "client": "Kofi K.",
+  "matter": "M-26-37927",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my Express Entry PR application. Could you explain which part is government fees and which part is your professional fee? My ITA expires in 20 days and the document list is not finished.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": 20
+  }
+ },
+ {
+  "id": "MSG-10057",
+  "channel": "portal",
+  "received_at": "2026-10-19T04:26:00.000Z",
+  "client": "Jun Q.",
+  "matter": "M-26-18537",
+  "subject": "Translation requirements",
+  "body": "Does my bank statements need a certified translation, or is a notarized copy enough for the open work permit application? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10012",
+  "channel": "email",
+  "received_at": "2026-10-19T04:02:00.000Z",
+  "client": "Emeka S.",
+  "matter": "M-26-35751",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Canadian Experience Class application in 3 weeks. Could you tell me the status and what the next step is? My ITA expires in 5 days and the document list is not finished. Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 5
+  }
+ },
+ {
+  "id": "MSG-10201",
+  "channel": "email",
+  "received_at": "2026-10-19T04:00:00.000Z",
+  "client": "Camila M.",
+  "matter": "M-26-38690",
+  "subject": "Upload not working",
+  "body": "I tried to upload my LMIA approval letter for the LMIA-based work permit but the portal upload keeps failing with an error message. Maybe the file is too large? My work permit expires on October 28, so the extension must be submitted by then. Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": 9
+  }
+ },
+ {
+  "id": "MSG-10035",
+  "channel": "portal",
+  "received_at": "2026-10-19T03:41:00.000Z",
+  "client": "Tariq D.",
+  "matter": "M-26-45773",
+  "subject": "Translation requirements",
+  "body": "Does my employment reference letter need a certified translation, or is a notarized copy enough for the Express Entry PR application?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10253",
+  "channel": "portal",
+  "received_at": "2026-10-19T03:37:00.000Z",
+  "client": "Lucas S.",
+  "matter": "M-26-10274",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my proof of citizenship application? The last email I had from your office was in September.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10166",
+  "channel": "email",
+  "received_at": "2026-10-19T03:29:00.000Z",
+  "client": "Sana O.",
+  "matter": "M-26-11745",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my study permit application in 3 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10142",
+  "channel": "email",
+  "received_at": "2026-10-19T03:24:00.000Z",
+  "client": "Mateo B.",
+  "matter": "M-26-25679",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the sponsorship application for my parents. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10165",
+  "channel": "portal",
+  "received_at": "2026-10-19T03:06:00.000Z",
+  "client": "Camila Z.",
+  "matter": "M-26-20741",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the Express Entry PR application. It feels like we are in the dark. Where are we in the process? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10062",
+  "channel": "portal",
+  "received_at": "2026-10-19T02:46:00.000Z",
+  "client": "Isabela N.",
+  "matter": "M-26-35263",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my employment reference letter last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? My ITA expires in 22 days and the document list is not finished. Thank you for your help so far.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": 22
+  }
+ },
+ {
+  "id": "MSG-10048",
+  "channel": "email",
+  "received_at": "2026-10-19T02:24:00.000Z",
+  "client": "Aarav X.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in sponsoring my spouse. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10143",
+  "channel": "email",
+  "received_at": "2026-10-19T02:09:00.000Z",
+  "client": "Sofia C.",
+  "matter": "M-26-10408",
+  "subject": "Cannot log in to the portal",
+  "body": "My portal password reset link has expired twice. I need to upload the bank statements for my open work permit application. Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10181",
+  "channel": "email",
+  "received_at": "2026-10-19T02:07:00.000Z",
+  "client": "Camila P.",
+  "matter": "M-26-23980",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the sponsorship application for my parents. The checklist says marriage certificate translation but the last email said something different.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10067",
+  "channel": "email",
+  "received_at": "2026-10-19T01:46:00.000Z",
+  "client": "Priya S.",
+  "matter": "M-26-31693",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my open work permit application. Could you explain which part is government fees and which part is your professional fee?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10265",
+  "channel": "email",
+  "received_at": "2026-10-19T01:33:00.000Z",
+  "client": "Priya U.",
+  "matter": "M-26-10722",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my open work permit application? The last email I had from your office was in August. Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10126",
+  "channel": "email",
+  "received_at": "2026-10-19T01:29:00.000Z",
+  "client": "Sofia S.",
+  "matter": "M-26-24424",
+  "subject": "Escalating my file",
+  "body": "I would like to speak to a manager. My PGWP application has had no update for 9 weeks and my emails are not answered. If I do not hear back I will leave a Google review describing this. I can be reached at the number on file.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "WP",
+   "intent": "escalation",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10051",
+  "channel": "portal",
+  "received_at": "2026-10-19T01:18:00.000Z",
+  "client": "Noor T.",
+  "matter": "M-26-37578",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my Express Entry profile? I can do any afternoon this week. This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10107",
+  "channel": "email",
+  "received_at": "2026-10-19T01:17:00.000Z",
+  "client": "Priya Y.",
+  "matter": "M-26-38100",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my LMIA-based work permit? The last email I had from your office was in September. Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10014",
+  "channel": "email",
+  "received_at": "2026-10-19T01:09:00.000Z",
+  "client": "Diego L.",
+  "matter": "M-26-44370",
+  "subject": "Missed meeting",
+  "body": "I joined the Zoom link at the agreed time and no one showed. Can we book another meeting about my sponsorship of my dependent child?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10132",
+  "channel": "portal",
+  "received_at": "2026-10-19T00:52:00.000Z",
+  "client": "Sofia D.",
+  "matter": "M-26-16913",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My work permit extension has been in processing for 14 months and I want to understand what the officer is doing. How long can this take?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10256",
+  "channel": "portal",
+  "received_at": "2026-10-19T00:45:00.000Z",
+  "client": "Oluwaseun A.",
+  "matter": "M-26-34088",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship of my dependent child in 9 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10246",
+  "channel": "portal",
+  "received_at": "2026-10-19T00:41:00.000Z",
+  "client": "Mei H.",
+  "matter": "M-26-14842",
+  "subject": "Paid, no update since",
+  "body": "We paid in September for the criminal rehabilitation application and have heard nothing since. What is the status? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10063",
+  "channel": "email",
+  "received_at": "2026-10-19T00:39:00.000Z",
+  "client": "Priya M.",
+  "matter": "M-26-22004",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the PNP nomination application and have heard nothing since. What is the status?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10018",
+  "channel": "email",
+  "received_at": "2026-10-19T00:24:00.000Z",
+  "client": "Rahul X.",
+  "matter": "M-26-39852",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my Express Entry PR application. Could you explain which part is government fees and which part is your professional fee? IRCC asked for additional documents and we must respond within 5 days.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": 5
+  }
+ },
+ {
+  "id": "MSG-10091",
+  "channel": "email",
+  "received_at": "2026-10-18T23:41:00.000Z",
+  "client": "Isabela M.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a work permit. Am I eligible, and how much would you charge? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10216",
+  "channel": "portal",
+  "received_at": "2026-10-18T23:20:00.000Z",
+  "client": "Amara A.",
+  "matter": "M-26-40112",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my sponsorship of my dependent child? The last email I had from your office was in July. Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10118",
+  "channel": "portal",
+  "received_at": "2026-10-18T23:16:00.000Z",
+  "client": "Kofi K.",
+  "matter": "M-26-14872",
+  "subject": "Who is handling my file now?",
+  "body": "My consultant changed and nobody told me. The new person asked me to explain everything again about my record check and rehabilitation file. I am disappointed. IRCC asked for my court records within 14 days. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "INA",
+   "intent": "complaint",
+   "root_cause": "handoff",
+   "deadline_days": 14
+  }
+ },
+ {
+  "id": "MSG-10224",
+  "channel": "email",
+  "received_at": "2026-10-18T23:03:00.000Z",
+  "client": "Diego T.",
+  "matter": "M-26-16538",
+  "subject": "Missed meeting",
+  "body": "I joined the Zoom link at the agreed time and no one showed. Can we book another meeting about my sponsorship application for my parents? Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10047",
+  "channel": "portal",
+  "received_at": "2026-10-18T23:01:00.000Z",
+  "client": "Camila W.",
+  "matter": "M-26-12996",
+  "subject": "Case closed, want a refund",
+  "body": "My case was closed without any explanation after I paid. I want a refund or I will file a complaint with the law society. Thank you for your help so far.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "escalation",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10137",
+  "channel": "email",
+  "received_at": "2026-10-18T23:00:00.000Z",
+  "client": "Priya L.",
+  "matter": "M-26-17577",
+  "subject": "Nobody answered for my consultation",
+  "body": "I booked a consultation about my citizenship application and nobody answered the phone at the scheduled time. No call back either. Very disappointed.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10171",
+  "channel": "email",
+  "received_at": "2026-10-18T22:49:00.000Z",
+  "client": "Yara H.",
+  "matter": "M-26-46962",
+  "subject": "Unexpected charge",
+  "body": "I was charged again for my citizenship application and nobody explained why. What am I paying for at this point? I am frustrated. The citizenship test is in 3 days and I must submit the updated travel history by then.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "fee_billing",
+   "deadline_days": 3
+  }
+ },
+ {
+  "id": "MSG-10093",
+  "channel": "email",
+  "received_at": "2026-10-18T22:42:00.000Z",
+  "client": "Priya C.",
+  "matter": "M-26-32285",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Canadian Experience Class application in 9 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10156",
+  "channel": "email",
+  "received_at": "2026-10-18T22:27:00.000Z",
+  "client": "Lina C.",
+  "matter": "M-26-45138",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my PGWP application? The last email I had from your office was in July. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10192",
+  "channel": "email",
+  "received_at": "2026-10-18T22:17:00.000Z",
+  "client": "Hiroshi D.",
+  "matter": "M-26-47221",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my PGWP application in 8 weeks. Could you tell me the status and what the next step is? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10059",
+  "channel": "email",
+  "received_at": "2026-10-18T22:13:00.000Z",
+  "client": "Pablo X.",
+  "matter": "M-26-27783",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my work permit extension in 5 weeks. Could you tell me the status and what the next step is? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10255",
+  "channel": "email",
+  "received_at": "2026-10-18T22:10:00.000Z",
+  "client": "Gabriel K.",
+  "matter": "M-26-20893",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my citizenship application. Great work. I can be reached at the number on file.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10058",
+  "channel": "email",
+  "received_at": "2026-10-18T22:07:00.000Z",
+  "client": "Zainab S.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a work permit. Am I eligible, and how much would you charge? I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10065",
+  "channel": "email",
+  "received_at": "2026-10-18T22:05:00.000Z",
+  "client": "Hana H.",
+  "matter": "M-26-42528",
+  "subject": "Processing time question",
+  "body": "My Canadian Experience Class application has been with IRCC for 10 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10061",
+  "channel": "email",
+  "received_at": "2026-10-18T22:02:00.000Z",
+  "client": "Zainab R.",
+  "matter": "M-26-13421",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my Express Entry PR application. Great work. Please reply when you can.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10100",
+  "channel": "email",
+  "received_at": "2026-10-18T21:58:00.000Z",
+  "client": "Elena T.",
+  "matter": "M-26-43418",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Express Entry profile in 6 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10146",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:50:00.000Z",
+  "client": "Diego M.",
+  "matter": "M-26-33515",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship of my dependent child in 7 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10210",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:46:00.000Z",
+  "client": "Zainab N.",
+  "matter": "M-26-22466",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the Canadian Experience Class application. The checklist says employment reference letter but the last email said something different. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10054",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:25:00.000Z",
+  "client": "Lucas F.",
+  "matter": "M-26-13431",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my letter of acceptance last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need?",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10168",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:22:00.000Z",
+  "client": "Jun W.",
+  "matter": "M-26-22816",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my LMIA-based work permit? The last email I had from your office was in July. Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10030",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:11:00.000Z",
+  "client": "Amara N.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a study permit for my daughter. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10031",
+  "channel": "portal",
+  "received_at": "2026-10-18T21:08:00.000Z",
+  "client": "Nikhil R.",
+  "matter": "M-26-13531",
+  "subject": "Refund request",
+  "body": "I want a refund. I was charged for my PNP nomination application and I still do not understand what the fees covered. Please escalate this to a manager. IRCC asked for additional documents and we must respond within 13 days. I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "fee_billing",
+   "deadline_days": 13
+  }
+ },
+ {
+  "id": "MSG-10234",
+  "channel": "email",
+  "received_at": "2026-10-18T20:58:00.000Z",
+  "client": "Oluwaseun I.",
+  "matter": "M-26-13721",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my sponsorship of my dependent child and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. Sent from my phone.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10245",
+  "channel": "email",
+  "received_at": "2026-10-18T20:48:00.000Z",
+  "client": "Ananya L.",
+  "matter": "M-26-26099",
+  "subject": "Processing time question",
+  "body": "My citizenship application has been with IRCC for 10 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10044",
+  "channel": "portal",
+  "received_at": "2026-10-18T20:38:00.000Z",
+  "client": "Kofi Z.",
+  "matter": "M-26-34675",
+  "subject": "Paid, no update since",
+  "body": "We paid in August for the Express Entry PR application and have heard nothing since. What is the status? My ITA expires in 11 days and the document list is not finished.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 11
+  }
+ },
+ {
+  "id": "MSG-10147",
+  "channel": "email",
+  "received_at": "2026-10-18T20:09:00.000Z",
+  "client": "Isabela D.",
+  "matter": "M-26-46402",
+  "subject": "Why was my file closed?",
+  "body": "I got an email that you are closing my file for the spousal sponsorship application without any explanation, and no one will call me back. I am disappointed. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10071",
+  "channel": "portal",
+  "received_at": "2026-10-18T20:04:00.000Z",
+  "client": "Marta W.",
+  "matter": "M-26-19732",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the open work permit application. It feels like we are in the dark. Where are we in the process? Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10138",
+  "channel": "email",
+  "received_at": "2026-10-18T20:00:00.000Z",
+  "client": "Hiroshi G.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a provincial nominee program. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10045",
+  "channel": "email",
+  "received_at": "2026-10-18T19:52:00.000Z",
+  "client": "Aarav G.",
+  "matter": "M-26-44650",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my Canadian Experience Class application. Who is handling my file now, and is there any update? Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10297",
+  "channel": "email",
+  "received_at": "2026-10-18T19:47:00.000Z",
+  "client": "Simran A.",
+  "matter": "M-26-38941",
+  "subject": "Upload not working",
+  "body": "I tried to upload my police certificate for the sponsorship application for my parents but the portal upload keeps failing with an error message. Maybe the file is too large? Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10094",
+  "channel": "email",
+  "received_at": "2026-10-18T19:40:00.000Z",
+  "client": "Javier U.",
+  "matter": "M-26-11332",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my spousal sponsorship application. Weeks without any update is unacceptable. This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10292",
+  "channel": "email",
+  "received_at": "2026-10-18T19:34:00.000Z",
+  "client": "Aisha Y.",
+  "matter": "M-26-32225",
+  "subject": "Upload not working",
+  "body": "I tried to upload my letter of acceptance for the open work permit application but the portal upload keeps failing with an error message. Maybe the file is too large? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10270",
+  "channel": "email",
+  "received_at": "2026-10-18T19:29:00.000Z",
+  "client": "Mateo Y.",
+  "matter": "M-26-26264",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my open work permit application. Weeks without any update is unacceptable.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10227",
+  "channel": "email",
+  "received_at": "2026-10-18T19:28:00.000Z",
+  "client": "Tariq D.",
+  "matter": "M-26-47699",
+  "subject": "Upload not working",
+  "body": "I tried to upload my LMIA approval letter for the open work permit application but the portal upload keeps failing with an error message. Maybe the file is too large? Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10149",
+  "channel": "email",
+  "received_at": "2026-10-18T19:19:00.000Z",
+  "client": "Sana P.",
+  "matter": "M-26-33933",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My Express Entry profile has been in processing for 10 months and I want to understand what the officer is doing. How long can this take?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10259",
+  "channel": "email",
+  "received_at": "2026-10-18T19:17:00.000Z",
+  "client": "Simran D.",
+  "matter": "M-26-10461",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the Express Entry PR application.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10235",
+  "channel": "email",
+  "received_at": "2026-10-18T19:09:00.000Z",
+  "client": "Lucas P.",
+  "matter": "M-26-48960",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the study permit application. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10209",
+  "channel": "email",
+  "received_at": "2026-10-18T19:03:00.000Z",
+  "client": "Lina B.",
+  "matter": "M-26-20059",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my criminal rehabilitation application? The last email I had from your office was in August. I have a work trip to Canada in 15 days and need the temporary resident permit decided by then.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 15
+  }
+ },
+ {
+  "id": "MSG-10123",
+  "channel": "email",
+  "received_at": "2026-10-18T18:46:00.000Z",
+  "client": "Yusuf J.",
+  "matter": "M-26-37805",
+  "subject": "Processing time question",
+  "body": "My proof of citizenship application has been with IRCC for 9 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10225",
+  "channel": "portal",
+  "received_at": "2026-10-18T18:42:00.000Z",
+  "client": "Simran O.",
+  "matter": "M-26-16072",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my study permit application. Weeks without any update is unacceptable. Merci.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10189",
+  "channel": "portal",
+  "received_at": "2026-10-18T18:41:00.000Z",
+  "client": "Camila Y.",
+  "matter": "M-26-29283",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my open work permit application? I can do any afternoon this week.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10009",
+  "channel": "email",
+  "received_at": "2026-10-18T18:40:00.000Z",
+  "client": "Yusuf G.",
+  "matter": "M-26-36485",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my study permit application in 5 weeks. Could you tell me the status and what the next step is? Thank you for your help so far.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10115",
+  "channel": "email",
+  "received_at": "2026-10-18T18:39:00.000Z",
+  "client": "Simran I.",
+  "matter": "M-26-15810",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the Express Entry profile and have heard nothing since. What is the status? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10238",
+  "channel": "email",
+  "received_at": "2026-10-18T18:38:00.000Z",
+  "client": "Tariq Z.",
+  "matter": "M-26-25173",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my study permit application and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10162",
+  "channel": "email",
+  "received_at": "2026-10-18T18:22:00.000Z",
+  "client": "Nikhil A.",
+  "matter": "M-26-47069",
+  "subject": "Nobody answered for my consultation",
+  "body": "I booked a consultation about my Canadian Experience Class application and nobody answered the phone at the scheduled time. No call back either. Very disappointed. Sent from my phone.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10276",
+  "channel": "email",
+  "received_at": "2026-10-18T18:22:00.000Z",
+  "client": "Gabriel D.",
+  "matter": "M-26-28561",
+  "subject": "Missed call again",
+  "body": "I was promised a call back on Tuesday about my sponsorship of my dependent child and no one called. This is the second time. I am disappointed. Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10105",
+  "channel": "portal",
+  "received_at": "2026-10-18T18:19:00.000Z",
+  "client": "Isabela V.",
+  "matter": "M-26-47703",
+  "subject": "Processing time question",
+  "body": "My PNP nomination application has been with IRCC for 12 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10043",
+  "channel": "email",
+  "received_at": "2026-10-18T18:16:00.000Z",
+  "client": "Yusuf L.",
+  "matter": "M-26-37353",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my criminal rehabilitation application in 3 weeks. Could you tell me the status and what the next step is? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10177",
+  "channel": "email",
+  "received_at": "2026-10-18T17:58:00.000Z",
+  "client": "Kofi V.",
+  "matter": "M-26-38682",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the work permit extension.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10215",
+  "channel": "portal",
+  "received_at": "2026-10-18T17:47:00.000Z",
+  "client": "Yusuf N.",
+  "matter": "M-26-34497",
+  "subject": "Approved!",
+  "body": "We got it! My citizenship application for my son was approved this morning. Thank you so much to the whole team. This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10152",
+  "channel": "email",
+  "received_at": "2026-10-18T17:37:00.000Z",
+  "client": "Chiamaka Y.",
+  "matter": "M-26-12862",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my PNP nomination application. Could you explain which part is government fees and which part is your professional fee? IRCC asked for additional documents and we must respond within 6 days. Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": 6
+  }
+ },
+ {
+  "id": "MSG-10145",
+  "channel": "portal",
+  "received_at": "2026-10-18T17:23:00.000Z",
+  "client": "Simran U.",
+  "matter": "M-26-43649",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my sponsorship application for my parents? I can do any afternoon this week. Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10203",
+  "channel": "email",
+  "received_at": "2026-10-18T17:22:00.000Z",
+  "client": "Isabela V.",
+  "matter": "M-26-48176",
+  "subject": "Upload not working",
+  "body": "I tried to upload my bank statements for the study permit application but the portal upload keeps failing with an error message. Maybe the file is too large? This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10127",
+  "channel": "email",
+  "received_at": "2026-10-18T17:13:00.000Z",
+  "client": "Lucas N.",
+  "matter": "M-26-48495",
+  "subject": "Translation requirements",
+  "body": "Does my tax notices of assessment need a certified translation, or is a notarized copy enough for the citizenship application?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10198",
+  "channel": "portal",
+  "received_at": "2026-10-18T16:29:00.000Z",
+  "client": "Elena X.",
+  "matter": "M-26-10594",
+  "subject": "Processing time question",
+  "body": "My spousal sponsorship application has been with IRCC for 10 months now, which is beyond the posted processing time. Is there anything that can be done? Thank you for your help so far.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10243",
+  "channel": "email",
+  "received_at": "2026-10-18T16:23:00.000Z",
+  "client": "Ananya C.",
+  "matter": "M-26-10423",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my joint lease last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? Sent from my phone.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10139",
+  "channel": "portal",
+  "received_at": "2026-10-18T15:26:00.000Z",
+  "client": "Fatima E.",
+  "matter": "M-26-13998",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my proof of citizenship application? I can do any afternoon this week. Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10109",
+  "channel": "email",
+  "received_at": "2026-10-18T15:21:00.000Z",
+  "client": "Oluwaseun I.",
+  "matter": "M-26-14602",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my common-law partner sponsorship. Weeks without any update is unacceptable. We received a biometrics instruction letter and must complete it within 13 days. I can be reached at the number on file.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": 13
+  }
+ },
+ {
+  "id": "MSG-10086",
+  "channel": "email",
+  "received_at": "2026-10-18T15:14:00.000Z",
+  "client": "Tomasz O.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for a work permit. What are the next steps? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10266",
+  "channel": "email",
+  "received_at": "2026-10-18T15:01:00.000Z",
+  "client": "Jun O.",
+  "matter": "M-26-23251",
+  "subject": "Missed meeting",
+  "body": "I joined the Zoom link at the agreed time and no one showed. Can we book another meeting about my PNP nomination application?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10022",
+  "channel": "email",
+  "received_at": "2026-10-18T15:00:00.000Z",
+  "client": "Mateo U.",
+  "matter": "M-26-10844",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my PGWP application in 8 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10281",
+  "channel": "portal",
+  "received_at": "2026-10-18T14:56:00.000Z",
+  "client": "Oluwaseun A.",
+  "matter": "M-26-39461",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my spousal sponsorship application. Weeks without any update is unacceptable. Thank you for your help so far.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10236",
+  "channel": "email",
+  "received_at": "2026-10-18T14:25:00.000Z",
+  "client": "Nikhil J.",
+  "matter": "M-26-44157",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my study permit application? The last email I had from your office was in July.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10173",
+  "channel": "email",
+  "received_at": "2026-10-18T14:19:00.000Z",
+  "client": "Noor E.",
+  "matter": "M-26-13486",
+  "subject": "Paid, no update since",
+  "body": "We paid in August for the open work permit application and have heard nothing since. What is the status? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10258",
+  "channel": "portal",
+  "received_at": "2026-10-18T14:12:00.000Z",
+  "client": "Wei B.",
+  "matter": "M-26-41950",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Canadian Experience Class application in 3 weeks. Could you tell me the status and what the next step is? I can be reached at the number on file.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10242",
+  "channel": "portal",
+  "received_at": "2026-10-18T13:26:00.000Z",
+  "client": "Aarav S.",
+  "matter": "M-26-32739",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my proof of funds letter last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10005",
+  "channel": "portal",
+  "received_at": "2026-10-18T13:19:00.000Z",
+  "client": "Gabriel U.",
+  "matter": "M-26-43268",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my citizenship application for my son? The last email I had from your office was in July.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10178",
+  "channel": "portal",
+  "received_at": "2026-10-18T13:18:00.000Z",
+  "client": "Lucas S.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for sponsoring my parents. What are the next steps? This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10095",
+  "channel": "portal",
+  "received_at": "2026-10-18T12:25:00.000Z",
+  "client": "Nikhil U.",
+  "matter": "M-26-20946",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the work permit extension. The checklist says letter of acceptance but the last email said something different.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10195",
+  "channel": "portal",
+  "received_at": "2026-10-18T12:13:00.000Z",
+  "client": "Zainab A.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a work permit. Am I eligible, and how much would you charge?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10072",
+  "channel": "portal",
+  "received_at": "2026-10-18T11:34:00.000Z",
+  "client": "Kofi Y.",
+  "matter": "M-26-19144",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my sponsorship of my dependent child. Great work.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10285",
+  "channel": "email",
+  "received_at": "2026-10-18T10:46:00.000Z",
+  "client": "Aisha Q.",
+  "matter": "M-26-30343",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my open work permit application in 3 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10284",
+  "channel": "email",
+  "received_at": "2026-10-18T10:23:00.000Z",
+  "client": "Andrei G.",
+  "matter": "M-26-27992",
+  "subject": "Why was my file closed?",
+  "body": "I got an email that you are closing my file for the Canadian Experience Class application without any explanation, and no one will call me back. I am disappointed. I can be reached at the number on file.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10019",
+  "channel": "email",
+  "received_at": "2026-10-18T09:49:00.000Z",
+  "client": "Aarav L.",
+  "matter": "M-26-24799",
+  "subject": "Processing time question",
+  "body": "My common-law partner sponsorship has been with IRCC for 13 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10027",
+  "channel": "portal",
+  "received_at": "2026-10-18T09:44:00.000Z",
+  "client": "Leila W.",
+  "matter": "M-26-16250",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my Express Entry PR application. Who is handling my file now, and is there any update?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10001",
+  "channel": "email",
+  "received_at": "2026-10-18T09:41:00.000Z",
+  "client": "Lucas Q.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for sponsoring my parents. What are the next steps?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10087",
+  "channel": "email",
+  "received_at": "2026-10-18T09:30:00.000Z",
+  "client": "Sofia F.",
+  "matter": "M-26-33085",
+  "subject": "Cannot log in to the portal",
+  "body": "My portal password reset link has expired twice. I need to upload the marriage certificate translation for my sponsorship application for my parents. IRCC sent a procedural fairness letter and we must respond within 8 days.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": 8
+  }
+ },
+ {
+  "id": "MSG-10263",
+  "channel": "email",
+  "received_at": "2026-10-18T09:22:00.000Z",
+  "client": "Lina I.",
+  "matter": "M-26-22961",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the PNP nomination application. It feels like we are in the dark. Where are we in the process? I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10038",
+  "channel": "portal",
+  "received_at": "2026-10-18T09:18:00.000Z",
+  "client": "Zainab N.",
+  "matter": "M-26-12680",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my sponsorship of my dependent child and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. Sent from my phone.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10157",
+  "channel": "email",
+  "received_at": "2026-10-18T08:54:00.000Z",
+  "client": "Marta K.",
+  "matter": "M-26-41602",
+  "subject": "Upload not working",
+  "body": "I tried to upload my police certificate for the PNP nomination application but the portal upload keeps failing with an error message. Maybe the file is too large? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10041",
+  "channel": "email",
+  "received_at": "2026-10-18T08:43:00.000Z",
+  "client": "Sana Q.",
+  "matter": "M-26-34935",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my spousal sponsorship application and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10264",
+  "channel": "email",
+  "received_at": "2026-10-18T08:31:00.000Z",
+  "client": "Elena I.",
+  "matter": "M-26-22632",
+  "subject": "Processing time question",
+  "body": "My LMIA-based work permit has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done? I can be reached at the number on file.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10204",
+  "channel": "email",
+  "received_at": "2026-10-18T08:17:00.000Z",
+  "client": "Aisha P.",
+  "matter": "M-26-32068",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my PNP nomination application. Weeks without any update is unacceptable. Merci.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10089",
+  "channel": "email",
+  "received_at": "2026-10-18T08:03:00.000Z",
+  "client": "Camila V.",
+  "matter": "M-26-21979",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the inadmissibility file for my old DUI. The checklist says court records but the last email said something different. This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10148",
+  "channel": "portal",
+  "received_at": "2026-10-18T07:38:00.000Z",
+  "client": "Lina Y.",
+  "matter": "M-26-36258",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship of my dependent child in 6 weeks. Could you tell me the status and what the next step is? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10021",
+  "channel": "email",
+  "received_at": "2026-10-18T07:30:00.000Z",
+  "client": "Isabela E.",
+  "matter": "M-26-47210",
+  "subject": "Paid, no update since",
+  "body": "We paid in August for the sponsorship of my dependent child and have heard nothing since. What is the status? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10244",
+  "channel": "email",
+  "received_at": "2026-10-18T07:25:00.000Z",
+  "client": "Mei J.",
+  "matter": "M-26-40273",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my open work permit application? I can do any afternoon this week. Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10033",
+  "channel": "email",
+  "received_at": "2026-10-18T07:08:00.000Z",
+  "client": "Jun X.",
+  "matter": "M-26-38404",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My Express Entry PR application has been in processing for 12 months and I want to understand what the officer is doing. How long can this take?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10154",
+  "channel": "email",
+  "received_at": "2026-10-18T07:08:00.000Z",
+  "client": "Emeka F.",
+  "matter": "M-26-29639",
+  "subject": "Approved!",
+  "body": "We got it! My Express Entry profile was approved this morning. Thank you so much to the whole team. This is stressful for our family.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10099",
+  "channel": "email",
+  "received_at": "2026-10-18T07:06:00.000Z",
+  "client": "Mateo C.",
+  "matter": "M-26-14453",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the PNP nomination application. The checklist says language test results but the last email said something different.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10267",
+  "channel": "email",
+  "received_at": "2026-10-18T06:33:00.000Z",
+  "client": "Zainab X.",
+  "matter": "M-26-12233",
+  "subject": "Unexpected charge",
+  "body": "I was charged again for my citizenship application and nobody explained why. What am I paying for at this point? I am frustrated. Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10024",
+  "channel": "email",
+  "received_at": "2026-10-18T06:23:00.000Z",
+  "client": "Leila F.",
+  "matter": "M-26-35437",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my citizenship application in 3 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10249",
+  "channel": "portal",
+  "received_at": "2026-10-18T05:43:00.000Z",
+  "client": "Aisha D.",
+  "matter": "M-26-25106",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my proof of citizenship application. Who is handling my file now, and is there any update? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10200",
+  "channel": "email",
+  "received_at": "2026-10-18T05:36:00.000Z",
+  "client": "Fatima X.",
+  "matter": "M-26-25302",
+  "subject": "Translation requirements",
+  "body": "Does my LMIA approval letter need a certified translation, or is a notarized copy enough for the PGWP application? Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10269",
+  "channel": "email",
+  "received_at": "2026-10-18T05:34:00.000Z",
+  "client": "Fatima U.",
+  "matter": "M-26-45799",
+  "subject": "Cannot log in to the portal",
+  "body": "My portal password reset link has expired twice. I need to upload the language test results for my PNP nomination application. Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10196",
+  "channel": "portal",
+  "received_at": "2026-10-18T04:52:00.000Z",
+  "client": "Jun O.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in criminal rehabilitation. Am I eligible, and how much would you charge? Merci.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "INA",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10218",
+  "channel": "email",
+  "received_at": "2026-10-18T04:36:00.000Z",
+  "client": "Nikhil M.",
+  "matter": "M-26-12301",
+  "subject": "Upload not working",
+  "body": "I tried to upload my proof of sentence completion for the temporary resident permit application but the portal upload keeps failing with an error message. Maybe the file is too large?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "INA",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10135",
+  "channel": "email",
+  "received_at": "2026-10-18T04:10:00.000Z",
+  "client": "Lucas G.",
+  "matter": "M-26-22086",
+  "subject": "Processing time question",
+  "body": "My LMIA-based work permit has been with IRCC for 14 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10206",
+  "channel": "email",
+  "received_at": "2026-10-18T03:35:00.000Z",
+  "client": "Sana X.",
+  "matter": "M-26-34034",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my LMIA-based work permit and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. My work permit expires on October 31, so the extension must be submitted by then. Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": 13
+  }
+ },
+ {
+  "id": "MSG-10111",
+  "channel": "portal",
+  "received_at": "2026-10-18T02:45:00.000Z",
+  "client": "Gabriel O.",
+  "matter": "M-26-16026",
+  "subject": "Processing time question",
+  "body": "My PNP nomination application has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10205",
+  "channel": "email",
+  "received_at": "2026-10-18T02:06:00.000Z",
+  "client": "Rahul P.",
+  "matter": "M-26-28162",
+  "subject": "Refund request",
+  "body": "I want a refund. I was charged for my common-law partner sponsorship and I still do not understand what the fees covered. Please escalate this to a manager. I can be reached at the number on file.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "FAM",
+   "intent": "escalation",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10039",
+  "channel": "email",
+  "received_at": "2026-10-18T01:57:00.000Z",
+  "client": "Arjun V.",
+  "matter": "M-26-40097",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the criminal rehabilitation application.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10163",
+  "channel": "email",
+  "received_at": "2026-10-18T00:17:00.000Z",
+  "client": "Diego W.",
+  "matter": "M-26-19882",
+  "subject": "Processing time question",
+  "body": "My Express Entry profile has been with IRCC for 12 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10282",
+  "channel": "portal",
+  "received_at": "2026-10-18T00:15:00.000Z",
+  "client": "Priya O.",
+  "matter": "M-26-37413",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Express Entry profile in 7 weeks. Could you tell me the status and what the next step is? My ITA expires in 21 days and the document list is not finished.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 21
+  }
+ },
+ {
+  "id": "MSG-10232",
+  "channel": "email",
+  "received_at": "2026-10-18T00:05:00.000Z",
+  "client": "Simran B.",
+  "matter": "M-26-11971",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the sponsorship application for my parents. It feels like we are in the dark. Where are we in the process? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10296",
+  "channel": "email",
+  "received_at": "2026-10-18T00:01:00.000Z",
+  "client": "Lucas C.",
+  "matter": "M-26-31338",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship application for my parents in 9 weeks. Could you tell me the status and what the next step is? Merci.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10184",
+  "channel": "portal",
+  "received_at": "2026-10-17T23:20:00.000Z",
+  "client": "Mateo J.",
+  "matter": "M-26-19722",
+  "subject": "Processing time question",
+  "body": "My work permit extension has been with IRCC for 16 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10040",
+  "channel": "portal",
+  "received_at": "2026-10-17T22:44:00.000Z",
+  "client": "Yara P.",
+  "matter": "M-26-22563",
+  "subject": "Processing time question",
+  "body": "My citizenship application has been with IRCC for 10 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10167",
+  "channel": "email",
+  "received_at": "2026-10-17T22:30:00.000Z",
+  "client": "Pablo D.",
+  "matter": "M-26-19156",
+  "subject": "Processing time question",
+  "body": "My citizenship application has been with IRCC for 15 months now, which is beyond the posted processing time. Is there anything that can be done? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10034",
+  "channel": "email",
+  "received_at": "2026-10-17T22:22:00.000Z",
+  "client": "Ananya A.",
+  "matter": "M-26-44176",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my Canadian Experience Class application. Could you explain which part is government fees and which part is your professional fee?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10221",
+  "channel": "portal",
+  "received_at": "2026-10-17T21:52:00.000Z",
+  "client": "Gabriel F.",
+  "matter": "M-26-16829",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my Canadian Experience Class application in 5 weeks. Could you tell me the status and what the next step is? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10080",
+  "channel": "email",
+  "received_at": "2026-10-17T21:03:00.000Z",
+  "client": "Hana O.",
+  "matter": "M-26-16832",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my proof of citizenship application. Who is handling my file now, and is there any update?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10073",
+  "channel": "email",
+  "received_at": "2026-10-17T20:33:00.000Z",
+  "client": "Diego S.",
+  "matter": "M-26-38813",
+  "subject": "Unexpected charge",
+  "body": "I was charged again for my study permit application and nobody explained why. What am I paying for at this point? I am frustrated. Please reply when you can.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10130",
+  "channel": "email",
+  "received_at": "2026-10-17T19:46:00.000Z",
+  "client": "Yusuf N.",
+  "matter": "M-26-12992",
+  "subject": "Case closed, want a refund",
+  "body": "My case was closed without any explanation after I paid. I want a refund or I will file a complaint with the law society. My work permit expires on November 13, so the extension must be submitted by then.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "WP",
+   "intent": "escalation",
+   "root_cause": "file_closed",
+   "deadline_days": 27
+  }
+ },
+ {
+  "id": "MSG-10055",
+  "channel": "portal",
+  "received_at": "2026-10-17T19:38:00.000Z",
+  "client": "Gabriel P.",
+  "matter": "M-26-41288",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my proof of sentence completion last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "INA",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10222",
+  "channel": "portal",
+  "received_at": "2026-10-17T18:49:00.000Z",
+  "client": "Tomasz Y.",
+  "matter": "M-26-14277",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my open work permit application? The last email I had from your office was in September. I can be reached at the number on file.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10140",
+  "channel": "email",
+  "received_at": "2026-10-17T17:55:00.000Z",
+  "client": "Tariq B.",
+  "matter": "M-26-16181",
+  "subject": "Thank you",
+  "body": "I just wanted to say I appreciate all the help on my PGWP application. Great work.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10213",
+  "channel": "email",
+  "received_at": "2026-10-17T17:50:00.000Z",
+  "client": "Mei J.",
+  "matter": "M-26-12206",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my temporary resident permit application in 6 weeks. Could you tell me the status and what the next step is? IRCC asked for my court records within 3 days. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 3
+  }
+ },
+ {
+  "id": "MSG-10298",
+  "channel": "email",
+  "received_at": "2026-10-17T17:46:00.000Z",
+  "client": "Elena Z.",
+  "matter": "M-26-48309",
+  "subject": "Missed call again",
+  "body": "I was promised a call back on Monday about my Canadian Experience Class application and no one called. This is the second time. I am disappointed. Merci.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10237",
+  "channel": "email",
+  "received_at": "2026-10-17T17:40:00.000Z",
+  "client": "Emeka Y.",
+  "matter": "M-26-40263",
+  "subject": "Cannot log in to the portal",
+  "body": "My portal password reset link has expired twice. I need to upload the LMIA approval letter for my PGWP application.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10077",
+  "channel": "email",
+  "received_at": "2026-10-17T17:07:00.000Z",
+  "client": "Chiamaka B.",
+  "matter": "M-26-30840",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my record check and rehabilitation file? The last email I had from your office was in July. I have a work trip to Canada in 6 days and need the temporary resident permit decided by then. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 6
+  }
+ },
+ {
+  "id": "MSG-10251",
+  "channel": "email",
+  "received_at": "2026-10-17T17:05:00.000Z",
+  "client": "Wei N.",
+  "matter": "M-26-20558",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my open work permit application in 8 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10158",
+  "channel": "portal",
+  "received_at": "2026-10-17T16:52:00.000Z",
+  "client": "Hiroshi K.",
+  "matter": "M-26-17741",
+  "subject": "Approved!",
+  "body": "We got it! My criminal rehabilitation application was approved this morning. Thank you so much to the whole team. I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10155",
+  "channel": "portal",
+  "received_at": "2026-10-17T16:18:00.000Z",
+  "client": "Fatima M.",
+  "matter": "M-26-17939",
+  "subject": "Processing time question",
+  "body": "My PNP nomination application has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10268",
+  "channel": "email",
+  "received_at": "2026-10-17T15:10:00.000Z",
+  "client": "Priya L.",
+  "matter": "M-26-19125",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my Express Entry profile. Weeks without any update is unacceptable. Please reply when you can.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10092",
+  "channel": "email",
+  "received_at": "2026-10-17T15:01:00.000Z",
+  "client": "Mei B.",
+  "matter": "M-26-28886",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the PGWP application.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10083",
+  "channel": "email",
+  "received_at": "2026-10-17T14:48:00.000Z",
+  "client": "Noor L.",
+  "matter": "M-26-18237",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the Express Entry profile. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10036",
+  "channel": "email",
+  "received_at": "2026-10-17T14:10:00.000Z",
+  "client": "Wei A.",
+  "matter": "M-26-29628",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my proof of funds letter last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? Thank you for your help so far.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10231",
+  "channel": "email",
+  "received_at": "2026-10-17T13:53:00.000Z",
+  "client": "Sana F.",
+  "matter": "M-26-43689",
+  "subject": "Missed call again",
+  "body": "I was promised a call back on Monday about my work permit extension and no one called. This is the second time. I am disappointed.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10144",
+  "channel": "email",
+  "received_at": "2026-10-17T13:29:00.000Z",
+  "client": "Nikhil S.",
+  "matter": "M-26-21963",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my citizenship application for my son? The last email I had from your office was in August.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10220",
+  "channel": "email",
+  "received_at": "2026-10-17T13:16:00.000Z",
+  "client": "Lucas R.",
+  "matter": "M-26-30560",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my PGWP application. Could you explain which part is government fees and which part is your professional fee? I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10124",
+  "channel": "email",
+  "received_at": "2026-10-17T13:15:00.000Z",
+  "client": "Aisha X.",
+  "matter": "M-26-41075",
+  "subject": "Processing time question",
+  "body": "My sponsorship application for my parents has been with IRCC for 10 months now, which is beyond the posted processing time. Is there anything that can be done?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10194",
+  "channel": "email",
+  "received_at": "2026-10-17T13:08:00.000Z",
+  "client": "Hiroshi J.",
+  "matter": "M-26-37111",
+  "subject": "Translation requirements",
+  "body": "Does my LMIA approval letter need a certified translation, or is a notarized copy enough for the LMIA-based work permit? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10082",
+  "channel": "portal",
+  "received_at": "2026-10-17T12:49:00.000Z",
+  "client": "Noor Y.",
+  "matter": "M-26-15973",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the study permit application. The checklist says letter of acceptance but the last email said something different. Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10287",
+  "channel": "portal",
+  "received_at": "2026-10-17T12:49:00.000Z",
+  "client": "Yusuf Z.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for Canadian citizenship. What are the next steps? Sent from my phone.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10279",
+  "channel": "email",
+  "received_at": "2026-10-17T11:56:00.000Z",
+  "client": "Wei Z.",
+  "matter": "M-26-40244",
+  "subject": "Processing time question",
+  "body": "My sponsorship application for my parents has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done? Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10299",
+  "channel": "email",
+  "received_at": "2026-10-17T11:28:00.000Z",
+  "client": "Sofia H.",
+  "matter": "M-26-19684",
+  "subject": "Approved!",
+  "body": "We got it! My Express Entry profile was approved this morning. Thank you so much to the whole team.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10185",
+  "channel": "email",
+  "received_at": "2026-10-17T11:27:00.000Z",
+  "client": "Andrei B.",
+  "matter": "M-26-27996",
+  "subject": "Reschedule our call",
+  "body": "Could we reschedule our call about my LMIA-based work permit? I can do any afternoon this week. Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "scheduling",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10199",
+  "channel": "email",
+  "received_at": "2026-10-17T10:27:00.000Z",
+  "client": "Noor T.",
+  "matter": "M-26-30578",
+  "subject": "Processing time question",
+  "body": "My Canadian Experience Class application has been with IRCC for 9 months now, which is beyond the posted processing time. Is there anything that can be done? IRCC asked for additional documents and we must respond within 21 days.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": 21
+  }
+ },
+ {
+  "id": "MSG-10211",
+  "channel": "email",
+  "received_at": "2026-10-17T10:18:00.000Z",
+  "client": "Yusuf G.",
+  "matter": "M-26-43345",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship of my dependent child in 5 weeks. Could you tell me the status and what the next step is? This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10161",
+  "channel": "email",
+  "received_at": "2026-10-17T10:06:00.000Z",
+  "client": "Chiamaka C.",
+  "matter": "M-26-18953",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the study permit application.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10064",
+  "channel": "portal",
+  "received_at": "2026-10-17T09:59:00.000Z",
+  "client": "Amara O.",
+  "matter": "M-26-25508",
+  "subject": "Processing time question",
+  "body": "My open work permit application has been with IRCC for 12 months now, which is beyond the posted processing time. Is there anything that can be done? I can be reached at the number on file.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10046",
+  "channel": "portal",
+  "received_at": "2026-10-17T09:53:00.000Z",
+  "client": "Lina B.",
+  "matter": "M-26-43087",
+  "subject": "Instalment plan",
+  "body": "Is it possible to pay the remaining fees in instalments? We are going ahead with the Express Entry profile.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10260",
+  "channel": "email",
+  "received_at": "2026-10-17T09:45:00.000Z",
+  "client": "Kofi C.",
+  "matter": "M-26-24499",
+  "subject": "Case closed, want a refund",
+  "body": "My case was closed without any explanation after I paid. I want a refund or I will file a complaint with the law society.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "escalation",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10029",
+  "channel": "email",
+  "received_at": "2026-10-17T09:37:00.000Z",
+  "client": "Oluwaseun D.",
+  "matter": "M-26-18974",
+  "subject": "Case closed, want a refund",
+  "body": "My case was closed without any explanation after I paid. I want a refund or I will file a complaint with the law society. I can be reached at the number on file.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "CIT",
+   "intent": "escalation",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10122",
+  "channel": "email",
+  "received_at": "2026-10-17T09:13:00.000Z",
+  "client": "Rahul O.",
+  "matter": "M-26-38032",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my open work permit application. Could you explain which part is government fees and which part is your professional fee? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10288",
+  "channel": "email",
+  "received_at": "2026-10-17T08:43:00.000Z",
+  "client": "Noor V.",
+  "matter": "M-26-16314",
+  "subject": "Very disappointed",
+  "body": "I am disappointed with the communication on my sponsorship application for my parents. Weeks without any update is unacceptable. Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10289",
+  "channel": "portal",
+  "received_at": "2026-10-17T08:27:00.000Z",
+  "client": "Marta S.",
+  "matter": null,
+  "subject": "Consultation request",
+  "body": "I would like to retain your firm for a provincial nominee program. What are the next steps? Sent from my phone.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "EE",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10042",
+  "channel": "email",
+  "received_at": "2026-10-17T08:15:00.000Z",
+  "client": "Emeka O.",
+  "matter": "M-26-46023",
+  "subject": "Approved!",
+  "body": "We got it! My Canadian Experience Class application was approved this morning. Thank you so much to the whole team.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10103",
+  "channel": "email",
+  "received_at": "2026-10-17T08:07:00.000Z",
+  "client": "Kofi B.",
+  "matter": "M-26-31458",
+  "subject": "Cannot log in to the portal",
+  "body": "My portal password reset link has expired twice. I need to upload the bank statements for my open work permit application. My current work permit ends in 8 days.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": 8
+  }
+ },
+ {
+  "id": "MSG-10175",
+  "channel": "portal",
+  "received_at": "2026-10-17T07:55:00.000Z",
+  "client": "Kofi G.",
+  "matter": "M-26-15588",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My open work permit application has been in processing for 12 months and I want to understand what the officer is doing. How long can this take?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10128",
+  "channel": "portal",
+  "received_at": "2026-10-17T06:47:00.000Z",
+  "client": "Tariq J.",
+  "matter": "M-26-13866",
+  "subject": "Translation requirements",
+  "body": "Does my language test results need a certified translation, or is a notarized copy enough for the Express Entry PR application?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10277",
+  "channel": "portal",
+  "received_at": "2026-10-17T06:37:00.000Z",
+  "client": "Jun J.",
+  "matter": "M-26-21618",
+  "subject": "Approved!",
+  "body": "We got it! My work permit extension was approved this morning. Thank you so much to the whole team. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "praise",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10179",
+  "channel": "portal",
+  "received_at": "2026-10-17T06:23:00.000Z",
+  "client": "Hana R.",
+  "matter": "M-26-43105",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the Express Entry PR application. The checklist says police certificate but the last email said something different.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10016",
+  "channel": "portal",
+  "received_at": "2026-10-17T05:57:00.000Z",
+  "client": "Leila E.",
+  "matter": "M-26-11976",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my Express Entry profile? The last email I had from your office was in July. Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10007",
+  "channel": "email",
+  "received_at": "2026-10-17T05:35:00.000Z",
+  "client": "Tomasz Z.",
+  "matter": "M-26-10956",
+  "subject": "Translation requirements",
+  "body": "Does my marriage certificate translation need a certified translation, or is a notarized copy enough for the common-law partner sponsorship? Thank you for your help so far.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10141",
+  "channel": "portal",
+  "received_at": "2026-10-17T05:34:00.000Z",
+  "client": "Leila E.",
+  "matter": "M-26-46807",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my PGWP application and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. I can be reached at the number on file.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10233",
+  "channel": "email",
+  "received_at": "2026-10-17T05:22:00.000Z",
+  "client": "Lucas H.",
+  "matter": "M-26-10657",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my Express Entry PR application? The last email I had from your office was in August. IRCC asked for additional documents and we must respond within 15 days. This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 15
+  }
+ },
+ {
+  "id": "MSG-10188",
+  "channel": "email",
+  "received_at": "2026-10-17T04:56:00.000Z",
+  "client": "Jun R.",
+  "matter": null,
+  "subject": "Eligibility question",
+  "body": "Hello, I am interested in a provincial nominee program. Am I eligible, and how much would you charge? Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "new_enquiry",
+   "root_cause": "none",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10060",
+  "channel": "portal",
+  "received_at": "2026-10-17T03:28:00.000Z",
+  "client": "Zainab H.",
+  "matter": "M-26-30088",
+  "subject": "Escalating my file",
+  "body": "I would like to speak to a manager. My Express Entry PR application has had no update for 5 weeks and my emails are not answered. If I do not hear back I will leave a Google review describing this. Merci.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10280",
+  "channel": "portal",
+  "received_at": "2026-10-17T01:28:00.000Z",
+  "client": "Chiamaka W.",
+  "matter": "M-26-29295",
+  "subject": "Translation requirements",
+  "body": "Does my letter of acceptance need a certified translation, or is a notarized copy enough for the work permit extension? Merci.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "WP",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10274",
+  "channel": "portal",
+  "received_at": "2026-10-17T01:06:00.000Z",
+  "client": "Aisha F.",
+  "matter": "M-26-43637",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the record check and rehabilitation file. It feels like we are in the dark. Where are we in the process?",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10129",
+  "channel": "portal",
+  "received_at": "2026-10-17T00:58:00.000Z",
+  "client": "Zainab H.",
+  "matter": "M-26-10562",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my inadmissibility file for my old DUI? The last email I had from your office was in July. Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10278",
+  "channel": "email",
+  "received_at": "2026-10-17T00:24:00.000Z",
+  "client": "Isabela T.",
+  "matter": "M-26-25060",
+  "subject": "Why was my file closed?",
+  "body": "I got an email that you are closing my file for the record check and rehabilitation file without any explanation, and no one will call me back. I am disappointed.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "INA",
+   "intent": "complaint",
+   "root_cause": "file_closed",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10069",
+  "channel": "portal",
+  "received_at": "2026-10-16T22:50:00.000Z",
+  "client": "Marta O.",
+  "matter": "M-26-46406",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the PNP nomination application. The checklist says police certificate but the last email said something different.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10079",
+  "channel": "portal",
+  "received_at": "2026-10-16T22:13:00.000Z",
+  "client": "Simran A.",
+  "matter": "M-26-43376",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the Express Entry profile. The checklist says language test results but the last email said something different. Thank you for your help so far.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10104",
+  "channel": "portal",
+  "received_at": "2026-10-16T20:57:00.000Z",
+  "client": "Diego E.",
+  "matter": "M-26-14329",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the work permit extension. It feels like we are in the dark. Where are we in the process? This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10088",
+  "channel": "portal",
+  "received_at": "2026-10-16T20:33:00.000Z",
+  "client": "Nikhil P.",
+  "matter": "M-26-44025",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my Canadian Experience Class application? The last email I had from your office was in August. Thank you for your help so far.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10013",
+  "channel": "email",
+  "received_at": "2026-10-16T19:53:00.000Z",
+  "client": "Simran D.",
+  "matter": "M-26-17598",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my police certificate last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need? IRCC asked for additional documents and we must respond within 15 days. This is stressful for our family.",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": 15
+  }
+ },
+ {
+  "id": "MSG-10187",
+  "channel": "portal",
+  "received_at": "2026-10-16T18:39:00.000Z",
+  "client": "Emeka O.",
+  "matter": "M-26-24048",
+  "subject": "Refund request",
+  "body": "I want a refund. I was charged for my Canadian Experience Class application and I still do not understand what the fees covered. Please escalate this to a manager. Thank you for your help so far.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10176",
+  "channel": "portal",
+  "received_at": "2026-10-16T17:24:00.000Z",
+  "client": "Yusuf V.",
+  "matter": "M-26-15503",
+  "subject": "GCMS notes",
+  "body": "Could you order my GCMS notes? My citizenship application has been in processing for 14 months and I want to understand what the officer is doing. How long can this take? Merci.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10020",
+  "channel": "email",
+  "received_at": "2026-10-16T15:32:00.000Z",
+  "client": "Kofi K.",
+  "matter": "M-26-23132",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the work permit extension. It feels like we are in the dark. Where are we in the process? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10271",
+  "channel": "email",
+  "received_at": "2026-10-16T15:29:00.000Z",
+  "client": "Lina R.",
+  "matter": "M-26-23967",
+  "subject": "Escalating my file",
+  "body": "I would like to speak to a manager. My inadmissibility file for my old DUI has had no update for 8 weeks and my emails are not answered. If I do not hear back I will leave a Google review describing this.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "INA",
+   "intent": "escalation",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10294",
+  "channel": "email",
+  "received_at": "2026-10-16T15:20:00.000Z",
+  "client": "Elena O.",
+  "matter": "M-26-33798",
+  "subject": "Asked for the same documents again",
+  "body": "I already uploaded my language test results last month and today I was asked for it again. This keeps happening and it is frustrating. Which documents do you actually still need?",
+  "prior_contacts_30d": 5,
+  "truth": {
+   "area": "EE",
+   "intent": "complaint",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10106",
+  "channel": "portal",
+  "received_at": "2026-10-16T15:13:00.000Z",
+  "client": "Pablo R.",
+  "matter": "M-26-30190",
+  "subject": "Who is handling my file now?",
+  "body": "My consultant changed and nobody told me. The new person asked me to explain everything again about my open work permit application. I am disappointed. I can be reached at the number on file.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10010",
+  "channel": "email",
+  "received_at": "2026-10-16T14:55:00.000Z",
+  "client": "Sofia O.",
+  "matter": "M-26-43280",
+  "subject": "Escalating my file",
+  "body": "I would like to speak to a manager. My Express Entry PR application has had no update for 5 weeks and my emails are not answered. If I do not hear back I will leave a Google review describing this.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "escalation",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10239",
+  "channel": "portal",
+  "received_at": "2026-10-16T12:20:00.000Z",
+  "client": "Priya N.",
+  "matter": "M-26-11193",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my sponsorship application for my parents in 4 weeks. Could you tell me the status and what the next step is?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10252",
+  "channel": "email",
+  "received_at": "2026-10-16T12:11:00.000Z",
+  "client": "Elena J.",
+  "matter": "M-26-37350",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my temporary resident permit application. Could you explain which part is government fees and which part is your professional fee? Merci.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "INA",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10085",
+  "channel": "email",
+  "received_at": "2026-10-16T11:54:00.000Z",
+  "client": "Yusuf O.",
+  "matter": "M-26-26718",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my LMIA-based work permit. Who is handling my file now, and is there any update? Please reply when you can.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10160",
+  "channel": "email",
+  "received_at": "2026-10-16T11:54:00.000Z",
+  "client": "Fatima E.",
+  "matter": "M-26-26726",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my temporary resident permit application in 7 weeks. Could you tell me the status and what the next step is? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "INA",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10290",
+  "channel": "portal",
+  "received_at": "2026-10-16T11:31:00.000Z",
+  "client": "Pablo M.",
+  "matter": "M-26-37705",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the sponsorship of my dependent child. The checklist says relationship evidence but the last email said something different.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10261",
+  "channel": "portal",
+  "received_at": "2026-10-16T11:02:00.000Z",
+  "client": "Aisha A.",
+  "matter": "M-26-16787",
+  "subject": "Question about invoice",
+  "body": "Hi, I received an invoice for my work permit extension. Could you explain which part is government fees and which part is your professional fee?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "billing_question",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10075",
+  "channel": "email",
+  "received_at": "2026-10-16T09:40:00.000Z",
+  "client": "Lina P.",
+  "matter": "M-26-32447",
+  "subject": "Missed call again",
+  "body": "I was promised a call back on Thursday about my record check and rehabilitation file and no one called. This is the second time. I am disappointed. Please reply when you can.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "INA",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10113",
+  "channel": "portal",
+  "received_at": "2026-10-16T08:08:00.000Z",
+  "client": "Leila I.",
+  "matter": "M-26-26168",
+  "subject": "Unexpected charge",
+  "body": "I was charged again for my open work permit application and nobody explained why. What am I paying for at this point? I am frustrated. Sent from my phone.",
+  "prior_contacts_30d": 4,
+  "truth": {
+   "area": "WP",
+   "intent": "complaint",
+   "root_cause": "fee_billing",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10028",
+  "channel": "email",
+  "received_at": "2026-10-16T07:49:00.000Z",
+  "client": "Leila B.",
+  "matter": "M-26-15516",
+  "subject": "Processing time question",
+  "body": "My open work permit application has been with IRCC for 13 months now, which is beyond the posted processing time. Is there anything that can be done? Sent from my phone.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10219",
+  "channel": "email",
+  "received_at": "2026-10-16T07:05:00.000Z",
+  "client": "Oluwaseun M.",
+  "matter": "M-26-29679",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the study permit application. It feels like we are in the dark. Where are we in the process? Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10050",
+  "channel": "portal",
+  "received_at": "2026-10-16T04:41:00.000Z",
+  "client": "Gabriel J.",
+  "matter": "M-26-30264",
+  "subject": "Nobody answered for my consultation",
+  "body": "I booked a consultation about my citizenship application and nobody answered the phone at the scheduled time. No call back either. Very disappointed. This is stressful for our family.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10217",
+  "channel": "email",
+  "received_at": "2026-10-16T03:45:00.000Z",
+  "client": "Yusuf H.",
+  "matter": "M-26-42715",
+  "subject": "Upload not working",
+  "body": "I tried to upload my physical presence calculation for the citizenship application but the portal upload keeps failing with an error message. Maybe the file is too large?",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "CIT",
+   "intent": "document_question",
+   "root_cause": "portal_access",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10004",
+  "channel": "email",
+  "received_at": "2026-10-16T02:30:00.000Z",
+  "client": "Hiroshi J.",
+  "matter": "M-26-42810",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my citizenship application for my son? The last email I had from your office was in September. I can be reached at the number on file.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10300",
+  "channel": "portal",
+  "received_at": "2026-10-15T22:19:00.000Z",
+  "client": "Zainab Q.",
+  "matter": "M-26-47512",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the spousal sponsorship application. It feels like we are in the dark. Where are we in the process? Thank you for your help so far.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10052",
+  "channel": "portal",
+  "received_at": "2026-10-15T21:15:00.000Z",
+  "client": "Amara S.",
+  "matter": "M-26-22990",
+  "subject": "Still waiting",
+  "body": "We are still waiting to hear back about the Canadian Experience Class application. It feels like we are in the dark. Where are we in the process? I can be reached at the number on file.",
+  "prior_contacts_30d": 3,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10159",
+  "channel": "email",
+  "received_at": "2026-10-15T18:07:00.000Z",
+  "client": "Tariq F.",
+  "matter": "M-26-41865",
+  "subject": "Paid, no update since",
+  "body": "We paid in July for the citizenship application for my son and have heard nothing since. What is the status? The citizenship test is in 23 days and I must submit the updated travel history by then. Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "CIT",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": 23
+  }
+ },
+ {
+  "id": "MSG-10262",
+  "channel": "portal",
+  "received_at": "2026-10-15T17:51:00.000Z",
+  "client": "Gabriel D.",
+  "matter": "M-26-39088",
+  "subject": "Nobody answered for my consultation",
+  "body": "I booked a consultation about my common-law partner sponsorship and nobody answered the phone at the scheduled time. No call back either. Very disappointed. Merci.",
+  "prior_contacts_30d": 2,
+  "truth": {
+   "area": "FAM",
+   "intent": "complaint",
+   "root_cause": "callback",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10076",
+  "channel": "portal",
+  "received_at": "2026-10-15T12:59:00.000Z",
+  "client": "Kofi M.",
+  "matter": "M-26-30386",
+  "subject": "Which documents do I need?",
+  "body": "Hello, I am not sure which documents you still need for the PNP nomination application. The checklist says proof of funds letter but the last email said something different. My ITA expires in 12 days and the document list is not finished. Sent from my phone.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "document_question",
+   "root_cause": "doc_confusion",
+   "deadline_days": 12
+  }
+ },
+ {
+  "id": "MSG-10125",
+  "channel": "portal",
+  "received_at": "2026-10-15T11:20:00.000Z",
+  "client": "Rahul L.",
+  "matter": "M-26-25713",
+  "subject": "Any news?",
+  "body": "Hi, just checking in. Is there any update on my work permit extension? The last email I had from your office was in July.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10193",
+  "channel": "email",
+  "received_at": "2026-10-15T10:37:00.000Z",
+  "client": "Tomasz K.",
+  "matter": "M-26-36650",
+  "subject": "Processing time question",
+  "body": "My Express Entry PR application has been with IRCC for 7 months now, which is beyond the posted processing time. Is there anything that can be done? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "gov_delay",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10133",
+  "channel": "email",
+  "received_at": "2026-10-15T09:48:00.000Z",
+  "client": "Ananya N.",
+  "matter": "M-26-44776",
+  "subject": "Third email with no reply",
+  "body": "This is my third email about my proof of citizenship application and no one has replied. I am frustrated. I paid for a service and I am still waiting for a simple status update. Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "CIT",
+   "intent": "complaint",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10257",
+  "channel": "email",
+  "received_at": "2026-10-15T00:07:00.000Z",
+  "client": "Mateo X.",
+  "matter": "M-26-35637",
+  "subject": "Update on my file?",
+  "body": "Hello, I have not heard anything about my LMIA-based work permit in 8 weeks. Could you tell me the status and what the next step is? This is stressful for our family.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10248",
+  "channel": "email",
+  "received_at": "2026-10-15T00:01:00.000Z",
+  "client": "Diego Y.",
+  "matter": "M-26-25752",
+  "subject": "Paid, no update since",
+  "body": "We paid in August for the work permit extension and have heard nothing since. What is the status? Merci.",
+  "prior_contacts_30d": 0,
+  "truth": {
+   "area": "WP",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10134",
+  "channel": "email",
+  "received_at": "2026-10-14T19:16:00.000Z",
+  "client": "Emeka N.",
+  "matter": "M-26-47978",
+  "subject": "Paid, no update since",
+  "body": "We paid in September for the Express Entry profile and have heard nothing since. What is the status?",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "EE",
+   "intent": "status_request",
+   "root_cause": "status_silence",
+   "deadline_days": null
+  }
+ },
+ {
+  "id": "MSG-10025",
+  "channel": "email",
+  "received_at": "2026-10-14T16:20:00.000Z",
+  "client": "Rahul L.",
+  "matter": "M-26-43867",
+  "subject": "New case manager?",
+  "body": "I got an email from a different person about my common-law partner sponsorship. Who is handling my file now, and is there any update? Please reply when you can.",
+  "prior_contacts_30d": 1,
+  "truth": {
+   "area": "FAM",
+   "intent": "status_request",
+   "root_cause": "handoff",
+   "deadline_days": null
+  }
+ }
+]

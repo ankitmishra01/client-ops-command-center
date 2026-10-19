@@ -1,0 +1,10 @@
+.DS_Store
+app/node_modules/
+app/.next/
+app/out/
+app/.vercel/
+app/tsconfig.tsbuildinfo
+.vercel/
+.vercel
+.env*
+*.pdf
