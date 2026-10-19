@@ -29,6 +29,6 @@ test("hiring plan and business case agree: client success roles not hired = hire
   const { generateWeekly } = await import("../src/lib/generate.ts");
   const { defaultModelInputs } = await import("../src/lib/metrics.ts");
   const { HEADCOUNT } = await import("../src/lib/hiring.ts");
-  const cs = HEADCOUNT["Client success"];
+  const cs = HEADCOUNT["Customer success"];
   assert.equal(cs.target_without_systems! - cs.target, runModel(defaultModelInputs(generateWeekly())).hires_deferred);
 });

@@ -58,7 +58,21 @@ export type Priority = (typeof PRIORITIES)[number];
 export const SLA_HOURS: Record<Priority, number> = { P1: 4, P2: 24, P3: 48 };
 export const PRIORITY_LABEL: Record<Priority, string> = { P1: "P1 deadline", P2: "P2 at risk", P3: "P3 routine" };
 
-export type Channel = "email" | "portal";
+export type Channel = "email" | "portal" | "phone" | "review";
+export const CHANNEL_LABEL: Record<Channel, string> = { email: "Email", portal: "Client portal", phone: "Phone note", review: "Google review" };
+export const STATUSES = ["New", "In progress", "Waiting on client", "Escalated", "Resolved"] as const;
+export type Status = (typeof STATUSES)[number];
+export type ThreadItem = { at: string; from: "client" | "firm" | "system"; author: string; text: string };
+
+/** Fictional case managers by practice area, and the fictional lawyer who signs off drafts in each. */
+export const CASE_MANAGERS: Record<Area, string[]> = {
+  EE: ["Maya Lindqvist", "Omar Haddad", "Jess Tremblay"],
+  WP: ["Leila Karimi", "Nate Okafor", "Sofia Marchetti"],
+  FAM: ["Daniel Osei", "Priya Raman", "Claire Dubois"],
+  CIT: ["Tomás García", "Hannah Weiss"],
+  INA: ["Ruth Abebe", "Marcus Lee"],
+};
+export const AREA_LAWYER: Record<Area, string> = { EE: "Alex Novak", WP: "Bea Sandoval", FAM: "Chidi Mensah", CIT: "Dana Whitfield", INA: "Eli Brandt" };
 export type Sentiment = "negative" | "neutral" | "positive";
 
 /** A synthetic inbound client message. `truth` holds the generator's labels, used only to measure the classifier. */
@@ -66,10 +80,13 @@ export type Message = {
   id: string;
   channel: Channel;
   received_at: string; // ISO, UTC
-  client: string; // synthetic first name and last initial
-  matter: string | null; // synthetic matter number, null for a new enquiry
+  client: string; // fictional full name
+  matter: string | null; // fictional file number (CV-2026-04817), null for a new enquiry
+  case_manager: string | null; // fictional; null until intake assigns one
+  status: Status;
   subject: string;
   body: string;
+  thread: ThreadItem[]; // earlier messages on the same file, oldest first
   prior_contacts_30d: number;
   truth: { area: Area; intent: Intent; root_cause: RootCause; deadline_days: number | null };
 };

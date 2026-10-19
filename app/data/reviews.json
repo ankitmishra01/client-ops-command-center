@@ -1,0 +1,758 @@
+[
+ {
+  "id": "R-2047",
+  "date": "2026-10-15T18:00:00.000Z",
+  "reviewer": "Priya Y.",
+  "stars": 1,
+  "area": "EE",
+  "text": "After payment, silence. Three emails, no reply, no status update.",
+  "replied": false
+ },
+ {
+  "id": "R-2053",
+  "date": "2026-10-15T10:00:00.000Z",
+  "reviewer": "Thanh P.",
+  "stars": 1,
+  "area": "EE",
+  "text": "After payment, silence. Three emails, no reply, no status update.",
+  "replied": false
+ },
+ {
+  "id": "R-2020",
+  "date": "2026-10-14T16:00:00.000Z",
+  "reviewer": "Amara W.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": true
+ },
+ {
+  "id": "R-2055",
+  "date": "2026-10-14T11:00:00.000Z",
+  "reviewer": "Ravi D.",
+  "stars": 2,
+  "area": "EE",
+  "text": "Missed my consultation and the call back came two days later.",
+  "replied": false
+ },
+ {
+  "id": "R-2071",
+  "date": "2026-10-12T20:00:00.000Z",
+  "reviewer": "Oluwaseun Q.",
+  "stars": 1,
+  "area": "FAM",
+  "text": "My file was closed without any explanation and nobody will call me back.",
+  "replied": false
+ },
+ {
+  "id": "R-2026",
+  "date": "2026-10-09T21:00:00.000Z",
+  "reviewer": "Hiroshi D.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": true
+ },
+ {
+  "id": "R-2083",
+  "date": "2026-10-05T11:00:00.000Z",
+  "reviewer": "Thanh L.",
+  "stars": 3,
+  "area": "WP",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": false
+ },
+ {
+  "id": "R-2013",
+  "date": "2026-10-02T21:00:00.000Z",
+  "reviewer": "Sana M.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the PNP nomination application and we always knew what came next. Approved in 8 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2024",
+  "date": "2026-10-01T18:00:00.000Z",
+  "reviewer": "Mohammed B.",
+  "stars": 1,
+  "area": "EE",
+  "text": "After payment, silence. Three emails, no reply, no status update.",
+  "replied": true
+ },
+ {
+  "id": "R-2065",
+  "date": "2026-10-01T13:00:00.000Z",
+  "reviewer": "Hana S.",
+  "stars": 1,
+  "area": "INA",
+  "text": "Nobody answered for my scheduled consultation and no one called back.",
+  "replied": false
+ },
+ {
+  "id": "R-2025",
+  "date": "2026-09-29T20:00:00.000Z",
+  "reviewer": "Zainab M.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Excellent guidance from start to finish on my common-law partner sponsorship. Thank you!",
+  "replied": false
+ },
+ {
+  "id": "R-2049",
+  "date": "2026-09-29T15:00:00.000Z",
+  "reviewer": "Tariq C.",
+  "stars": 3,
+  "area": "CIT",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": true
+ },
+ {
+  "id": "R-2056",
+  "date": "2026-09-28T20:00:00.000Z",
+  "reviewer": "Chiamaka U.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": false
+ },
+ {
+  "id": "R-2003",
+  "date": "2026-09-27T13:00:00.000Z",
+  "reviewer": "Lucas T.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Very responsive team. They caught a mistake in our employer offer letter before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2079",
+  "date": "2026-09-26T16:00:00.000Z",
+  "reviewer": "Rahul Q.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2068",
+  "date": "2026-09-24T13:00:00.000Z",
+  "reviewer": "Chiamaka N.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Very responsive team. They caught a mistake in our police certificate before submission.",
+  "replied": false
+ },
+ {
+  "id": "R-2042",
+  "date": "2026-09-22T09:00:00.000Z",
+  "reviewer": "Sana B.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Excellent guidance from start to finish on my open work permit application. Thank you!",
+  "replied": false
+ },
+ {
+  "id": "R-2067",
+  "date": "2026-09-20T20:00:00.000Z",
+  "reviewer": "Mateo P.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Excellent guidance from start to finish on my Express Entry PR application. Thank you!",
+  "replied": true
+ },
+ {
+  "id": "R-2061",
+  "date": "2026-09-18T15:00:00.000Z",
+  "reviewer": "Ingrid I.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Excellent guidance from start to finish on my open work permit application. Thank you!",
+  "replied": true
+ },
+ {
+  "id": "R-2032",
+  "date": "2026-09-17T21:00:00.000Z",
+  "reviewer": "Hana I.",
+  "stars": 4,
+  "area": "WP",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": true
+ },
+ {
+  "id": "R-2073",
+  "date": "2026-09-16T17:00:00.000Z",
+  "reviewer": "Arjun J.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the Express Entry profile and we always knew what came next. Approved in 13 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2064",
+  "date": "2026-09-15T11:00:00.000Z",
+  "reviewer": "Arjun Z.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Good result on our Express Entry PR application, though updates were sometimes slow.",
+  "replied": true
+ },
+ {
+  "id": "R-2011",
+  "date": "2026-09-14T11:00:00.000Z",
+  "reviewer": "Chiamaka Z.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2057",
+  "date": "2026-09-11T12:00:00.000Z",
+  "reviewer": "Rahul U.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the Express Entry profile and we always knew what came next. Approved in 9 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2051",
+  "date": "2026-09-09T17:00:00.000Z",
+  "reviewer": "Ingrid I.",
+  "stars": 2,
+  "area": "WP",
+  "text": "Missed my consultation and the call back came two days later.",
+  "replied": false
+ },
+ {
+  "id": "R-2037",
+  "date": "2026-09-09T09:00:00.000Z",
+  "reviewer": "Fatima Q.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the PNP nomination application and we always knew what came next. Approved in 13 months.",
+  "replied": true
+ },
+ {
+  "id": "R-2063",
+  "date": "2026-09-08T19:00:00.000Z",
+  "reviewer": "Camila I.",
+  "stars": 4,
+  "area": "CIT",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": false
+ },
+ {
+  "id": "R-2048",
+  "date": "2026-09-04T20:00:00.000Z",
+  "reviewer": "Yara A.",
+  "stars": 2,
+  "area": "EE",
+  "text": "Paid quickly, then waited weeks for any news on my Express Entry PR application.",
+  "replied": true
+ },
+ {
+  "id": "R-2038",
+  "date": "2026-09-01T20:00:00.000Z",
+  "reviewer": "Diego T.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Good result on our Canadian Experience Class application, though updates were sometimes slow.",
+  "replied": false
+ },
+ {
+  "id": "R-2016",
+  "date": "2026-09-01T11:00:00.000Z",
+  "reviewer": "Mateo G.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Excellent guidance from start to finish on my Express Entry PR application. Thank you!",
+  "replied": true
+ },
+ {
+  "id": "R-2050",
+  "date": "2026-08-30T18:00:00.000Z",
+  "reviewer": "Camila A.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2041",
+  "date": "2026-08-26T15:00:00.000Z",
+  "reviewer": "Aarav T.",
+  "stars": 4,
+  "area": "WP",
+  "text": "Good result on our open work permit application, though updates were sometimes slow.",
+  "replied": false
+ },
+ {
+  "id": "R-2043",
+  "date": "2026-08-22T16:00:00.000Z",
+  "reviewer": "Emeka C.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Excellent guidance from start to finish on my Express Entry profile. Thank you!",
+  "replied": false
+ },
+ {
+  "id": "R-2031",
+  "date": "2026-08-21T16:00:00.000Z",
+  "reviewer": "Oluwaseun H.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the Canadian Experience Class application and we always knew what came next. Approved in 10 months.",
+  "replied": true
+ },
+ {
+  "id": "R-2045",
+  "date": "2026-08-21T12:00:00.000Z",
+  "reviewer": "Marta R.",
+  "stars": 4,
+  "area": "CIT",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": true
+ },
+ {
+  "id": "R-2062",
+  "date": "2026-08-21T12:00:00.000Z",
+  "reviewer": "Elena G.",
+  "stars": 3,
+  "area": "WP",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": false
+ },
+ {
+  "id": "R-2000",
+  "date": "2026-08-21T09:00:00.000Z",
+  "reviewer": "Mei L.",
+  "stars": 4,
+  "area": "FAM",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": false
+ },
+ {
+  "id": "R-2007",
+  "date": "2026-08-20T19:00:00.000Z",
+  "reviewer": "Samir Y.",
+  "stars": 2,
+  "area": "FAM",
+  "text": "Missed my consultation and the call back came two days later.",
+  "replied": true
+ },
+ {
+  "id": "R-2001",
+  "date": "2026-08-19T13:00:00.000Z",
+  "reviewer": "Hana D.",
+  "stars": 2,
+  "area": "WP",
+  "text": "Missed my consultation and the call back came two days later.",
+  "replied": false
+ },
+ {
+  "id": "R-2027",
+  "date": "2026-08-17T18:00:00.000Z",
+  "reviewer": "Beatriz V.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Excellent guidance from start to finish on my Express Entry profile. Thank you!",
+  "replied": true
+ },
+ {
+  "id": "R-2074",
+  "date": "2026-08-17T15:00:00.000Z",
+  "reviewer": "Mei F.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": true
+ },
+ {
+  "id": "R-2030",
+  "date": "2026-08-17T13:00:00.000Z",
+  "reviewer": "Anya R.",
+  "stars": 4,
+  "area": "WP",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": true
+ },
+ {
+  "id": "R-2081",
+  "date": "2026-08-13T18:00:00.000Z",
+  "reviewer": "Chiamaka M.",
+  "stars": 3,
+  "area": "EE",
+  "text": "Mixed experience. My file changed hands twice and I had to repeat everything.",
+  "replied": false
+ },
+ {
+  "id": "R-2008",
+  "date": "2026-08-11T21:00:00.000Z",
+  "reviewer": "Arjun Y.",
+  "stars": 5,
+  "area": "CIT",
+  "text": "Very responsive team. They caught a mistake in our travel history before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2076",
+  "date": "2026-08-11T13:00:00.000Z",
+  "reviewer": "Tomasz D.",
+  "stars": 3,
+  "area": "EE",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": false
+ },
+ {
+  "id": "R-2029",
+  "date": "2026-08-08T14:00:00.000Z",
+  "reviewer": "Kofi R.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Very responsive team. They caught a mistake in our bank statements before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2002",
+  "date": "2026-08-07T20:00:00.000Z",
+  "reviewer": "Gabriel A.",
+  "stars": 3,
+  "area": "EE",
+  "text": "The outcome was fine but I had to chase for every update on my PNP nomination application.",
+  "replied": false
+ },
+ {
+  "id": "R-2018",
+  "date": "2026-08-06T21:00:00.000Z",
+  "reviewer": "Samir X.",
+  "stars": 3,
+  "area": "EE",
+  "text": "The outcome was fine but I had to chase for every update on my Express Entry PR application.",
+  "replied": false
+ },
+ {
+  "id": "R-2052",
+  "date": "2026-07-31T21:00:00.000Z",
+  "reviewer": "Sana U.",
+  "stars": 2,
+  "area": "WP",
+  "text": "Asked for the same documents three times. Which documents do they actually need?",
+  "replied": false
+ },
+ {
+  "id": "R-2022",
+  "date": "2026-07-29T12:00:00.000Z",
+  "reviewer": "Camila T.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Very responsive team. They caught a mistake in our joint lease before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2046",
+  "date": "2026-07-24T21:00:00.000Z",
+  "reviewer": "Marta Z.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Very responsive team. They caught a mistake in our employment reference letter before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2009",
+  "date": "2026-07-24T15:00:00.000Z",
+  "reviewer": "Marta N.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Our case manager explained every step of the work permit extension and we always knew what came next. Approved in 16 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2060",
+  "date": "2026-07-22T15:00:00.000Z",
+  "reviewer": "Emeka B.",
+  "stars": 1,
+  "area": "CIT",
+  "text": "Nobody answered for my scheduled consultation and no one called back.",
+  "replied": false
+ },
+ {
+  "id": "R-2039",
+  "date": "2026-07-19T11:00:00.000Z",
+  "reviewer": "Javier X.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": false
+ },
+ {
+  "id": "R-2072",
+  "date": "2026-07-18T12:00:00.000Z",
+  "reviewer": "Andrei D.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Very responsive team. They caught a mistake in our language test results before submission.",
+  "replied": true
+ },
+ {
+  "id": "R-2080",
+  "date": "2026-07-18T09:00:00.000Z",
+  "reviewer": "Kofi I.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": false
+ },
+ {
+  "id": "R-2035",
+  "date": "2026-07-15T18:00:00.000Z",
+  "reviewer": "Marta Z.",
+  "stars": 3,
+  "area": "EE",
+  "text": "Mixed experience. My file changed hands twice and I had to repeat everything.",
+  "replied": false
+ },
+ {
+  "id": "R-2012",
+  "date": "2026-07-15T12:00:00.000Z",
+  "reviewer": "Lucas R.",
+  "stars": 1,
+  "area": "INA",
+  "text": "Nobody answered for my scheduled consultation and no one called back.",
+  "replied": true
+ },
+ {
+  "id": "R-2069",
+  "date": "2026-07-09T10:00:00.000Z",
+  "reviewer": "Ingrid K.",
+  "stars": 2,
+  "area": "EE",
+  "text": "Paid quickly, then waited weeks for any news on my PNP nomination application.",
+  "replied": true
+ },
+ {
+  "id": "R-2082",
+  "date": "2026-07-08T15:00:00.000Z",
+  "reviewer": "Amara I.",
+  "stars": 2,
+  "area": "WP",
+  "text": "Asked for the same documents three times. Which documents do they actually need?",
+  "replied": true
+ },
+ {
+  "id": "R-2005",
+  "date": "2026-07-02T13:00:00.000Z",
+  "reviewer": "Aisha X.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Our case manager explained every step of the open work permit application and we always knew what came next. Approved in 8 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2077",
+  "date": "2026-07-01T16:00:00.000Z",
+  "reviewer": "Andrei V.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Very responsive team. They caught a mistake in our proof of funds letter before submission.",
+  "replied": false
+ },
+ {
+  "id": "R-2058",
+  "date": "2026-06-29T15:00:00.000Z",
+  "reviewer": "Anya Z.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Helpful and thorough. I wish the document checklist had been clearer up front.",
+  "replied": true
+ },
+ {
+  "id": "R-2034",
+  "date": "2026-06-26T09:00:00.000Z",
+  "reviewer": "Ingrid E.",
+  "stars": 3,
+  "area": "EE",
+  "text": "Mixed experience. My file changed hands twice and I had to repeat everything.",
+  "replied": false
+ },
+ {
+  "id": "R-2021",
+  "date": "2026-06-24T18:00:00.000Z",
+  "reviewer": "Zainab F.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Our case manager explained every step of the PGWP application and we always knew what came next. Approved in 14 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2054",
+  "date": "2026-06-22T14:00:00.000Z",
+  "reviewer": "Kwame I.",
+  "stars": 3,
+  "area": "EE",
+  "text": "Mixed experience. My file changed hands twice and I had to repeat everything.",
+  "replied": true
+ },
+ {
+  "id": "R-2019",
+  "date": "2026-06-20T13:00:00.000Z",
+  "reviewer": "Aarav E.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2017",
+  "date": "2026-06-15T13:00:00.000Z",
+  "reviewer": "Ravi O.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Excellent guidance from start to finish on my sponsorship of my dependent child. Thank you!",
+  "replied": false
+ },
+ {
+  "id": "R-2044",
+  "date": "2026-06-15T10:00:00.000Z",
+  "reviewer": "Ifeoma I.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": false
+ },
+ {
+  "id": "R-2014",
+  "date": "2026-06-12T18:00:00.000Z",
+  "reviewer": "Kwame Y.",
+  "stars": 2,
+  "area": "EE",
+  "text": "Asked for the same documents three times. Which documents do they actually need?",
+  "replied": true
+ },
+ {
+  "id": "R-2066",
+  "date": "2026-06-11T18:00:00.000Z",
+  "reviewer": "Chiamaka R.",
+  "stars": 2,
+  "area": "CIT",
+  "text": "Asked for the same documents three times. Which documents do they actually need?",
+  "replied": false
+ },
+ {
+  "id": "R-2070",
+  "date": "2026-06-10T14:00:00.000Z",
+  "reviewer": "Elena D.",
+  "stars": 1,
+  "area": "WP",
+  "text": "My file was closed without any explanation and nobody will call me back.",
+  "replied": false
+ },
+ {
+  "id": "R-2075",
+  "date": "2026-06-08T18:00:00.000Z",
+  "reviewer": "Tariq E.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Our case manager explained every step of the LMIA-based work permit and we always knew what came next. Approved in 7 months.",
+  "replied": true
+ },
+ {
+  "id": "R-2036",
+  "date": "2026-06-07T19:00:00.000Z",
+  "reviewer": "Elena W.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Excellent guidance from start to finish on my sponsorship of my dependent child. Thank you!",
+  "replied": true
+ },
+ {
+  "id": "R-2028",
+  "date": "2026-06-02T11:00:00.000Z",
+  "reviewer": "Amara T.",
+  "stars": 3,
+  "area": "FAM",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": false
+ },
+ {
+  "id": "R-2006",
+  "date": "2026-05-31T18:00:00.000Z",
+  "reviewer": "Samir X.",
+  "stars": 5,
+  "area": "INA",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2059",
+  "date": "2026-05-26T15:00:00.000Z",
+  "reviewer": "Emeka F.",
+  "stars": 4,
+  "area": "EE",
+  "text": "Knowledgeable lawyers. The portal was confusing at first but support helped.",
+  "replied": true
+ },
+ {
+  "id": "R-2015",
+  "date": "2026-05-25T09:00:00.000Z",
+  "reviewer": "Chiamaka B.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Our case manager explained every step of the Express Entry PR application and we always knew what came next. Approved in 16 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2033",
+  "date": "2026-05-22T11:00:00.000Z",
+  "reviewer": "Elena N.",
+  "stars": 4,
+  "area": "WP",
+  "text": "Good result on our PGWP application, though updates were sometimes slow.",
+  "replied": true
+ },
+ {
+  "id": "R-2040",
+  "date": "2026-05-18T15:00:00.000Z",
+  "reviewer": "Camila W.",
+  "stars": 5,
+  "area": "FAM",
+  "text": "Our case manager explained every step of the sponsorship of my dependent child and we always knew what came next. Approved in 10 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2010",
+  "date": "2026-05-18T12:00:00.000Z",
+  "reviewer": "Noor L.",
+  "stars": 5,
+  "area": "EE",
+  "text": "Professional and quick. The consultation was clear about costs and timelines.",
+  "replied": false
+ },
+ {
+  "id": "R-2004",
+  "date": "2026-05-11T16:00:00.000Z",
+  "reviewer": "Hiroshi E.",
+  "stars": 5,
+  "area": "WP",
+  "text": "Our case manager explained every step of the open work permit application and we always knew what came next. Approved in 7 months.",
+  "replied": false
+ },
+ {
+  "id": "R-2078",
+  "date": "2026-05-10T14:00:00.000Z",
+  "reviewer": "Ingrid B.",
+  "stars": 3,
+  "area": "WP",
+  "text": "Competent work, slow communication. Weeks with no update after payment.",
+  "replied": false
+ },
+ {
+  "id": "R-2023",
+  "date": "2026-05-09T15:00:00.000Z",
+  "reviewer": "Ifeoma Z.",
+  "stars": 5,
+  "area": "CIT",
+  "text": "Very responsive team. They caught a mistake in our physical presence calculation before submission.",
+  "replied": true
+ }
+]

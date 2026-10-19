@@ -1,20 +1,20 @@
 {
  "seed": 20261019,
  "generated_for": "2026-10-19",
- "messages": 300,
+ "messages": 340,
  "weeks": 26,
  "agreement": {
-  "n": 300,
+  "n": 340,
   "area": 1,
-  "area_coverage": 0.9733333333333334,
-  "intent": 0.9866666666666667,
-  "root_cause": 0.9666666666666667,
+  "area_coverage": 0.9676470588235294,
+  "intent": 0.9794117647058823,
+  "root_cause": 0.9529411764705882,
   "deadline": 1,
   "confusion": {
    "status_request": {
-    "status_request": 117,
-    "document_question": 4,
-    "billing_question": 0,
+    "status_request": 124,
+    "document_question": 6,
+    "billing_question": 1,
     "scheduling": 0,
     "complaint": 0,
     "escalation": 0,
@@ -23,7 +23,7 @@
    },
    "document_question": {
     "status_request": 0,
-    "document_question": 44,
+    "document_question": 48,
     "billing_question": 0,
     "scheduling": 0,
     "complaint": 0,
@@ -34,7 +34,7 @@
    "billing_question": {
     "status_request": 0,
     "document_question": 0,
-    "billing_question": 21,
+    "billing_question": 16,
     "scheduling": 0,
     "complaint": 0,
     "escalation": 0,
@@ -45,7 +45,7 @@
     "status_request": 0,
     "document_question": 0,
     "billing_question": 0,
-    "scheduling": 13,
+    "scheduling": 18,
     "complaint": 0,
     "escalation": 0,
     "new_enquiry": 0,
@@ -56,7 +56,7 @@
     "document_question": 0,
     "billing_question": 0,
     "scheduling": 0,
-    "complaint": 54,
+    "complaint": 66,
     "escalation": 0,
     "new_enquiry": 0,
     "praise": 0
@@ -67,7 +67,7 @@
     "billing_question": 0,
     "scheduling": 0,
     "complaint": 0,
-    "escalation": 14,
+    "escalation": 26,
     "new_enquiry": 0,
     "praise": 0
    },
@@ -78,7 +78,7 @@
     "scheduling": 0,
     "complaint": 0,
     "escalation": 0,
-    "new_enquiry": 17,
+    "new_enquiry": 21,
     "praise": 0
    },
    "praise": {
@@ -89,7 +89,7 @@
     "complaint": 0,
     "escalation": 0,
     "new_enquiry": 0,
-    "praise": 16
+    "praise": 14
    }
   }
  }

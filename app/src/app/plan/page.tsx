@@ -9,6 +9,44 @@ const pct = (x: number) => `${(x * 100).toFixed(0)}%`;
 
 export const metadata: Metadata = { title: "First 90 days & business case" };
 
+const GANTT: { phase?: string; label: string; from: number; to: number; cls: string; text?: string }[] = [
+  { phase: "Days 1 to 30 · baseline", label: "Sit in every queue; map how a message moves", from: 1, to: 2, cls: "ph1" },
+  { label: "Hand-label 500 messages (classifier test set)", from: 1, to: 4, cls: "ph1" },
+  { label: "Baseline scorecard by practice area", from: 2, to: 4, cls: "ph1", text: "COO sign-off" },
+  { label: "Quick wins: owners, SLA queue, complaint log", from: 1, to: 3, cls: "ph1" },
+  { label: "Hiring: scorecards, interviewer limit, bands", from: 1, to: 6, cls: "ph1" },
+  { phase: "Days 31 to 60 · build and pilot in one area", label: "Silent-file alert and proactive updates", from: 5, to: 9, cls: "ph2" },
+  { label: "Triage queue with approved-template drafts", from: 5, to: 9, cls: "ph2" },
+  { label: "No-show alert, closure notice, handoff note", from: 5, to: 8, cls: "ph2" },
+  { label: "Onboarding automation for the hiring wave", from: 4, to: 8, cls: "ph2" },
+  { phase: "Days 61 to 90 · scale to all five", label: "Roll out area by area with playbooks", from: 10, to: 13, cls: "ph3" },
+  { label: "Team leads own rules and templates", from: 10, to: 13, cls: "ph3" },
+  { label: "Re-run business case; reset hiring plan", from: 12, to: 13, cls: "ph3" },
+  { phase: "Throughout", label: "Weekly KPI review with the COO", from: 2, to: 13, cls: "ongoing" },
+];
+const CHECKPOINTS = [4, 9, 13];
+
+function Gantt() {
+  return (
+    <div className="card">
+      <h2>Timeline, week by week</h2>
+      <p className="small muted" style={{ marginTop: 0 }}>Thirteen weeks. Bold week numbers are checkpoints (day 30, 60 and 90), where the work stops if the numbers do not clear.</p>
+      <div className="gantt" role="table" aria-label="90-day timeline">
+        <div className="g-row head" role="row"><div className="g-label" role="columnheader">Workstream</div>{Array.from({ length: 13 }, (_, i) => <div key={i} className={`g-wk${CHECKPOINTS.includes(i + 1) ? " cp" : ""}`} style={{ gridColumn: i + 2 }} role="columnheader">W{i + 1}</div>)}</div>
+        {GANTT.map((g) => (
+          <div key={g.label}>
+            {g.phase && <div className="g-row head"><div className="g-label" style={{ gridColumn: "1 / -1", fontWeight: 600, fontSize: 11, letterSpacing: ".06em", textTransform: "uppercase", color: "var(--accent-text)", background: "transparent" }}>{g.phase}</div></div>}
+            <div className="g-row" role="row">
+              <div className="g-label" role="cell">{g.label}</div>
+              <div className={`g-bar ${g.cls}`} style={{ gridColumn: `${g.from + 1} / ${g.to + 2}` }} role="cell">{g.text ?? `W${g.from}${g.to > g.from ? `–${g.to}` : ""}`}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Page() {
   const initial = defaultModelInputs(WEEKLY);
   // Pilot area: the one with the highest share of status-silence messages, where proactive updates have the most to remove.
@@ -29,6 +67,7 @@ export default function Page() {
       <p className="lede">A 30/60/90 plan with a checkpoint at each stage, and a simple model of what the fixes are worth: messages avoided × handling time → hours saved → hires deferred. Every assumption is labelled and editable.</p>
 
       <div className="steps" aria-label="Plan stages"><div><span className="n">1</span>Days 1 to 30: baseline</div><div><span className="n">2</span>Days 31 to 60: build and pilot in one area</div><div><span className="n">3</span>Days 61 to 90: scale to all five</div></div>
+      <Gantt />
       <div className="grid3">
         <div className="card phase">
           <p className="eyebrow" style={{ marginTop: 0 }}>Days 1 to 30</p>
@@ -63,7 +102,7 @@ export default function Page() {
             <li>Roll out area by area with a short playbook for each: its milestones, its document checklists, its escalation contacts.</li>
             <li>Weekly dashboard to the COO and practice leads: CSAT, reviews, complaint and escalation rates, SLA, root-cause mix.</li>
             <li>Team leads own the routing rules and templates, with a change log, so the system improves without a ticket to IT.</li>
-            <li>Re-run the business case with measured, not assumed, avoided volume, and reset the client success hiring plan to match.</li>
+            <li>Re-run the business case with measured, not assumed, avoided volume, and reset the customer success hiring plan to match.</li>
           </ul>
           <div className="gate"><strong>Checkpoint, day 90.</strong> Measured avoided volume compared with the model below. Hiring plan for the next quarter set from it. Next fixes chosen from the root-cause data (billing explainer, handoff notes, portal self-help).</div>
         </div>

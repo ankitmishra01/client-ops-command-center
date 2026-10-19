@@ -8,8 +8,8 @@
    "days_open": 24,
    "manager": "Managing lawyer",
    "interviewers": [
-    "Nadia (Senior lawyer)",
-    "Omar (Senior lawyer)"
+    "Nadia Farouk (Senior lawyer)",
+    "Owen Pryce (Senior lawyer)"
    ],
    "funnel": [
     65,
@@ -25,12 +25,12 @@
    "id": "REQ-102",
    "title": "Regulated immigration consultant (RCIC)",
    "team": "Legal",
-   "openings": 5,
+   "openings": 4,
    "days_open": 22,
    "manager": "Managing lawyer",
    "interviewers": [
-    "Nadia (Senior lawyer)",
-    "Grace (Senior RCIC)"
+    "Nadia Farouk (Senior lawyer)",
+    "Grace Ilunga (Senior RCIC)"
    ],
    "funnel": [
     130,
@@ -44,15 +44,15 @@
   },
   {
    "id": "REQ-103",
-   "title": "Case processing associate",
-   "team": "Case processing",
+   "title": "Case manager",
+   "team": "Case management",
    "openings": 8,
    "days_open": 41,
-   "manager": "Case processing manager",
+   "manager": "Case management lead",
    "interviewers": [
-    "Ravi (Senior case processor)",
-    "Grace (Senior RCIC)",
-    "Ines (Case processing manager)"
+    "Ravi Menon (Senior case manager)",
+    "Grace Ilunga (Senior RCIC)",
+    "Ines Moreau (Case management lead)"
    ],
    "funnel": [
     377,
@@ -66,14 +66,14 @@
   },
   {
    "id": "REQ-104",
-   "title": "Senior case processor",
-   "team": "Case processing",
+   "title": "Senior case manager",
+   "team": "Case management",
    "openings": 2,
    "days_open": 46,
-   "manager": "Case processing manager",
+   "manager": "Case management lead",
    "interviewers": [
-    "Ines (Case processing manager)",
-    "Ravi (Senior case processor)"
+    "Ines Moreau (Case management lead)",
+    "Ravi Menon (Senior case manager)"
    ],
    "funnel": [
     95,
@@ -87,40 +87,103 @@
   },
   {
    "id": "REQ-105",
-   "title": "Client success specialist",
-   "team": "Client success",
-   "openings": 4,
+   "title": "Case management team lead",
+   "team": "Case management",
+   "openings": 1,
    "days_open": 8,
-   "manager": "Head of Operations & Customer Success",
+   "manager": "Case management lead",
    "interviewers": [
-    "Chloe (CS team lead)",
-    "Marcus (CS team lead)"
+    "Ines Moreau (Case management lead)",
+    "Chloe Baptiste (CS team lead)"
    ],
    "funnel": [
-    353,
-    100,
-    37,
-    23,
+    80,
+    27,
+    11,
+    6,
+    3,
+    0
+   ],
+   "target_days": 40
+  },
+  {
+   "id": "REQ-106",
+   "title": "Intake specialist",
+   "team": "Intake",
+   "openings": 4,
+   "days_open": 14,
+   "manager": "Intake manager",
+   "interviewers": [
+    "Sami Rahal (Intake manager)",
+    "Marcus Lee (CS team lead)"
+   ],
+   "funnel": [
+    254,
+    68,
+    27,
     15,
+    9,
     2
    ],
    "target_days": 25
   },
   {
-   "id": "REQ-106",
-   "title": "Client success team lead",
-   "team": "Client success",
-   "openings": 1,
-   "days_open": 14,
-   "manager": "Head of Operations & Customer Success",
+   "id": "REQ-107",
+   "title": "Bilingual intake specialist (FR/EN)",
+   "team": "Intake",
+   "openings": 2,
+   "days_open": 13,
+   "manager": "Intake manager",
    "interviewers": [
-    "Chloe (CS team lead)",
-    "Ines (Case processing manager)"
+    "Sami Rahal (Intake manager)",
+    "Elise Gagnon (Bilingual intake lead)"
    ],
    "funnel": [
-    83,
-    24,
+    66,
+    18,
+    7,
+    4,
+    2,
+    1
+   ],
+   "target_days": 35
+  },
+  {
+   "id": "REQ-108",
+   "title": "Customer success specialist",
+   "team": "Customer success",
+   "openings": 4,
+   "days_open": 39,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Chloe Baptiste (CS team lead)",
+    "Marcus Lee (CS team lead)"
+   ],
+   "funnel": [
+    309,
+    71,
+    29,
+    15,
     9,
+    2
+   ],
+   "target_days": 25
+  },
+  {
+   "id": "REQ-109",
+   "title": "Customer success team lead",
+   "team": "Customer success",
+   "openings": 1,
+   "days_open": 11,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Chloe Baptiste (CS team lead)",
+    "Ines Moreau (Case management lead)"
+   ],
+   "funnel": [
+    78,
+    22,
+    8,
     4,
     2,
     0
@@ -128,169 +191,127 @@
    "target_days": 35
   },
   {
-   "id": "REQ-107",
-   "title": "Intake consultant",
-   "team": "Intake",
-   "openings": 4,
-   "days_open": 13,
-   "manager": "Intake manager",
-   "interviewers": [
-    "Sami (Intake manager)",
-    "Marcus (CS team lead)"
-   ],
-   "funnel": [
-    229,
-    57,
-    22,
-    14,
-    9,
-    2
-   ],
-   "target_days": 25
-  },
-  {
-   "id": "REQ-108",
-   "title": "Bilingual intake consultant (FR/EN)",
-   "team": "Intake",
-   "openings": 2,
-   "days_open": 39,
-   "manager": "Intake manager",
-   "interviewers": [
-    "Sami (Intake manager)",
-    "Elise (Bilingual intake lead)"
-   ],
-   "funnel": [
-    75,
-    21,
-    10,
-    5,
-    3,
-    1
-   ],
-   "target_days": 35
-  },
-  {
-   "id": "REQ-109",
-   "title": "People operations generalist",
-   "team": "Operations & people",
-   "openings": 1,
-   "days_open": 11,
-   "manager": "Head of Operations & Customer Success",
-   "interviewers": [
-    "Tara (Recruiting coordinator)",
-    "Ines (Case processing manager)"
-   ],
-   "funnel": [
-    146,
-    27,
-    10,
-    5,
-    3,
-    0
-   ],
-   "target_days": 35
-  },
-  {
    "id": "REQ-110",
-   "title": "Recruiting coordinator",
-   "team": "Operations & people",
+   "title": "Talent acquisition partner",
+   "team": "Talent acquisition",
    "openings": 1,
    "days_open": 37,
    "manager": "Head of Operations & Customer Success",
    "interviewers": [
-    "Tara (Recruiting coordinator)",
-    "Chloe (CS team lead)"
+    "Tara Quinn (Recruiting coordinator)",
+    "Chloe Baptiste (CS team lead)"
    ],
    "funnel": [
-    127,
-    25,
-    10,
-    6,
-    3,
+    148,
+    29,
+    12,
+    8,
+    4,
     0
    ],
    "target_days": 30
   },
   {
    "id": "REQ-111",
-   "title": "Operations analyst",
-   "team": "Operations & people",
+   "title": "Recruiting coordinator",
+   "team": "Talent acquisition",
    "openings": 1,
    "days_open": 48,
    "manager": "Head of Operations & Customer Success",
    "interviewers": [
-    "Dev (Automation engineer)",
-    "Tara (Recruiting coordinator)"
+    "Tara Quinn (Recruiting coordinator)",
+    "Sami Rahal (Intake manager)"
    ],
    "funnel": [
-    126,
-    34,
+    108,
+    26,
+    9,
+    5,
+    3,
+    0
+   ],
+   "target_days": 30
+  },
+  {
+   "id": "REQ-112",
+   "title": "HR generalist",
+   "team": "HR & people ops",
+   "openings": 1,
+   "days_open": 47,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Tara Quinn (Recruiting coordinator)",
+    "Ines Moreau (Case management lead)"
+   ],
+   "funnel": [
+    158,
+    27,
     12,
-    7,
-    4,
+    6,
+    3,
     0
    ],
    "target_days": 35
   },
   {
-   "id": "REQ-112",
+   "id": "REQ-113",
+   "title": "People operations coordinator",
+   "team": "HR & people ops",
+   "openings": 1,
+   "days_open": 19,
+   "manager": "Head of Operations & Customer Success",
+   "interviewers": [
+    "Tara Quinn (Recruiting coordinator)",
+    "Dev Khanna (Automation engineer)"
+   ],
+   "funnel": [
+    140,
+    34,
+    15,
+    8,
+    4,
+    0
+   ],
+   "target_days": 30
+  },
+  {
+   "id": "REQ-114",
    "title": "Automation engineer",
    "team": "Technology & AI",
    "openings": 2,
-   "days_open": 47,
+   "days_open": 8,
    "manager": "Head of Technology",
    "interviewers": [
-    "Dev (Automation engineer)",
-    "Kai (Head of Technology)"
+    "Dev Khanna (Automation engineer)",
+    "Kai Lindholm (Head of Technology)"
    ],
    "funnel": [
-    177,
-    31,
-    14,
-    7,
-    4,
+    157,
+    29,
+    10,
+    5,
+    2,
     1
    ],
    "target_days": 45
   },
   {
-   "id": "REQ-113",
-   "title": "Data analyst",
-   "team": "Technology & AI",
-   "openings": 1,
-   "days_open": 19,
-   "manager": "Head of Technology",
-   "interviewers": [
-    "Kai (Head of Technology)",
-    "Dev (Automation engineer)"
-   ],
-   "funnel": [
-    162,
-    40,
-    18,
-    9,
-    4,
-    0
-   ],
-   "target_days": 40
-  },
-  {
-   "id": "REQ-114",
+   "id": "REQ-115",
    "title": "Practice management (Clio) administrator",
    "team": "Technology & AI",
    "openings": 1,
-   "days_open": 8,
+   "days_open": 18,
    "manager": "Head of Technology",
    "interviewers": [
-    "Kai (Head of Technology)",
-    "Ines (Case processing manager)"
+    "Kai Lindholm (Head of Technology)",
+    "Ines Moreau (Case management lead)"
    ],
    "funnel": [
-    52,
-    14,
+    54,
+    15,
+    8,
     5,
-    3,
-    1,
+    2,
     0
    ],
    "target_days": 35
@@ -299,209 +320,3194 @@
  "hires": [
   {
    "id": "H-1",
-   "team": "Case processing",
-   "title": "Case processing associate",
-   "days_to_hire": 23
+   "team": "Technology & AI",
+   "title": "Practice management (Clio) administrator",
+   "days_to_hire": 35
   },
   {
    "id": "H-2",
-   "team": "Technology & AI",
-   "title": "Practice management (Clio) administrator",
-   "days_to_hire": 50
+   "team": "HR & people ops",
+   "title": "HR generalist",
+   "days_to_hire": 33
   },
   {
    "id": "H-3",
    "team": "Intake",
-   "title": "Intake consultant",
-   "days_to_hire": 38
+   "title": "Intake specialist",
+   "days_to_hire": 27
   },
   {
    "id": "H-4",
-   "team": "Case processing",
-   "title": "Senior case processor",
-   "days_to_hire": 43
+   "team": "Customer success",
+   "title": "Customer success specialist",
+   "days_to_hire": 31
   },
   {
    "id": "H-5",
+   "team": "Legal",
+   "title": "Immigration lawyer",
+   "days_to_hire": 37
+  },
+  {
+   "id": "H-6",
+   "team": "Talent acquisition",
+   "title": "Recruiting coordinator",
+   "days_to_hire": 20
+  },
+  {
+   "id": "H-7",
+   "team": "Legal",
+   "title": "Immigration lawyer",
+   "days_to_hire": 32
+  },
+  {
+   "id": "H-8",
+   "team": "Customer success",
+   "title": "Customer success specialist",
+   "days_to_hire": 27
+  },
+  {
+   "id": "H-9",
+   "team": "Intake",
+   "title": "Intake specialist",
+   "days_to_hire": 21
+  },
+  {
+   "id": "H-10",
+   "team": "Technology & AI",
+   "title": "Automation engineer",
+   "days_to_hire": 41
+  },
+  {
+   "id": "H-11",
    "team": "Legal",
    "title": "Regulated immigration consultant (RCIC)",
    "days_to_hire": 52
   },
   {
-   "id": "H-6",
-   "team": "Operations & people",
-   "title": "People operations generalist",
-   "days_to_hire": 27
-  },
-  {
-   "id": "H-7",
-   "team": "Client success",
-   "title": "Client success specialist",
-   "days_to_hire": 32
-  },
-  {
-   "id": "H-8",
-   "team": "Intake",
-   "title": "Intake consultant",
-   "days_to_hire": 19
-  },
-  {
-   "id": "H-9",
-   "team": "Case processing",
-   "title": "Case processing associate",
-   "days_to_hire": 37
-  },
-  {
-   "id": "H-10",
-   "team": "Legal",
-   "title": "Regulated immigration consultant (RCIC)",
-   "days_to_hire": 32
-  },
-  {
-   "id": "H-11",
-   "team": "Legal",
-   "title": "Immigration lawyer",
-   "days_to_hire": 45
-  },
-  {
    "id": "H-12",
-   "team": "Client success",
-   "title": "Client success team lead",
-   "days_to_hire": 27
-  },
-  {
-   "id": "H-13",
-   "team": "Legal",
-   "title": "Regulated immigration consultant (RCIC)",
-   "days_to_hire": 56
-  },
-  {
-   "id": "H-14",
-   "team": "Client success",
-   "title": "Client success team lead",
-   "days_to_hire": 20
-  },
-  {
-   "id": "H-15",
-   "team": "Operations & people",
-   "title": "Operations analyst",
-   "days_to_hire": 35
-  },
-  {
-   "id": "H-16",
-   "team": "Operations & people",
-   "title": "People operations generalist",
-   "days_to_hire": 22
-  },
-  {
-   "id": "H-17",
-   "team": "Intake",
-   "title": "Bilingual intake consultant (FR/EN)",
-   "days_to_hire": 42
-  },
-  {
-   "id": "H-18",
-   "team": "Case processing",
-   "title": "Case processing associate",
-   "days_to_hire": 40
-  },
-  {
-   "id": "H-19",
-   "team": "Case processing",
-   "title": "Senior case processor",
-   "days_to_hire": 32
-  },
-  {
-   "id": "H-20",
-   "team": "Case processing",
-   "title": "Senior case processor",
+   "team": "Talent acquisition",
+   "title": "Talent acquisition partner",
    "days_to_hire": 34
   },
   {
-   "id": "H-21",
+   "id": "H-13",
+   "team": "Case management",
+   "title": "Case manager",
+   "days_to_hire": 33
+  },
+  {
+   "id": "H-14",
    "team": "Technology & AI",
    "title": "Automation engineer",
-   "days_to_hire": 50
+   "days_to_hire": 36
+  },
+  {
+   "id": "H-15",
+   "team": "HR & people ops",
+   "title": "People operations coordinator",
+   "days_to_hire": 23
+  },
+  {
+   "id": "H-16",
+   "team": "Customer success",
+   "title": "Customer success team lead",
+   "days_to_hire": 25
+  },
+  {
+   "id": "H-17",
+   "team": "Talent acquisition",
+   "title": "Talent acquisition partner",
+   "days_to_hire": 39
+  },
+  {
+   "id": "H-18",
+   "team": "Talent acquisition",
+   "title": "Recruiting coordinator",
+   "days_to_hire": 39
+  },
+  {
+   "id": "H-19",
+   "team": "Case management",
+   "title": "Case management team lead",
+   "days_to_hire": 39
+  },
+  {
+   "id": "H-20",
+   "team": "Case management",
+   "title": "Senior case manager",
+   "days_to_hire": 44
+  },
+  {
+   "id": "H-21",
+   "team": "Customer success",
+   "title": "Customer success team lead",
+   "days_to_hire": 27
   },
   {
    "id": "H-22",
    "team": "Technology & AI",
-   "title": "Automation engineer",
-   "days_to_hire": 40
+   "title": "Practice management (Clio) administrator",
+   "days_to_hire": 38
   }
  ],
  "interviewers": [
   {
-   "name": "Marcus (CS team lead)",
-   "hours": 7.5,
+   "name": "Ines Moreau (Case management lead)",
+   "hours": 8.5,
+   "interviews": 9,
+   "reqs": 6
+  },
+  {
+   "name": "Chloe Baptiste (CS team lead)",
+   "hours": 7.2,
+   "interviews": 8,
+   "reqs": 4
+  },
+  {
+   "name": "Marcus Lee (CS team lead)",
+   "hours": 6.6,
    "interviews": 8,
    "reqs": 2
   },
   {
-   "name": "Chloe (CS team lead)",
-   "hours": 6.9,
+   "name": "Tara Quinn (Recruiting coordinator)",
+   "hours": 5.8,
    "interviews": 7,
-   "reqs": 3
+   "reqs": 4
   },
   {
-   "name": "Ines (Case processing manager)",
-   "hours": 6.6,
-   "interviews": 7,
-   "reqs": 5
-  },
-  {
-   "name": "Dev (Automation engineer)",
-   "hours": 5.1,
+   "name": "Sami Rahal (Intake manager)",
+   "hours": 5.2,
    "interviews": 6,
    "reqs": 3
   },
   {
-   "name": "Grace (Senior RCIC)",
+   "name": "Grace Ilunga (Senior RCIC)",
    "hours": 4.9,
    "interviews": 5,
    "reqs": 2
   },
   {
-   "name": "Kai (Head of Technology)",
-   "hours": 4.3,
-   "interviews": 5,
-   "reqs": 3
-  },
-  {
-   "name": "Sami (Intake manager)",
-   "hours": 4,
-   "interviews": 4,
-   "reqs": 2
-  },
-  {
-   "name": "Ravi (Senior case processor)",
+   "name": "Ravi Menon (Senior case manager)",
    "hours": 3.9,
    "interviews": 4,
    "reqs": 2
   },
   {
-   "name": "Tara (Recruiting coordinator)",
-   "hours": 3.9,
-   "interviews": 4,
-   "reqs": 3
-  },
-  {
-   "name": "Nadia (Senior lawyer)",
+   "name": "Nadia Farouk (Senior lawyer)",
    "hours": 3.4,
    "interviews": 3,
    "reqs": 2
   },
   {
-   "name": "Omar (Senior lawyer)",
+   "name": "Dev Khanna (Automation engineer)",
+   "hours": 2.9,
+   "interviews": 3,
+   "reqs": 2
+  },
+  {
+   "name": "Kai Lindholm (Head of Technology)",
+   "hours": 2.2,
+   "interviews": 2,
+   "reqs": 2
+  },
+  {
+   "name": "Owen Pryce (Senior lawyer)",
    "hours": 1.3,
    "interviews": 1,
    "reqs": 1
   },
   {
-   "name": "Elise (Bilingual intake lead)",
-   "hours": 1.1,
+   "name": "Elise Gagnon (Bilingual intake lead)",
+   "hours": 0.9,
    "interviews": 1,
    "reqs": 1
   }
- ]
+ ],
+ "candidates": [
+  {
+   "id": "REQ-101-0-0",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Wanjiru Pellegrini",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-101-0-1",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Nadia Vasquez",
+   "source": "Referral",
+   "score": 3.3,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-101-0-2",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Kenji Lemaire",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-101-0-3",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Amelia Abara",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-101-0-4",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Zara Ivanova",
+   "source": "Indeed",
+   "score": 4,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-101-0-5",
+   "req": "REQ-101",
+   "stage": "Screened",
+   "name": "Wanjiru Kristensen",
+   "source": "Agency",
+   "score": 4.2,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-101-1-0",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Hyun Hakimi",
+   "source": "Indeed",
+   "score": 3.4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-101-1-1",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Jolene Okonkwo",
+   "source": "Referral",
+   "score": 4.2,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-101-1-2",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Dalia Jaramillo",
+   "source": "LinkedIn",
+   "score": 3.3,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-101-1-3",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Freya Chaudhry",
+   "source": "Indeed",
+   "score": 3.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-101-1-4",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Ximena Hakimi",
+   "source": "Agency",
+   "score": 3.6,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-101-1-5",
+   "req": "REQ-101",
+   "stage": "First interview",
+   "name": "Oskar Takahashi",
+   "source": "Referral",
+   "score": 4.3,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-101-2-0",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Rosa Nguyen",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-101-2-1",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Hyun Jaramillo",
+   "source": "University fair",
+   "score": 4.9,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-101-2-2",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Fitzroy",
+   "source": "LinkedIn",
+   "score": 5,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-101-2-3",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Mirza",
+   "source": "LinkedIn",
+   "score": 4.8,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-101-2-4",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Ekwueme",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-101-2-5",
+   "req": "REQ-101",
+   "stage": "Case or skills exercise",
+   "name": "Zara Jaramillo",
+   "source": "Referral",
+   "score": 3.9,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-101-3-0",
+   "req": "REQ-101",
+   "stage": "Offer",
+   "name": "Oskar Chaudhry",
+   "source": "Referral",
+   "score": 4.7,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-101-3-1",
+   "req": "REQ-101",
+   "stage": "Offer",
+   "name": "Dalia Fitzroy",
+   "source": "University fair",
+   "score": 4.9,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-101-3-2",
+   "req": "REQ-101",
+   "stage": "Offer",
+   "name": "Viktor Ekwueme",
+   "source": "LinkedIn",
+   "score": 4.2,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-101-4-0",
+   "req": "REQ-101",
+   "stage": "Accepted",
+   "name": "Bashir Whitlock",
+   "source": "Referral",
+   "score": 3.9,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-102-0-0",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Ximena Lemaire",
+   "source": "Agency",
+   "score": 3.6,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-102-0-1",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Amelia Okonkwo",
+   "source": "Referral",
+   "score": 4.6,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-102-0-2",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Dalia Abara",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-102-0-3",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Hyun Kristensen",
+   "source": "Careers page",
+   "score": 4.6,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-102-0-4",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Hyun Nguyen",
+   "source": "Agency",
+   "score": 4.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-102-0-5",
+   "req": "REQ-102",
+   "stage": "Screened",
+   "name": "Kenji Bergstrom",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-102-1-0",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Uzma Ekwueme",
+   "source": "LinkedIn",
+   "score": 3.8,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-102-1-1",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Gustavo Whitlock",
+   "source": "Referral",
+   "score": 4.1,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-102-1-2",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Ebuka Hakimi",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-102-1-3",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Oskar Fitzroy",
+   "source": "Referral",
+   "score": 4.6,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-102-1-4",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Mustafa Gallo",
+   "source": "Agency",
+   "score": 3,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-102-1-5",
+   "req": "REQ-102",
+   "stage": "First interview",
+   "name": "Quentin Whitlock",
+   "source": "University fair",
+   "score": 3.2,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-102-2-0",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Ishaan Jaramillo",
+   "source": "Referral",
+   "score": 3.8,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-102-2-1",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Oskar Pellegrini",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-102-2-2",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Lucia Abara",
+   "source": "University fair",
+   "score": 3.6,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-102-2-3",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Ximena Vasquez",
+   "source": "Referral",
+   "score": 4.8,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-102-2-4",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Saldana",
+   "source": "Referral",
+   "score": 4.9,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-102-2-5",
+   "req": "REQ-102",
+   "stage": "Case or skills exercise",
+   "name": "Nadia Umarov",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-102-3-0",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Ximena Chaudhry",
+   "source": "LinkedIn",
+   "score": 3.2,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-102-3-1",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Amelia Okonkwo",
+   "source": "Agency",
+   "score": 3.4,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-102-3-2",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Lucia Lemaire",
+   "source": "Careers page",
+   "score": 5,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-102-3-3",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Ximena Nguyen",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-102-3-4",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Yosef Abara",
+   "source": "Careers page",
+   "score": 5,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-102-3-5",
+   "req": "REQ-102",
+   "stage": "Offer",
+   "name": "Uzma Jaramillo",
+   "source": "Careers page",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-102-4-0",
+   "req": "REQ-102",
+   "stage": "Accepted",
+   "name": "Jolene Abara",
+   "source": "University fair",
+   "score": 3.2,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-102-4-1",
+   "req": "REQ-102",
+   "stage": "Accepted",
+   "name": "Oskar Chaudhry",
+   "source": "University fair",
+   "score": 3.3,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-103-0-0",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Hyun Nguyen",
+   "source": "Indeed",
+   "score": 4.1,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-103-0-1",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Lucia Saldana",
+   "source": "Referral",
+   "score": 4.1,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-103-0-2",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Hyun Vasquez",
+   "source": "Indeed",
+   "score": 4.1,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-103-0-3",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Mustafa Lemaire",
+   "source": "Careers page",
+   "score": 4.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-103-0-4",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Nadia Kristensen",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-103-0-5",
+   "req": "REQ-103",
+   "stage": "Screened",
+   "name": "Nadia Mirza",
+   "source": "Referral",
+   "score": 4.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-103-1-0",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Chen Nguyen",
+   "source": "Agency",
+   "score": 3.6,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-103-1-1",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Quentin Fitzroy",
+   "source": "Agency",
+   "score": 4.8,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-103-1-2",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Ebuka Hakimi",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-103-1-3",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Dalia Ekwueme",
+   "source": "LinkedIn",
+   "score": 3.1,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-103-1-4",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Uzma Ivanova",
+   "source": "Indeed",
+   "score": 4.5,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-103-1-5",
+   "req": "REQ-103",
+   "stage": "First interview",
+   "name": "Zara Hakimi",
+   "source": "Careers page",
+   "score": 3.4,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-103-2-0",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Gustavo Saldana",
+   "source": "Referral",
+   "score": 4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-103-2-1",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Dalia Chaudhry",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-103-2-2",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Chaudhry",
+   "source": "University fair",
+   "score": 3.8,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-103-2-3",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Rosa Hakimi",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-103-2-4",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Whitlock",
+   "source": "University fair",
+   "score": 5,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-103-2-5",
+   "req": "REQ-103",
+   "stage": "Case or skills exercise",
+   "name": "Quentin Duarte",
+   "source": "Careers page",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-103-3-0",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Lucia Jaramillo",
+   "source": "Indeed",
+   "score": 4.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-103-3-1",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Uzma Bergstrom",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-103-3-2",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Sunil Lemaire",
+   "source": "LinkedIn",
+   "score": 3.4,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-103-3-3",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Kenji Gallo",
+   "source": "Indeed",
+   "score": 3.5,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-103-3-4",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Ebuka Okonkwo",
+   "source": "Careers page",
+   "score": 3.9,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-103-3-5",
+   "req": "REQ-103",
+   "stage": "Offer",
+   "name": "Gustavo Ekwueme",
+   "source": "Referral",
+   "score": 3.1,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-103-4-0",
+   "req": "REQ-103",
+   "stage": "Accepted",
+   "name": "Hyun Vasquez",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-103-4-1",
+   "req": "REQ-103",
+   "stage": "Accepted",
+   "name": "Jolene Rasmussen",
+   "source": "Careers page",
+   "score": 3.4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-103-4-2",
+   "req": "REQ-103",
+   "stage": "Accepted",
+   "name": "Viktor Duarte",
+   "source": "Careers page",
+   "score": 3.5,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-103-4-3",
+   "req": "REQ-103",
+   "stage": "Accepted",
+   "name": "Wanjiru Rasmussen",
+   "source": "University fair",
+   "score": 3.8,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-104-0-0",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Kenji Hakimi",
+   "source": "LinkedIn",
+   "score": 3,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-104-0-1",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Zara Umarov",
+   "source": "Careers page",
+   "score": 3.9,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-104-0-2",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Ximena Lemaire",
+   "source": "LinkedIn",
+   "score": 4.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-104-0-3",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Hyun Bergstrom",
+   "source": "LinkedIn",
+   "score": 3.8,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-104-0-4",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Gustavo Okonkwo",
+   "source": "Careers page",
+   "score": 4.9,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-104-0-5",
+   "req": "REQ-104",
+   "stage": "Screened",
+   "name": "Jolene Kristensen",
+   "source": "Referral",
+   "score": 3.5,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-104-1-0",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Dalia Vasquez",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-104-1-1",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Amelia Nguyen",
+   "source": "LinkedIn",
+   "score": 4,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-104-1-2",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Wanjiru Whitlock",
+   "source": "University fair",
+   "score": 4.8,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-104-1-3",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Parisa Rasmussen",
+   "source": "University fair",
+   "score": 4.8,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-104-1-4",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Tamsin Nguyen",
+   "source": "Agency",
+   "score": 4.3,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-104-1-5",
+   "req": "REQ-104",
+   "stage": "First interview",
+   "name": "Ebuka Whitlock",
+   "source": "Careers page",
+   "score": 4.3,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-104-2-0",
+   "req": "REQ-104",
+   "stage": "Case or skills exercise",
+   "name": "Mustafa Jaramillo",
+   "source": "Referral",
+   "score": 3.5,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-104-2-1",
+   "req": "REQ-104",
+   "stage": "Case or skills exercise",
+   "name": "Yosef Hakimi",
+   "source": "Referral",
+   "score": 4.4,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-104-2-2",
+   "req": "REQ-104",
+   "stage": "Case or skills exercise",
+   "name": "Rosa Nguyen",
+   "source": "Agency",
+   "score": 4.9,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-104-2-3",
+   "req": "REQ-104",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Fitzroy",
+   "source": "Agency",
+   "score": 3.1,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-104-2-4",
+   "req": "REQ-104",
+   "stage": "Case or skills exercise",
+   "name": "Amelia Hakimi",
+   "source": "Indeed",
+   "score": 4.1,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-104-3-0",
+   "req": "REQ-104",
+   "stage": "Offer",
+   "name": "Chen Whitlock",
+   "source": "University fair",
+   "score": 3.3,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-104-3-1",
+   "req": "REQ-104",
+   "stage": "Offer",
+   "name": "Zara Kristensen",
+   "source": "Indeed",
+   "score": 4.1,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-104-3-2",
+   "req": "REQ-104",
+   "stage": "Offer",
+   "name": "Rosa Abara",
+   "source": "Referral",
+   "score": 3.4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-104-4-0",
+   "req": "REQ-104",
+   "stage": "Accepted",
+   "name": "Quentin Fitzroy",
+   "source": "Referral",
+   "score": 3.6,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-105-0-0",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Amelia Ivanova",
+   "source": "Indeed",
+   "score": 3.7,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-105-0-1",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Ebuka Ekwueme",
+   "source": "Indeed",
+   "score": 4.9,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-105-0-2",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Kenji Mirza",
+   "source": "LinkedIn",
+   "score": 3.8,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-105-0-3",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Kenji Fitzroy",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-105-0-4",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Mustafa Nguyen",
+   "source": "Referral",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-105-0-5",
+   "req": "REQ-105",
+   "stage": "Screened",
+   "name": "Gustavo Okonkwo",
+   "source": "Agency",
+   "score": 3,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-105-1-0",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Amelia Whitlock",
+   "source": "LinkedIn",
+   "score": 3.2,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-105-1-1",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Gustavo Bergstrom",
+   "source": "Agency",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-105-1-2",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Wanjiru Kristensen",
+   "source": "Agency",
+   "score": 4.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-105-1-3",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Quentin Takahashi",
+   "source": "Referral",
+   "score": 3.7,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-105-1-4",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Freya Lemaire",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-105-1-5",
+   "req": "REQ-105",
+   "stage": "First interview",
+   "name": "Amelia Fitzroy",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-105-2-0",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Viktor Mirza",
+   "source": "Agency",
+   "score": 3.2,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-105-2-1",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Lucia Gallo",
+   "source": "Indeed",
+   "score": 4,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-105-2-2",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Amelia Rasmussen",
+   "source": "LinkedIn",
+   "score": 4.9,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-105-2-3",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Chen Duarte",
+   "source": "Careers page",
+   "score": 3.4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-105-2-4",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Gustavo Fitzroy",
+   "source": "LinkedIn",
+   "score": 4.9,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-105-2-5",
+   "req": "REQ-105",
+   "stage": "Case or skills exercise",
+   "name": "Dalia Takahashi",
+   "source": "LinkedIn",
+   "score": 4.4,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-105-3-0",
+   "req": "REQ-105",
+   "stage": "Offer",
+   "name": "Wanjiru Abara",
+   "source": "Indeed",
+   "score": 4.3,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-105-3-1",
+   "req": "REQ-105",
+   "stage": "Offer",
+   "name": "Tamsin Jaramillo",
+   "source": "Agency",
+   "score": 4.8,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-105-3-2",
+   "req": "REQ-105",
+   "stage": "Offer",
+   "name": "Chen Takahashi",
+   "source": "Indeed",
+   "score": 3.7,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-106-0-0",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Lucia Mirza",
+   "source": "Careers page",
+   "score": 3.3,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-106-0-1",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Gustavo Saldana",
+   "source": "Referral",
+   "score": 4.1,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-106-0-2",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Amelia Bergstrom",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-106-0-3",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Bashir Abara",
+   "source": "University fair",
+   "score": 4.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-106-0-4",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Tamsin Chaudhry",
+   "source": "Agency",
+   "score": 4.1,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-106-0-5",
+   "req": "REQ-106",
+   "stage": "Screened",
+   "name": "Kenji Pellegrini",
+   "source": "Referral",
+   "score": 4.6,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-106-1-0",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Wanjiru Ivanova",
+   "source": "Referral",
+   "score": 4.6,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-106-1-1",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Oskar Umarov",
+   "source": "Careers page",
+   "score": 3,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-106-1-2",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Tamsin Chaudhry",
+   "source": "Agency",
+   "score": 3.3,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-106-1-3",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Tamsin Mirza",
+   "source": "Indeed",
+   "score": 4.2,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-106-1-4",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Lucia Bergstrom",
+   "source": "Careers page",
+   "score": 3.9,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-106-1-5",
+   "req": "REQ-106",
+   "stage": "First interview",
+   "name": "Bashir Abara",
+   "source": "Indeed",
+   "score": 4,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-106-2-0",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Yosef Bergstrom",
+   "source": "Referral",
+   "score": 3.3,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-106-2-1",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Ivanova",
+   "source": "University fair",
+   "score": 3.8,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-106-2-2",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Ivanova",
+   "source": "Careers page",
+   "score": 4.7,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-106-2-3",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Ekwueme",
+   "source": "Referral",
+   "score": 4.9,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-106-2-4",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Bergstrom",
+   "source": "Referral",
+   "score": 3.5,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-106-2-5",
+   "req": "REQ-106",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Lemaire",
+   "source": "Referral",
+   "score": 4.1,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-106-3-0",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Sunil Umarov",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-106-3-1",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Gustavo Takahashi",
+   "source": "Referral",
+   "score": 5,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-106-3-2",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Nadia Umarov",
+   "source": "University fair",
+   "score": 3.8,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-106-3-3",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Bashir Pellegrini",
+   "source": "Indeed",
+   "score": 4.9,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-106-3-4",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Viktor Chaudhry",
+   "source": "LinkedIn",
+   "score": 4.5,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-106-3-5",
+   "req": "REQ-106",
+   "stage": "Offer",
+   "name": "Gustavo Mirza",
+   "source": "Agency",
+   "score": 3.3,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-106-4-0",
+   "req": "REQ-106",
+   "stage": "Accepted",
+   "name": "Chen Jaramillo",
+   "source": "Indeed",
+   "score": 3.6,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-106-4-1",
+   "req": "REQ-106",
+   "stage": "Accepted",
+   "name": "Rosa Duarte",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-107-0-0",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Ebuka Fitzroy",
+   "source": "Agency",
+   "score": 4.8,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-107-0-1",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Jolene Bergstrom",
+   "source": "LinkedIn",
+   "score": 4,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-107-0-2",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Sunil Ivanova",
+   "source": "Careers page",
+   "score": 3.3,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-107-0-3",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Ishaan Jaramillo",
+   "source": "LinkedIn",
+   "score": 4.2,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-107-0-4",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Lucia Fitzroy",
+   "source": "Careers page",
+   "score": 3.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-107-0-5",
+   "req": "REQ-107",
+   "stage": "Screened",
+   "name": "Kenji Gallo",
+   "source": "University fair",
+   "score": 4.1,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-107-1-0",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Parisa Nguyen",
+   "source": "Careers page",
+   "score": 4.4,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-107-1-1",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Zara Lemaire",
+   "source": "Indeed",
+   "score": 3.1,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-107-1-2",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Bashir Lemaire",
+   "source": "Agency",
+   "score": 3.1,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-107-1-3",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Yosef Ivanova",
+   "source": "Agency",
+   "score": 3.1,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-107-1-4",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Tamsin Gallo",
+   "source": "University fair",
+   "score": 3.5,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-107-1-5",
+   "req": "REQ-107",
+   "stage": "First interview",
+   "name": "Wanjiru Ivanova",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-107-2-0",
+   "req": "REQ-107",
+   "stage": "Case or skills exercise",
+   "name": "Bashir Ivanova",
+   "source": "University fair",
+   "score": 3.6,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-107-2-1",
+   "req": "REQ-107",
+   "stage": "Case or skills exercise",
+   "name": "Quentin Rasmussen",
+   "source": "Careers page",
+   "score": 4.5,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-107-2-2",
+   "req": "REQ-107",
+   "stage": "Case or skills exercise",
+   "name": "Chen Mirza",
+   "source": "Referral",
+   "score": 3.6,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-107-2-3",
+   "req": "REQ-107",
+   "stage": "Case or skills exercise",
+   "name": "Viktor Jaramillo",
+   "source": "LinkedIn",
+   "score": 3.2,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-107-3-0",
+   "req": "REQ-107",
+   "stage": "Offer",
+   "name": "Mustafa Chaudhry",
+   "source": "Agency",
+   "score": 3.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-107-3-1",
+   "req": "REQ-107",
+   "stage": "Offer",
+   "name": "Sunil Rasmussen",
+   "source": "University fair",
+   "score": 4.8,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-107-4-0",
+   "req": "REQ-107",
+   "stage": "Accepted",
+   "name": "Dalia Takahashi",
+   "source": "Indeed",
+   "score": 3.3,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-108-0-0",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Amelia Chaudhry",
+   "source": "Indeed",
+   "score": 5,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-108-0-1",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Yosef Nguyen",
+   "source": "LinkedIn",
+   "score": 4.2,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-108-0-2",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Yosef Duarte",
+   "source": "Careers page",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-108-0-3",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Viktor Bergstrom",
+   "source": "Indeed",
+   "score": 3.2,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-0-4",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Tamsin Chaudhry",
+   "source": "Referral",
+   "score": 3.3,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-108-0-5",
+   "req": "REQ-108",
+   "stage": "Screened",
+   "name": "Zara Abara",
+   "source": "Careers page",
+   "score": 3.3,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-1-0",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Freya Hakimi",
+   "source": "University fair",
+   "score": 4.4,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-108-1-1",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Parisa Pellegrini",
+   "source": "University fair",
+   "score": 3.6,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-1-2",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Oskar Ekwueme",
+   "source": "Referral",
+   "score": 4.3,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-108-1-3",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Ximena Whitlock",
+   "source": "Indeed",
+   "score": 3.5,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-108-1-4",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Quentin Lemaire",
+   "source": "Indeed",
+   "score": 3.2,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-108-1-5",
+   "req": "REQ-108",
+   "stage": "First interview",
+   "name": "Mustafa Saldana",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-108-2-0",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Chaudhry",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-108-2-1",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Bashir Ivanova",
+   "source": "LinkedIn",
+   "score": 5,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-108-2-2",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Wanjiru Jaramillo",
+   "source": "LinkedIn",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-108-2-3",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Amelia Vasquez",
+   "source": "University fair",
+   "score": 3.9,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-108-2-4",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Ximena Hakimi",
+   "source": "Agency",
+   "score": 3.1,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-108-2-5",
+   "req": "REQ-108",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Vasquez",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-108-3-0",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Quentin Pellegrini",
+   "source": "University fair",
+   "score": 4.6,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-108-3-1",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Tamsin Nguyen",
+   "source": "Careers page",
+   "score": 3.1,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-3-2",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Mustafa Lemaire",
+   "source": "Indeed",
+   "score": 4.3,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-108-3-3",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Wanjiru Pellegrini",
+   "source": "Indeed",
+   "score": 4.3,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-3-4",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Ximena Rasmussen",
+   "source": "Careers page",
+   "score": 3.7,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-108-3-5",
+   "req": "REQ-108",
+   "stage": "Offer",
+   "name": "Nadia Vasquez",
+   "source": "University fair",
+   "score": 4.8,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-108-4-0",
+   "req": "REQ-108",
+   "stage": "Accepted",
+   "name": "Chen Ekwueme",
+   "source": "Indeed",
+   "score": 4.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-108-4-1",
+   "req": "REQ-108",
+   "stage": "Accepted",
+   "name": "Hyun Kristensen",
+   "source": "Careers page",
+   "score": 4.7,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-109-0-0",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Oskar Hakimi",
+   "source": "Referral",
+   "score": 3.9,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-109-0-1",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Tamsin Vasquez",
+   "source": "Agency",
+   "score": 4.1,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-109-0-2",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Chen Whitlock",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-109-0-3",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Jolene Pellegrini",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-109-0-4",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Mustafa Jaramillo",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-109-0-5",
+   "req": "REQ-109",
+   "stage": "Screened",
+   "name": "Bashir Vasquez",
+   "source": "University fair",
+   "score": 4.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-109-1-0",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Viktor Bergstrom",
+   "source": "Careers page",
+   "score": 3.8,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-109-1-1",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Amelia Fitzroy",
+   "source": "Careers page",
+   "score": 4.7,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-109-1-2",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Parisa Abara",
+   "source": "Agency",
+   "score": 4.6,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-109-1-3",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Hyun Vasquez",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-109-1-4",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Wanjiru Takahashi",
+   "source": "LinkedIn",
+   "score": 3.2,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-109-1-5",
+   "req": "REQ-109",
+   "stage": "First interview",
+   "name": "Ximena Lemaire",
+   "source": "University fair",
+   "score": 4.2,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-109-2-0",
+   "req": "REQ-109",
+   "stage": "Case or skills exercise",
+   "name": "Oskar Saldana",
+   "source": "Agency",
+   "score": 5,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-109-2-1",
+   "req": "REQ-109",
+   "stage": "Case or skills exercise",
+   "name": "Dalia Pellegrini",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-109-2-2",
+   "req": "REQ-109",
+   "stage": "Case or skills exercise",
+   "name": "Uzma Nguyen",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-109-2-3",
+   "req": "REQ-109",
+   "stage": "Case or skills exercise",
+   "name": "Hyun Pellegrini",
+   "source": "LinkedIn",
+   "score": 4.6,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-109-3-0",
+   "req": "REQ-109",
+   "stage": "Offer",
+   "name": "Wanjiru Rasmussen",
+   "source": "Careers page",
+   "score": 3.8,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-109-3-1",
+   "req": "REQ-109",
+   "stage": "Offer",
+   "name": "Parisa Mirza",
+   "source": "Referral",
+   "score": 4.4,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-110-0-0",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Jolene Bergstrom",
+   "source": "LinkedIn",
+   "score": 4.1,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-110-0-1",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Bashir Chaudhry",
+   "source": "Careers page",
+   "score": 5,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-110-0-2",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Viktor Gallo",
+   "source": "Indeed",
+   "score": 4.3,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-110-0-3",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Chen Kristensen",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-110-0-4",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Freya Nguyen",
+   "source": "Agency",
+   "score": 4.7,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-110-0-5",
+   "req": "REQ-110",
+   "stage": "Screened",
+   "name": "Ebuka Abara",
+   "source": "Indeed",
+   "score": 3.4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-110-1-0",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Kenji Ivanova",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-110-1-1",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Freya Bergstrom",
+   "source": "LinkedIn",
+   "score": 4.5,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-110-1-2",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Sunil Kristensen",
+   "source": "Indeed",
+   "score": 4.9,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-110-1-3",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Chen Fitzroy",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-110-1-4",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Viktor Bergstrom",
+   "source": "Agency",
+   "score": 4.6,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-110-1-5",
+   "req": "REQ-110",
+   "stage": "First interview",
+   "name": "Gustavo Chaudhry",
+   "source": "Referral",
+   "score": 4.8,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-110-2-0",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Zara Abara",
+   "source": "LinkedIn",
+   "score": 3,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-110-2-1",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Mustafa Lemaire",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-110-2-2",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Fitzroy",
+   "source": "Careers page",
+   "score": 3.3,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-110-2-3",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Chen Mirza",
+   "source": "Careers page",
+   "score": 3.1,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-110-2-4",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Hakimi",
+   "source": "LinkedIn",
+   "score": 5,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-110-2-5",
+   "req": "REQ-110",
+   "stage": "Case or skills exercise",
+   "name": "Lucia Ekwueme",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-110-3-0",
+   "req": "REQ-110",
+   "stage": "Offer",
+   "name": "Sunil Duarte",
+   "source": "Agency",
+   "score": 4.1,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-110-3-1",
+   "req": "REQ-110",
+   "stage": "Offer",
+   "name": "Tamsin Jaramillo",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-110-3-2",
+   "req": "REQ-110",
+   "stage": "Offer",
+   "name": "Nadia Jaramillo",
+   "source": "Agency",
+   "score": 4.5,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-110-3-3",
+   "req": "REQ-110",
+   "stage": "Offer",
+   "name": "Dalia Pellegrini",
+   "source": "LinkedIn",
+   "score": 4.4,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-111-0-0",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Yosef Hakimi",
+   "source": "Careers page",
+   "score": 4,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-111-0-1",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Bashir Kristensen",
+   "source": "Agency",
+   "score": 4.7,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-111-0-2",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Wanjiru Ekwueme",
+   "source": "Careers page",
+   "score": 3.1,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-111-0-3",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Bashir Jaramillo",
+   "source": "Agency",
+   "score": 4.4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-111-0-4",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Lucia Gallo",
+   "source": "Referral",
+   "score": 3.1,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-111-0-5",
+   "req": "REQ-111",
+   "stage": "Screened",
+   "name": "Parisa Nguyen",
+   "source": "Referral",
+   "score": 3.9,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-111-1-0",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Oskar Lemaire",
+   "source": "University fair",
+   "score": 4.2,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-111-1-1",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Chen Mirza",
+   "source": "Referral",
+   "score": 3.3,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-111-1-2",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Yosef Jaramillo",
+   "source": "Agency",
+   "score": 4.8,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-111-1-3",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Nadia Mirza",
+   "source": "Indeed",
+   "score": 3.3,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-111-1-4",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Kenji Bergstrom",
+   "source": "LinkedIn",
+   "score": 3.9,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-111-1-5",
+   "req": "REQ-111",
+   "stage": "First interview",
+   "name": "Kenji Lemaire",
+   "source": "Indeed",
+   "score": 4.7,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-111-2-0",
+   "req": "REQ-111",
+   "stage": "Case or skills exercise",
+   "name": "Ximena Saldana",
+   "source": "Referral",
+   "score": 4.1,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-111-2-1",
+   "req": "REQ-111",
+   "stage": "Case or skills exercise",
+   "name": "Oskar Nguyen",
+   "source": "Careers page",
+   "score": 3.8,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-111-2-2",
+   "req": "REQ-111",
+   "stage": "Case or skills exercise",
+   "name": "Mustafa Umarov",
+   "source": "Careers page",
+   "score": 3,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-111-2-3",
+   "req": "REQ-111",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Chaudhry",
+   "source": "Referral",
+   "score": 3.8,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-111-2-4",
+   "req": "REQ-111",
+   "stage": "Case or skills exercise",
+   "name": "Chen Gallo",
+   "source": "Indeed",
+   "score": 4.2,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-111-3-0",
+   "req": "REQ-111",
+   "stage": "Offer",
+   "name": "Gustavo Ekwueme",
+   "source": "Referral",
+   "score": 3.9,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-111-3-1",
+   "req": "REQ-111",
+   "stage": "Offer",
+   "name": "Uzma Abara",
+   "source": "Indeed",
+   "score": 3.3,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-111-3-2",
+   "req": "REQ-111",
+   "stage": "Offer",
+   "name": "Lucia Hakimi",
+   "source": "Referral",
+   "score": 4.3,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-112-0-0",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Zara Ivanova",
+   "source": "Referral",
+   "score": 4.5,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-112-0-1",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Rosa Pellegrini",
+   "source": "Careers page",
+   "score": 3.5,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-112-0-2",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Jolene Vasquez",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-112-0-3",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Dalia Hakimi",
+   "source": "Indeed",
+   "score": 3.1,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-112-0-4",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Zara Jaramillo",
+   "source": "University fair",
+   "score": 3.3,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-112-0-5",
+   "req": "REQ-112",
+   "stage": "Screened",
+   "name": "Viktor Gallo",
+   "source": "LinkedIn",
+   "score": 4.2,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-112-1-0",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Quentin Duarte",
+   "source": "Indeed",
+   "score": 3.8,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-112-1-1",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Quentin Jaramillo",
+   "source": "University fair",
+   "score": 4.5,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-112-1-2",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Tamsin Gallo",
+   "source": "Agency",
+   "score": 4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-112-1-3",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Viktor Saldana",
+   "source": "Careers page",
+   "score": 4.6,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-112-1-4",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Rosa Pellegrini",
+   "source": "LinkedIn",
+   "score": 4.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-112-1-5",
+   "req": "REQ-112",
+   "stage": "First interview",
+   "name": "Ximena Ivanova",
+   "source": "Careers page",
+   "score": 4.4,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-112-2-0",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Freya Ekwueme",
+   "source": "LinkedIn",
+   "score": 3.9,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-112-2-1",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Jolene Lemaire",
+   "source": "Agency",
+   "score": 3.3,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-112-2-2",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Tamsin Ivanova",
+   "source": "Careers page",
+   "score": 3.3,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-112-2-3",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Dalia Bergstrom",
+   "source": "University fair",
+   "score": 4.4,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-112-2-4",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Hyun Vasquez",
+   "source": "Indeed",
+   "score": 3.8,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-112-2-5",
+   "req": "REQ-112",
+   "stage": "Case or skills exercise",
+   "name": "Jolene Whitlock",
+   "source": "Referral",
+   "score": 4.2,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-112-3-0",
+   "req": "REQ-112",
+   "stage": "Offer",
+   "name": "Kenji Hakimi",
+   "source": "Indeed",
+   "score": 4.2,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-112-3-1",
+   "req": "REQ-112",
+   "stage": "Offer",
+   "name": "Quentin Abara",
+   "source": "Agency",
+   "score": 3.5,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-112-3-2",
+   "req": "REQ-112",
+   "stage": "Offer",
+   "name": "Nadia Nguyen",
+   "source": "Agency",
+   "score": 3.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-113-0-0",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Gustavo Ivanova",
+   "source": "Referral",
+   "score": 4.6,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-113-0-1",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Amelia Takahashi",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-113-0-2",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Tamsin Rasmussen",
+   "source": "Indeed",
+   "score": 4.8,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-113-0-3",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Mustafa Umarov",
+   "source": "Agency",
+   "score": 4.4,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-113-0-4",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Gustavo Okonkwo",
+   "source": "Agency",
+   "score": 4.5,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-113-0-5",
+   "req": "REQ-113",
+   "stage": "Screened",
+   "name": "Uzma Fitzroy",
+   "source": "LinkedIn",
+   "score": 4.6,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-113-1-0",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Amelia Chaudhry",
+   "source": "Agency",
+   "score": 4.2,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-113-1-1",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Dalia Nguyen",
+   "source": "Referral",
+   "score": 4.7,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-113-1-2",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Dalia Ekwueme",
+   "source": "Indeed",
+   "score": 3.6,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-113-1-3",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Bashir Nguyen",
+   "source": "Indeed",
+   "score": 4.5,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-113-1-4",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Uzma Fitzroy",
+   "source": "Agency",
+   "score": 5,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-113-1-5",
+   "req": "REQ-113",
+   "stage": "First interview",
+   "name": "Lucia Gallo",
+   "source": "Careers page",
+   "score": 3.5,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-113-2-0",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Yosef Okonkwo",
+   "source": "Agency",
+   "score": 3.2,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-113-2-1",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Ebuka Okonkwo",
+   "source": "Indeed",
+   "score": 3.8,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-113-2-2",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Chen Okonkwo",
+   "source": "LinkedIn",
+   "score": 4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-113-2-3",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Kenji Lemaire",
+   "source": "Indeed",
+   "score": 3.6,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-113-2-4",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Ishaan Pellegrini",
+   "source": "University fair",
+   "score": 4.2,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-113-2-5",
+   "req": "REQ-113",
+   "stage": "Case or skills exercise",
+   "name": "Chen Chaudhry",
+   "source": "LinkedIn",
+   "score": 4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-113-3-0",
+   "req": "REQ-113",
+   "stage": "Offer",
+   "name": "Jolene Abara",
+   "source": "Agency",
+   "score": 3.1,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-113-3-1",
+   "req": "REQ-113",
+   "stage": "Offer",
+   "name": "Jolene Hakimi",
+   "source": "Referral",
+   "score": 4.9,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-113-3-2",
+   "req": "REQ-113",
+   "stage": "Offer",
+   "name": "Viktor Rasmussen",
+   "source": "Indeed",
+   "score": 4.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-113-3-3",
+   "req": "REQ-113",
+   "stage": "Offer",
+   "name": "Bashir Ivanova",
+   "source": "Indeed",
+   "score": 3.1,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-114-0-0",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Lucia Saldana",
+   "source": "LinkedIn",
+   "score": 3.4,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-114-0-1",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Sunil Ivanova",
+   "source": "LinkedIn",
+   "score": 3.9,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-114-0-2",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Sunil Lemaire",
+   "source": "Careers page",
+   "score": 3.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-114-0-3",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Zara Duarte",
+   "source": "LinkedIn",
+   "score": 4.1,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-114-0-4",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Hyun Jaramillo",
+   "source": "Careers page",
+   "score": 4.2,
+   "days_in_stage": 10
+  },
+  {
+   "id": "REQ-114-0-5",
+   "req": "REQ-114",
+   "stage": "Screened",
+   "name": "Wanjiru Jaramillo",
+   "source": "LinkedIn",
+   "score": 4.9,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-114-1-0",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Ximena Ekwueme",
+   "source": "Agency",
+   "score": 3.9,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-114-1-1",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Sunil Abara",
+   "source": "University fair",
+   "score": 4,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-114-1-2",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Wanjiru Jaramillo",
+   "source": "Referral",
+   "score": 4.8,
+   "days_in_stage": 1
+  },
+  {
+   "id": "REQ-114-1-3",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Ishaan Whitlock",
+   "source": "Careers page",
+   "score": 3.2,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-114-1-4",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Dalia Gallo",
+   "source": "University fair",
+   "score": 4.4,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-114-1-5",
+   "req": "REQ-114",
+   "stage": "First interview",
+   "name": "Mustafa Abara",
+   "source": "Agency",
+   "score": 4.9,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-114-2-0",
+   "req": "REQ-114",
+   "stage": "Case or skills exercise",
+   "name": "Lucia Rasmussen",
+   "source": "LinkedIn",
+   "score": 4.6,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-114-2-1",
+   "req": "REQ-114",
+   "stage": "Case or skills exercise",
+   "name": "Lucia Fitzroy",
+   "source": "University fair",
+   "score": 3.8,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-114-2-2",
+   "req": "REQ-114",
+   "stage": "Case or skills exercise",
+   "name": "Rosa Chaudhry",
+   "source": "Careers page",
+   "score": 3.1,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-114-2-3",
+   "req": "REQ-114",
+   "stage": "Case or skills exercise",
+   "name": "Dalia Lemaire",
+   "source": "University fair",
+   "score": 3.2,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-114-2-4",
+   "req": "REQ-114",
+   "stage": "Case or skills exercise",
+   "name": "Chen Okonkwo",
+   "source": "Careers page",
+   "score": 3.9,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-114-3-0",
+   "req": "REQ-114",
+   "stage": "Offer",
+   "name": "Ishaan Umarov",
+   "source": "Referral",
+   "score": 3.4,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-114-3-1",
+   "req": "REQ-114",
+   "stage": "Offer",
+   "name": "Kenji Takahashi",
+   "source": "University fair",
+   "score": 3.9,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-114-4-0",
+   "req": "REQ-114",
+   "stage": "Accepted",
+   "name": "Gustavo Kristensen",
+   "source": "Referral",
+   "score": 3.3,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-115-0-0",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Lucia Okonkwo",
+   "source": "University fair",
+   "score": 4.1,
+   "days_in_stage": 3
+  },
+  {
+   "id": "REQ-115-0-1",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Lucia Ekwueme",
+   "source": "Indeed",
+   "score": 3.8,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-115-0-2",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Lucia Jaramillo",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 11
+  },
+  {
+   "id": "REQ-115-0-3",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Kenji Takahashi",
+   "source": "LinkedIn",
+   "score": 4.5,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-115-0-4",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Tamsin Duarte",
+   "source": "Indeed",
+   "score": 4.5,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-115-0-5",
+   "req": "REQ-115",
+   "stage": "Screened",
+   "name": "Nadia Vasquez",
+   "source": "Indeed",
+   "score": 4.3,
+   "days_in_stage": 7
+  },
+  {
+   "id": "REQ-115-1-0",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Tamsin Saldana",
+   "source": "Indeed",
+   "score": 3.4,
+   "days_in_stage": 2
+  },
+  {
+   "id": "REQ-115-1-1",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Nadia Vasquez",
+   "source": "Agency",
+   "score": 4.6,
+   "days_in_stage": 5
+  },
+  {
+   "id": "REQ-115-1-2",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Rosa Hakimi",
+   "source": "University fair",
+   "score": 3.4,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-115-1-3",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Mustafa Mirza",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 8
+  },
+  {
+   "id": "REQ-115-1-4",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Gustavo Kristensen",
+   "source": "Careers page",
+   "score": 4.5,
+   "days_in_stage": 12
+  },
+  {
+   "id": "REQ-115-1-5",
+   "req": "REQ-115",
+   "stage": "First interview",
+   "name": "Ishaan Pellegrini",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-115-2-0",
+   "req": "REQ-115",
+   "stage": "Case or skills exercise",
+   "name": "Nadia Gallo",
+   "source": "Indeed",
+   "score": 3.9,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-115-2-1",
+   "req": "REQ-115",
+   "stage": "Case or skills exercise",
+   "name": "Yosef Hakimi",
+   "source": "Agency",
+   "score": 3.7,
+   "days_in_stage": 0
+  },
+  {
+   "id": "REQ-115-2-2",
+   "req": "REQ-115",
+   "stage": "Case or skills exercise",
+   "name": "Wanjiru Kristensen",
+   "source": "Agency",
+   "score": 4.4,
+   "days_in_stage": 9
+  },
+  {
+   "id": "REQ-115-2-3",
+   "req": "REQ-115",
+   "stage": "Case or skills exercise",
+   "name": "Bashir Takahashi",
+   "source": "Referral",
+   "score": 3.7,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-115-2-4",
+   "req": "REQ-115",
+   "stage": "Case or skills exercise",
+   "name": "Mustafa Bergstrom",
+   "source": "Referral",
+   "score": 3.2,
+   "days_in_stage": 4
+  },
+  {
+   "id": "REQ-115-3-0",
+   "req": "REQ-115",
+   "stage": "Offer",
+   "name": "Oskar Jaramillo",
+   "source": "Referral",
+   "score": 3.5,
+   "days_in_stage": 6
+  },
+  {
+   "id": "REQ-115-3-1",
+   "req": "REQ-115",
+   "stage": "Offer",
+   "name": "Freya Gallo",
+   "source": "LinkedIn",
+   "score": 3.8,
+   "days_in_stage": 3
+  }
+ ],
+ "offers_120d": {
+  "made": 27,
+  "accepted": 22
+ }
 }

@@ -15,13 +15,16 @@ test("committed data is exactly what the generator produces (deterministic)", ()
   assert.equal(data("hiring.json"), JSON.stringify(generateHiring(), null, 1) + "\n");
 });
 
-test("inbox: 300 messages, all five areas, both channels, received before the fixed clock, unique ids", () => {
+test("inbox: 340 messages over 30 days, all five areas and four channels, unique ids and file numbers look right", () => {
   const inbox = generateInbox();
-  assert.equal(inbox.length, 300);
+  assert.equal(inbox.length, 340);
   for (const a of AREAS) assert.ok(inbox.some((m) => m.truth.area === a), a);
-  assert.ok(inbox.some((m) => m.channel === "email") && inbox.some((m) => m.channel === "portal"));
-  assert.ok(inbox.every((m) => m.received_at < INBOX_NOW));
-  assert.equal(new Set(inbox.map((m) => m.id)).size, 300);
+  for (const c of ["email", "portal", "phone", "review"]) assert.ok(inbox.some((m) => m.channel === c), c);
+  assert.ok(inbox.every((m) => m.received_at < INBOX_NOW && Date.parse(INBOX_NOW) - Date.parse(m.received_at) <= 30 * 86_400_000));
+  assert.equal(new Set(inbox.map((m) => m.id)).size, 340);
+  assert.ok(inbox.every((m) => m.matter === null || /^CV-2026-\d{5}$/.test(m.matter)));
+  assert.ok(inbox.every((m) => m.thread.every((t) => t.at < m.received_at)), "threads precede the message");
+  assert.ok(inbox.some((m) => m.status === "Resolved") && inbox.some((m) => m.status === "New") && inbox.some((m) => m.status === "Escalated"));
   assert.ok(inbox.every((m) => !/@|\d{3}[- ]\d{3}[- ]\d{4}/.test(m.body)), "no emails or phone numbers in synthetic text");
 });
 

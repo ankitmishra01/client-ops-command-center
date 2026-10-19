@@ -8,11 +8,14 @@ A fast-growing immigration practice does not need more people answering "where i
 
 ## Pages
 
-1. **Triage** (`/triage/`). 300 synthetic email and portal messages across five practice areas (Express Entry, work permits, family sponsorship, citizenship, criminal inadmissibility). Each one is labelled by practice area, intent, root cause, tone, stated deadline and escalation risk, and every label shows the rule and the phrase that produced it. SLA queues (breached, at risk, P1 deadline), owner routing with reassignment, and a suggested reply for a person to approve. A "try a message" box runs the rules live.
-2. **CSAT & reviews** (`/csat/`). 26 weeks of synthetic history by practice area: the headline KPI (escalations per 100 open files), CSAT, Google rating and volume, silent files, speed to first contact, missed consultations, and root causes ranked by how much volume each system fix would remove.
-3. **Hiring** (`/hiring/`). Scaling from 60 to about 100 staff: headcount plan by team, funnel and live requisitions, time to hire, interviewer load against a weekly limit, and an onboarding checklist that shows who is behind and which steps run themselves.
-4. **90 days & business case** (`/plan/`). Baseline (days 1 to 30), build and pilot triage in one practice area (31 to 60), scale to all five (61 to 90), each with a checkpoint. A scorecard with baselines and targets. An editable model: messages avoided × handling time → hours saved → hires deferred, with every assumption labelled.
+0. **Home** (`/`). The story on one screen: the headline KPI (escalations per 100 open files) with a simulated 90-day target, four KPI tiles, a 60-second tour, and why each module matters for the role.
+1. **Triage** (`/triage/`). Opens on one worked example (a client who paid, heard nothing for 12 days and posted a one-star review), then the full queue: 340 synthetic messages over 30 days from email, the client portal, phone notes and Google reviews, across five practice areas (Express Entry, work permits, family sponsorship, citizenship, criminal inadmissibility). Each message is labelled by practice area, intent, root cause, tone, stated deadline and escalation risk, and every label shows the rule and the phrase that produced it. Live SLA timers, statuses (New, In progress, Waiting on client, Escalated, Resolved), fictional case managers and file numbers, queues, filters, search, sortable columns and a date range. The drawer shows the thread, the reasoning, the suggested owner and a reply draft with Approve and Edit (nothing is sent). A "try a message" box runs the rules live.
+2. **CSAT & reviews** (`/csat/`). 26 weeks of synthetic history by practice area with a date range: escalations per 100 open files, CSAT, Google rating and volume, silent files, speed to first contact and missed consultations; root causes ranked by how much volume each system fix would remove; a feed of 84 reviews with auto-tagged themes; and today's list of 52 silent files with owners.
+3. **Hiring** (`/hiring/`). Scaling from 60 to about 100 staff: headcount plan by team, funnel and 15 live requisitions, a candidate board by stage, time to hire, offer acceptance, interviewer load against a weekly limit, and onboarding progress for each new hire.
+4. **First 90 days** (`/plan/`). A week-by-week timeline (baseline, build and pilot triage in one practice area, scale to all five) with checkpoints, a KPI scorecard with baselines and targets, and a slider model: messages avoided × handling time → hours saved → hires deferred, with every assumption labelled.
 5. **About** (`/about/`). What is real and what is illustrative, how the data is made, limits, how it would connect to the practice management system, email and the client portal, privacy and privilege.
+
+The signed-in user, notifications and "last synced" line are simulated product chrome; there are no live connections.
 
 ## Reply drafts and guardrails
 
@@ -46,7 +49,7 @@ All in [`app/src/lib/classify.ts`](app/src/lib/classify.ts) and [`app/src/lib/ro
 
 - Next.js 15, React 19, TypeScript. Static pages from committed JSON in `app/data/`, plus one optional API route. No database, no environment variables needed.
 - Design: Ankit Mishra's house design language (ink, paper, violet; hairlines; 4px radius). Deliberately not any firm's branding.
-- Tests: 23 Node tests covering the classifier, deadlines, SLA, routing, draft guardrails and lawyer sign-off, the business-case model, and data invariants (including that the committed JSON matches the generator exactly). CI runs typecheck, tests and build on every push.
+- Tests: 25 Node tests covering the classifier, deadlines, SLA, routing, draft guardrails and lawyer sign-off, the business-case model, and data invariants (including that the committed JSON matches the generator exactly). CI runs typecheck, tests and build on every push.
 - `noindex` on every page.
 - Built with Claude Code, with the author deciding the scope, the rules, every threshold and every sentence.
 
@@ -69,8 +72,8 @@ Node 22.18 or later runs the TypeScript generator and tests directly.
 app/src/lib/taxonomy.ts   practice areas, intents, root causes, system fixes, SLA targets
 app/src/lib/classify.ts   rules, deadline parsing, sentiment, priority, escalation risk, SLA
 app/src/lib/routing.ts    owners, reply templates, template library, approver, guardrails
-app/src/lib/generate.ts   synthetic inbox and 26-week history
-app/src/lib/hiring.ts     synthetic requisitions, interviewers, onboarding checklist
+app/src/lib/generate.ts   synthetic inbox, 26-week history, reviews, silent files
+app/src/lib/hiring.ts     synthetic requisitions, candidates, interviewers, onboarding checklist
 app/src/lib/metrics.ts    dashboard aggregations, root-cause clusters, rule agreement
 app/src/lib/model.ts      business-case model
 app/src/app/              pages: /, /triage, /csat, /hiring, /plan, /about, /api/classify

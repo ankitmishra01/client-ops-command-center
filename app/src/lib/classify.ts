@@ -1,4 +1,4 @@
-import { AREAS, SLA_HOURS, type Area, type Intent, type Priority, type RootCause, type Sentiment } from "./taxonomy.ts";
+import { AREAS, ROOT_LABEL, SLA_HOURS, type Area, type Intent, type Priority, type RootCause, type Sentiment } from "./taxonomy.ts";
 
 /** Deterministic, explainable classifier. Every label carries the rule and the phrases that produced it,
  *  so a reviewer can see why a message landed where it did and correct the rule rather than the output. */
@@ -85,8 +85,9 @@ export function extractDeadline(text: string, receivedAt: Date): { days: number 
   if (abs) {
     const m = MONTHS.indexOf(abs[1].slice(0, 3).toLowerCase());
     let d = new Date(Date.UTC(receivedAt.getUTCFullYear(), m, Number(abs[2]), 23));
-    if (d.getTime() < receivedAt.getTime() - 86_400_000 * 30) d = new Date(Date.UTC(receivedAt.getUTCFullYear() + 1, m, Number(abs[2]), 23));
-    return { days: Math.max(0, Math.round((d.getTime() - receivedAt.getTime()) / 86_400_000)), match: abs[0] };
+    if (d.getTime() < receivedAt.getTime() - 86_400_000 * 180) d = new Date(Date.UTC(receivedAt.getUTCFullYear() + 1, m, Number(abs[2]), 23));
+    // A past date ("we paid on October 7") is history, not a deadline; a future date needs a deadline word nearby.
+    if (d.getTime() >= receivedAt.getTime() - 86_400_000 && cue.test(text)) return { days: Math.max(0, Math.round((d.getTime() - receivedAt.getTime()) / 86_400_000)), match: abs[0] };
   }
   return { days: null, match: null };
 }
@@ -150,3 +151,11 @@ export function slaStatus(priority: Priority, receivedAt: string, now: string): 
 }
 
 export const ALL_AREAS = AREAS;
+
+const POSITIVE_THEMES: [string, RegExp][] = [["Responsive", /responsive|quick|always knew/i], ["Clear guidance", /explained|clear about|guidance|thorough/i], ["Good outcome", /approved|good result|outcome was fine/i], ["Caught errors", /caught a mistake/i]];
+/** Themes for a public review: every root-cause rule that matches (not just the first), plus positive themes. */
+export function reviewThemes(text: string): { label: string; tone: "neg" | "pos"; root?: RootCause }[] {
+  const neg = ROOT_RULES.filter((r) => r.patterns.some((p) => p.test(text))).map((r) => ({ label: ROOT_LABEL[r.label], tone: "neg" as const, root: r.label }));
+  const pos = POSITIVE_THEMES.filter(([, p]) => p.test(text)).map(([label]) => ({ label, tone: "pos" as const }));
+  return [...neg, ...pos];
+}

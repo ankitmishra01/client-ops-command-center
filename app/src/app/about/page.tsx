@@ -26,9 +26,11 @@ export default function Page() {
         <div className="card">
           <h2>How the synthetic data is made</h2>
           <ul className="clean small">
-            <li><strong>Inbox:</strong> 300 messages over five days, built from 31 message templates across eight intents and eight root causes, with practice-area wording, optional deadlines (13% of messages, 2 to 28 days out) and everyday noise. Each message keeps the generator&apos;s labels, used only to check the rules.</li>
+            <li><strong>Inbox:</strong> 340 messages over 30 days (email, client portal, phone notes and Google reviews), built from 31 message templates across eight intents and eight root causes, with practice-area wording, optional deadlines (13% of messages, 2 to 28 days out), fictional clients, file numbers, case managers, statuses and earlier messages in each thread. Each message keeps the generator&apos;s labels, used only to check the rules.</li>
+            <li><strong>Reviews and silent files:</strong> 84 Google-style reviews over 26 weeks (worse as volume grows), tagged by the same root-cause rules, and 52 paid files with no client update in more than 10 days.</li>
             <li><strong>Weekly history:</strong> 26 weeks, five areas. Volume grows about five times; once it outruns staffing, the share of status-silence and missed-callback messages rises, CSAT and the Google rating drift down, and complaint and escalation rates climb. Family and citizenship files wait longer on government; business files change hands more.</li>
-            <li><strong>Hiring:</strong> 14 roles across six teams, a stage funnel per role from assumed pass rates, interviewer panels, 22 recent hires and an onboarding checklist.</li>
+            <li><strong>Hiring:</strong> 15 roles across seven teams, a stage funnel per role from assumed pass rates, fictional candidates for the board, interviewer panels, 22 recent hires and an onboarding checklist.</li>
+            <li><strong>Product chrome:</strong> the signed-in user, notifications and &quot;last synced&quot; line are simulated to show how the tool would feel day to day; there are no live connections to any system.</li>
             <li>Generator: <code>app/src/lib/generate.ts</code> and <code>app/src/lib/hiring.ts</code>; run <code>npm run generate</code>.</li>
           </ul>
         </div>

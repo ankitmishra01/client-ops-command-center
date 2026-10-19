@@ -2,19 +2,19 @@
 import { useMemo, useState } from "react";
 
 export type Series = { name: string; values: (number | null)[]; color: string; dashed?: boolean; width?: number };
-type Props = { labels: string[]; series: Series[]; band?: { lo: (number | null)[]; hi: (number | null)[]; color: string }; height?: number; marker?: number; ariaLabel: string; min?: number; fmt?: (v: number) => string };
+type Props = { labels: string[]; series: Series[]; band?: { lo: (number | null)[]; hi: (number | null)[]; color: string }; height?: number; marker?: number; ariaLabel: string; min?: number; maxY?: number; fmt?: (v: number) => string };
 
 /** Minimal responsive SVG line chart with an optional range band and a hover readout. */
-export default function LineChart({ labels, series, band, height = 220, marker, ariaLabel, min = 0, fmt = (v) => Math.round(v).toLocaleString() }: Props) {
+export default function LineChart({ labels, series, band, height = 220, marker, ariaLabel, min = 0, maxY, fmt = (v) => Math.round(v).toLocaleString() }: Props) {
   const [hover, setHover] = useState<number | null>(null);
   const W = 760, H = height, P = { l: 44, r: 12, t: 12, b: 26 };
   const { y, x, max } = useMemo(() => {
     const all = [...series.flatMap((s) => s.values), ...(band ? band.hi : [])].filter((v): v is number => v != null);
-    const top = Math.max(...all); const max = min > 0 ? top + (top - min) * 0.08 : Math.max(1e-9, top) * 1.08;
+    const top = Math.max(...all); const max = maxY ?? (min > 0 ? top + (top - min) * 0.08 : Math.max(1e-9, top) * 1.08);
     const x = (i: number) => P.l + (i * (W - P.l - P.r)) / Math.max(1, labels.length - 1);
     const y = (v: number) => H - P.b - ((v - min) / (max - min)) * (H - P.t - P.b);
     return { x, y, max };
-  }, [series, band, labels.length, H, min]);
+  }, [series, band, labels.length, H, min, maxY]);
   const path = (vals: (number | null)[]) => {
     let d = "", pen = false;
     vals.forEach((v, i) => { if (v == null) { pen = false; return; } d += `${pen ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`; pen = true; });

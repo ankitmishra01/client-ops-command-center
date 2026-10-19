@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Shell from "@/components/Shell";
+import Kanban from "@/components/Kanban";
 import { HIRING } from "@/lib/data";
 import { HEADCOUNT, LOAD_LIMIT_HOURS, NEW_HIRES, ONBOARDING, STAGES, TEAMS, stepsDue } from "@/lib/hiring";
 
@@ -8,7 +9,7 @@ const TODAY = "2026-10-19";
 const median = (xs: number[]) => { const s = [...xs].sort((a, b) => a - b); const m = Math.floor(s.length / 2); return s.length ? (s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2) : 0; };
 
 export default function Page() {
-  const { reqs, hires, interviewers } = HIRING;
+  const { reqs, hires, interviewers, candidates, offers_120d } = HIRING;
   const now = TEAMS.reduce((s, t) => s + HEADCOUNT[t].now, 0);
   const target = TEAMS.reduce((s, t) => s + HEADCOUNT[t].target, 0);
   const without = TEAMS.reduce((s, t) => s + (HEADCOUNT[t].target_without_systems ?? HEADCOUNT[t].target), 0);
@@ -16,18 +17,19 @@ export default function Page() {
   const funnel = STAGES.map((_, i) => reqs.reduce((s, r) => s + r.funnel[i], 0));
   const over = interviewers.filter((x) => x.hours > LOAD_LIMIT_HOURS);
   const maxLoad = Math.max(...interviewers.map((x) => x.hours), LOAD_LIMIT_HOURS);
-  const cs = HEADCOUNT["Client success"];
+  const cs = HEADCOUNT["Customer success"];
   return (
     <Shell>
       <h1>Hiring pipeline and onboarding</h1>
       <p className="takeaway">Scaling from {now} to about {target} people in six months is a recruiting operation in its own right: {openings} openings across {reqs.length} roles, every one needing interviewers who also carry a caseload.</p>
-      <p className="lede">Synthetic requisitions, candidates and interviewers. The plan hires {cs.target - cs.now} client success people rather than {(cs.target_without_systems ?? cs.target) - cs.now}, because the system fixes on the CSAT page absorb part of the volume growth; the 90-day page shows the arithmetic.</p>
+      <p className="lede">Synthetic requisitions, candidates and interviewers. The plan hires {cs.target - cs.now} customer success people rather than {(cs.target_without_systems ?? cs.target) - cs.now}, because the system fixes on the CSAT page absorb part of the volume growth; the 90-day page shows the arithmetic.</p>
       <div className="kpis">
         <div className="kpi"><div className="v">{now} → {target}</div><div className="l">Headcount today → plan (April 2027)</div></div>
         <div className="kpi y"><div className="v">{without - target}</div><div className="l">Roles not hired because systems come first</div></div>
         <div className="kpi"><div className="v">{openings}</div><div className="l">Openings across {reqs.length} live requisitions</div></div>
         <div className="kpi"><div className="v">{funnel[0].toLocaleString()}</div><div className="l">Applicants in the pipeline</div></div>
         <div className="kpi t"><div className="v">{median(hires.map((h) => h.days_to_hire))} days</div><div className="l">Median time to hire, last 120 days</div></div>
+        <div className="kpi"><div className="v">{Math.round((offers_120d.accepted / offers_120d.made) * 100)}%</div><div className="l">Offer acceptance, last 120 days ({offers_120d.accepted} of {offers_120d.made})</div></div>
         <div className="kpi p"><div className="v">{over.length}</div><div className="l">Interviewers over {LOAD_LIMIT_HOURS} h this week</div></div>
       </div>
 
@@ -38,6 +40,8 @@ export default function Page() {
         </div>
         <p className="small muted">The screen is where volume is won or lost: at {Math.round(funnel[0] / Math.max(1, funnel[1]))} applicants per screened candidate, a structured screening form and a scored work sample save more interviewer time than any later step.</p>
       </div>
+
+      <Kanban reqs={reqs} candidates={candidates} />
 
       <div className="grid2">
         <div className="card">
@@ -55,7 +59,7 @@ export default function Page() {
               </div>
             ); })}
           </div>
-          <div className="legend"><span><i style={{ background: "var(--accent-action)" }} />Today</span><span><i style={{ background: "var(--teal)", opacity: 0.35 }} />Plan</span><span><i style={{ border: "1px dashed var(--orange)", background: "transparent" }} />Client success if hired to volume ({cs.target_without_systems})</span></div>
+          <div className="legend"><span><i style={{ background: "var(--accent-action)" }} />Today</span><span><i style={{ background: "var(--teal)", opacity: 0.35 }} />Plan</span><span><i style={{ border: "1px dashed var(--orange)", background: "transparent" }} />Customer success if hired to volume ({cs.target_without_systems})</span></div>
         </div>
         <div className="card">
           <h2>Interviewer load this week</h2>
@@ -126,6 +130,7 @@ export default function Page() {
                   {NEW_HIRES.map((h) => { const done = h.done.includes(s.id); const due = stepsDue(h.start, TODAY).includes(s.id); return <td key={h.name} className="c">{done ? <span className="done-dot" aria-label="done" /> : due ? <span className="due-dot" aria-label="overdue" /> : <span className="todo-dot" aria-label="not yet due" />}</td>; })}
                 </tr>
               ))}
+              <tr><td></td><td><strong>Complete</strong></td><td></td><td></td>{NEW_HIRES.map((h) => { const p = Math.round((h.done.length / ONBOARDING.length) * 100); return <td key={h.name} className="c"><div className="progress"><span className="bar"><div style={{ width: `${p}%` }} /></span></div><span className="small">{p}%</span></td>; })}</tr>
               <tr><td></td><td><strong>Overdue steps</strong></td><td></td><td></td>{NEW_HIRES.map((h) => { const n = stepsDue(h.start, TODAY).filter((id) => !h.done.includes(id)).length; return <td key={h.name} className="c"><span className={n ? "bad" : "good"}>{n}</span></td>; })}</tr>
             </tbody>
           </table>

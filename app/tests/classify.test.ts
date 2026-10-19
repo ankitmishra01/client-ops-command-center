@@ -61,3 +61,16 @@ test("SLA states: ok, at risk under a quarter left, breached", () => {
   assert.equal(slaStatus("P1", "2026-10-19T08:00:00Z", at).state, "breached");
   assert.equal(slaStatus("P3", "2026-10-18T13:00:00Z", at).hours_left, 24);
 });
+
+test("a past date is history, not a deadline", () => {
+  assert.equal(extractDeadline("We paid in full on October 7 and have heard nothing.", new Date(at)).days, null);
+});
+
+test("the worked example: paid, 12 days of silence, one-star review → escalation, lawyer sign-off, SLA at risk", async () => {
+  const { FEATURED } = await import("../src/lib/generate.ts");
+  const { approver, routeOwner } = await import("../src/lib/routing.ts");
+  const r = classify(FEATURED);
+  assert.equal(r.area, "FAM"); assert.equal(r.intent, "escalation"); assert.equal(r.root_cause, "status_silence");
+  assert.equal(r.priority, "P2"); assert.equal(slaStatus(r.priority, FEATURED.received_at, at).state, "at_risk");
+  assert.equal(routeOwner(r).owner, "Escalations desk"); assert.equal(approver(r).role, "Lawyer");
+});
