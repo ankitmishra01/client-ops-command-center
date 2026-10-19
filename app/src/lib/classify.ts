@@ -147,7 +147,7 @@ export function slaStatus(priority: Priority, receivedAt: string, now: string): 
   const target = SLA_HOURS[priority];
   const elapsed = (new Date(now).getTime() - new Date(receivedAt).getTime()) / 3_600_000;
   const left = target - elapsed;
-  return { state: left < 0 ? "breached" : left < target * 0.25 ? "at_risk" : "ok", hours_left: Math.round(left * 10) / 10, target };
+  return { state: left < 0 ? "breached" : left < target * 0.25 ? "at_risk" : "ok", hours_left: left, target };
 }
 
 export const ALL_AREAS = AREAS;
