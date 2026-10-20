@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { DISCLAIMER, GITHUB_URL, PRODUCT } from "@/lib/brand";
 
-const NAV = [["/triage/", "Triage"], ["/csat/", "CSAT & reviews"], ["/hiring/", "Hiring"], ["/plan/", "First 90 days"], ["/about/", "About"]];
+const NAV = [["/ai/", "AI workbench"], ["/triage/", "Triage"], ["/csat/", "CSAT & reviews"], ["/hiring/", "Hiring"], ["/plan/", "First 90 days"], ["/about/", "About"]];
 const NOTES = [
   { href: "/triage/", title: "Escalation, SLA at risk", body: "Daniela Rosário-Klein · Family sponsorship · paid, 12 days silent" },
   { href: "/csat/", title: "52 silent files today", body: "Paid files with no client update in more than 10 days" },

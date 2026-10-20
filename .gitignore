@@ -8,3 +8,4 @@ app/tsconfig.tsbuildinfo
 .vercel
 .env*
 *.pdf
+.gstack/

@@ -6,6 +6,12 @@
 
 A fast-growing immigration practice does not need more people answering "where is my file?" It needs fewer reasons for clients to ask. This repository is a working prototype of the operating system a Head of Operations & Customer Success would build first: one queue for every client message, a dashboard that ties satisfaction to root causes, a hiring pipeline for the scale-up, and a 90-day plan that puts systems before headcount, with the arithmetic.
 
+## AI workbench
+
+`/ai/` is the first demo stop: ten hand-written synthetic challenge cases, exact message excerpts, conservative review policy, operational tasks, reviewer acknowledgement and a downloadable JSON handoff. Editing resets review and cancels stale API comparisons. No client reply is generated or sent here.
+
+The optional API comparison labels rules fallback explicitly. The public model feature flag remains off. The evaluation screen compares baseline routing against the additional review policy and displays misses honestly. These regression cases informed the policy and are not a held-out accuracy benchmark. French urgency detection is deliberately limited; unknown dates and unclear practice areas need a human. Production requires authenticated permissions, independently labelled evaluation data and provider rate limits before enabling public generation.
+
 ## Pages
 
 0. **Home** (`/`). The story on one screen: the headline KPI (escalations per 100 open files) with a simulated 90-day target, four KPI tiles, a 60-second tour, and why each module matters for the role.
