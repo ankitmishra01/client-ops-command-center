@@ -12,6 +12,7 @@ const KEY = "client-ops-triage-v2";
 const QUEUES = [["open", "All open"], ["breached", "SLA breached"], ["at_risk", "SLA at risk"], ["P1", "P1 deadline"], ["risk", "Escalation risk ≥ 60"], ["escalated", "Escalated"], ["all", "Everything, incl. resolved"]] as const;
 type Queue = (typeof QUEUES)[number][0];
 type SortKey = "sla" | "received" | "risk" | "client";
+const CHANNEL_SHORT: Record<Channel, string> = { email: "Email", portal: "Portal", phone: "Phone", review: "Review" };
 const RANGES = [[7, "Last 7 days"], [14, "Last 14 days"], [30, "Last 30 days"]] as const;
 
 function load(): Store { try { const s = JSON.parse(localStorage.getItem(KEY) ?? ""); return { owners: s.owners ?? {}, decisions: s.decisions ?? {}, status: s.status ?? {} }; } catch { return { owners: {}, decisions: {}, status: {} }; } }
@@ -113,6 +114,7 @@ export default function Triage({ messages }: { messages: Message[] }) {
       <p className="small muted" style={{ margin: "0 0 8px" }}>{shown.length} shown. Click a column header to sort. SLA timers run live from Monday 19 October 2026, 09:00 Toronto time (simulated clock) and apply to New and Escalated messages. Select a row for the thread, the reasoning and the draft.</p>
       <div className="table-wrap">
         <table className="inbox">
+          <colgroup><col className="c-sla" /><col className="c-status" /><col className="c-pri" /><col className="c-recv" /><col className="c-client" /><col /><col className="c-area" /><col className="c-cm" /><col className="c-root" /><col className="c-tone" /><col className="c-risk" /></colgroup>
           <thead><tr>{th("sla", "SLA")}<th>Status</th><th>Pri.</th>{th("received", "Received")}{th("client", "Client · file")}<th>Message</th><th>Area</th><th>Case manager</th><th>Root cause</th><th>Tone</th>{th("risk", "Risk")}</tr></thead>
           <tbody>
             {shown.length === 0 && <tr><td colSpan={11} style={{ padding: 24, textAlign: "center" }}>No messages match these filters. <button className="sm ghost" onClick={clear}>Clear filters</button></td></tr>}
@@ -123,12 +125,12 @@ export default function Triage({ messages }: { messages: Message[] }) {
                   <td>{sla.state === "none" ? <span className="muted small">{st === "Resolved" ? "Closed" : "Replied"}</span> : <span className={`pill timer ${sla.state}`}>{fmtTimer(sla.hours_left)}</span>}</td>
                   <td><span className={`status-chip s-${st.replace(/ /g, "-").toLowerCase()}`}>{st}</span></td>
                   <td><span className={`pill ${r.c.priority}`}>{r.c.priority}</span></td>
-                  <td>{fmtAgo(r.m.received_at, now)}<div className="sku">{CHANNEL_LABEL[r.m.channel]}</div></td>
-                  <td>{r.m.client}<div className="sku">{r.m.matter ?? "New enquiry"}</div></td>
-                  <td className="subj"><strong style={{ fontWeight: 600 }}>{r.m.subject}</strong>{d && <> <span className={`pill ${d.action === "approved" ? "approved" : d.action === "lawyer_review" ? "violet" : ""}`}>{d.action === "approved" ? "Approved" : d.action === "lawyer_review" ? "With lawyer" : "Rejected"}</span></>}<span className="snip">{r.m.body}</span></td>
-                  <td>{r.c.area ? AREA_SHORT[r.c.area] : <span className="muted">Unclear</span>}</td>
-                  <td>{r.m.case_manager ?? <span className="muted">Intake</span>}<div className="sku">{ownerOf(r)}</div></td>
-                  <td>{ROOT_LABEL[r.c.root_cause]}</td>
+                  <td title={CHANNEL_LABEL[r.m.channel]}>{fmtAgo(r.m.received_at, now)}<div className="sku">{CHANNEL_SHORT[r.m.channel]}</div></td>
+                  <td title={`${r.m.client} · ${r.m.matter ?? "New enquiry"}`}>{r.m.client}<div className="sku">{r.m.matter ?? "New enquiry"}</div></td>
+                  <td className="subj" title={r.m.subject}><strong style={{ fontWeight: 600 }}>{r.m.subject}</strong>{d && <> <span className={`pill ${d.action === "approved" ? "approved" : d.action === "lawyer_review" ? "violet" : ""}`}>{d.action === "approved" ? "Approved" : d.action === "lawyer_review" ? "With lawyer" : "Rejected"}</span></>}<span className="snip">{r.m.body}</span></td>
+                  <td className="wrap2" title={r.c.area ? AREA_SHORT[r.c.area] : "Unclear"}>{r.c.area ? AREA_SHORT[r.c.area] : <span className="muted">Unclear</span>}</td>
+                  <td title={`${r.m.case_manager ?? "Intake"} · ${ownerOf(r)}`}>{r.m.case_manager ?? <span className="muted">Intake</span>}<div className="sku">{ownerOf(r)}</div></td>
+                  <td className="wrap2" title={ROOT_LABEL[r.c.root_cause]}><span className="clamp2">{ROOT_LABEL[r.c.root_cause]}</span></td>
                   <td><span className={`pill ${r.c.sentiment}`}>{r.c.sentiment}</span></td>
                   <td><span className="risk">{r.c.escalation_risk}<span className="bar"><div style={{ width: `${r.c.escalation_risk}%` }} /></span></span></td>
                 </tr>

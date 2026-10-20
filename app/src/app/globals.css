@@ -256,7 +256,19 @@ body { background: var(--bg); }
 .pill.breached { background: var(--pastel-peach); color: var(--red); border-color: #F2C6C1; } .pill.at_risk { background: var(--amber-soft); color: var(--amber); border-color: #EBD3A3; } .pill.ok { background: var(--teal-brand); color: var(--teal); border-color: #B9E3C8; }
 .pill.negative { color: var(--red); background: #fff; border-color: #F2C6C1; } .pill.positive { color: var(--teal); background: #fff; border-color: #B9E3C8; } .pill.neutral { background: #fff; }
 .pill.approved { background: var(--teal); color: #fff; border-color: var(--teal); } .pill.violet { background: var(--accent-soft); color: var(--accent-text); border-color: var(--accent-soft-2); }
-.inbox { min-width: 980px; } .inbox td { white-space: nowrap; } .inbox td.subj { white-space: normal; min-width: 260px; } .inbox td.subj .snip { display: block; color: var(--muted); font-size: 12px; max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Queue table: fixed column widths so every column fits beside the rail from 1100px; narrower screens scroll inside the box. */
+.inbox { table-layout: fixed; width: 100%; min-width: 1000px; }
+.inbox th, .inbox td { padding: 8px 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.inbox th:first-child, .inbox td:first-child { padding-left: 10px; }
+.inbox td .sku { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.inbox col.c-sla { width: 82px; } .inbox col.c-status { width: 80px; } .inbox col.c-pri { width: 44px; } .inbox col.c-recv { width: 76px; } .inbox col.c-client { width: 116px; }
+.inbox col.c-area { width: 96px; } .inbox col.c-cm { width: 118px; } .inbox col.c-root { width: 104px; } .inbox col.c-tone { width: 68px; } .inbox col.c-risk { width: 68px; }
+.inbox td .sku { font-size: 11px; }
+.inbox td.wrap2 { white-space: normal; line-height: 1.3; font-size: 12.5px; }
+.inbox .clamp2, .inbox td.subj strong { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; white-space: normal; }
+.inbox td.subj .snip { display: block; color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.inbox .status-chip { white-space: normal; line-height: 1.25; }
+.inbox .risk .bar { width: 18px; }
 .risk { display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; } .risk .bar { width: 46px; height: 6px; } .risk .bar > div { background: var(--orange); }
 .msg { white-space: pre-wrap; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; font-size: 14px; }
 textarea.draft { width: 100%; min-height: 260px; font: inherit; font-size: 13px; line-height: 1.5; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: #fff; color: var(--ink); resize: vertical; }
