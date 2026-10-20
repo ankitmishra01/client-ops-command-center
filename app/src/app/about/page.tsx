@@ -71,8 +71,11 @@ export default function Page() {
       </div>
 
       <div className="card">
+        <h2>AI workbench and evaluation</h2>
+        <p className="small">The <a href="/ai/">AI workbench</a> runs the rules and a conservative human-review policy locally. It exposes source excerpts, uncertain dates and missing context, then builds an internal task handoff. The optional API comparison reports whether a model actually ran. Ten hand-written regression scenarios are separate from the inbox generator but informed the policy; they are not an independent accuracy benchmark. Real release requires a held-out, reviewer-labelled set and practice-area and language checks.</p>
+        <p className="small">Review checkboxes and decision trails are demo state, not authenticated lawyer approvals. Exports download locally. No Clio, email or portal writes occur. Keyword checks are incomplete and cannot guarantee prompt-injection resistance.</p>
         <h2>How it was built</h2>
-        <p className="small" style={{ marginTop: 0 }}>Next.js 15, React 19 and TypeScript; static pages from committed JSON, plus one optional API route. Built with Claude Code over an evening, with the author deciding the scope, the rules, every threshold and every sentence. Tests cover the classifier, the SLA and routing rules, the draft templates, the business-case model and data invariants (<code>npm test</code>). Source: <a href={GITHUB_URL}>{GITHUB_URL.replace("https://", "")}</a>.</p>
+        <p className="small" style={{ marginTop: 0 }}>Next.js 15, React 19 and TypeScript; static pages from committed JSON, plus one optional API route. Built with AI coding tools, with Ankit defining the operational scope and reviewing the workflow, assumptions and controls. Tests cover the classifier, the SLA and routing rules, the draft templates, the business-case model and data invariants (<code>npm test</code>). Source: <a href={GITHUB_URL}>{GITHUB_URL.replace("https://", "")}</a>.</p>
       </div>
     </Shell>
   );

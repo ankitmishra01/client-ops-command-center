@@ -25,7 +25,7 @@ export default function Home() {
           <h1>Escalations per 100 client files: from {last.escalations_per_100_files.toFixed(2)} to {target.toFixed(2)} in 90 days.</h1>
           <p className="hero-lede">A working prototype of the system a Head of Operations &amp; Customer Success would build first at a fast-growing immigration practice: every client message triaged, owned and answered on time, satisfaction tied to root causes, hiring run as a pipeline, and a 90-day plan with the arithmetic.</p>
           <div className="hero-actions">
-            <a className="btn hero-cta" href="#tour">Take the 60-second tour</a>
+            <Link className="btn hero-cta" href="/ai/">Try the AI workbench →</Link>
             <Link className="btn ghost hero-cta" href="/triage/">Open the triage queue</Link>
           </div>
         </div>
@@ -42,8 +42,9 @@ export default function Home() {
       <p className="small muted" style={{ margin: "6px 0 24px" }}>Last four weeks of synthetic data for a firm whose volume grew about five times in six months. Targets are proposals for the 90-day plan.</p>
 
       <section id="tour" className="tour" aria-label="60-second tour">
-        <h2>60-second tour</h2>
+        <h2>Start with the AI workflow. Then inspect the operating system.</h2>
         <ol>
+          <li><Link href="/ai/"><span className="n">AI</span><strong>Put the workflow under pressure</strong><span>Try a deadline, ambiguous message or prompt injection. Inspect evidence, review the handoff and run ten safety checks.</span></Link></li>
           <li><Link href="/triage/"><span className="n">1</span><strong>One message, start to finish</strong><span>A client paid, heard nothing for 12 days and posted a one-star review. See it classified, timed, routed and answered with a lawyer-approved draft.</span></Link></li>
           <li><Link href="/csat/"><span className="n">2</span><strong>Why clients write in</strong><span>Silence after payment is the biggest root cause. Proactive status updates alone would remove an estimated {(silenceFix * 100).toFixed(0)}% of all messages.</span></Link></li>
           <li><Link href="/hiring/"><span className="n">3</span><strong>Hiring as a pipeline</strong><span>15 roles, a candidate board, interviewer load and an onboarding tracker for growing from 60 to about 100 people.</span></Link></li>
