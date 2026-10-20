@@ -1,11 +1,11 @@
 :root {
-  /* Ankit Mishra house design language: ink, paper, violet; hairlines, 4px radius, no shadows. Deliberately not any client brand. */
+  /* CanadaVisa-inspired red, white and charcoal. Independent application prototype. */
   color-scheme: light;
-  --ink: #10172A; --ink-2: #4A5265; --muted: #667085; --line: #E7E7E2; --line-strong: #D4D5D0; --rule: #10172A; --bg: #F6F7F1; --card: #FFFFFF; --paper: #F6F7F1;
-  --accent: #8059FF; --accent-action: #6238D1; --accent-text: #5630B8; --accent-soft: #F0ECFF; --accent-soft-2: #E2DBFF; --focus: #B7A6FF; --accent-on-dark: #B7A6FF;
-  --mist: #F6F7F1; --yellow: #F0ECFF; --blue: #6238D1; --teal: #197A4B; --teal-brand: #E7F6EC; --orange: #A23F36; --violet: #5630B8;
-  --pastel-blue: #F0ECFF; --pastel-lav: #E2DBFF; --pastel-mint: #E7F6EC; --pastel-peach: #FFF0EE;
-  --brand: #10172A; --brand-2: #10172A; --amber: #9A5B0A; --amber-soft: #FFF4DC; --red: #A23F36; --band: #6238D1;
+  --ink: #242424; --ink-2: #515151; --muted: #666666; --line: #E5E5E5; --line-strong: #D2D2D2; --rule: #242424; --bg: #F7F7F7; --card: #FFFFFF; --paper: #F7F7F7;
+  --accent: #DB291C; --accent-action: #C5251A; --accent-text: #B52218; --accent-soft: #FFF1EF; --accent-soft-2: #FAD9D5; --focus: #FFB8AF; --accent-on-dark: #FFB8AF;
+  --mist: #F7F7F7; --yellow: #FFF1EF; --blue: #C5251A; --teal: #197A4B; --teal-brand: #E7F6EC; --orange: #A23F36; --violet: #B52218;
+  --pastel-blue: #FFF1EF; --pastel-lav: #FAD9D5; --pastel-mint: #E7F6EC; --pastel-peach: #FFF0EE;
+  --brand: #242424; --brand-2: #242424; --amber: #9A5B0A; --amber-soft: #FFF4DC; --red: #A23F36; --band: #C5251A;
   --radius: 4px; --shadow: none; --header-h: 72px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); text-rendering: optimizeLegibility;
 }
@@ -450,7 +450,7 @@ input[type=range] { width: 100%; accent-color: var(--accent-action); min-height:
 @media(max-width:480px) { .ai-workspace .card,.ai-action { padding:18px; } .ai-decision-title { align-items:flex-start; } .ai-route { grid-template-columns:1fr; } }
 
 /* App frame: ink left rail (G20 monitor pattern). Full at 1100px and up, icons only from 768px, a drawer below. */
-:root { --rail-w: 232px; --rail-c: 64px; --on-ink: #F6F7F1; --on-ink-2: rgba(246, 247, 241, .74); --on-ink-3: rgba(246, 247, 241, .5); --rule-on-ink: rgba(246, 247, 241, .1); --mono: ui-monospace, SFMono-Regular, Menlo, monospace; }
+:root { --rail-w: 232px; --rail-c: 64px; --on-ink: #F7F7F7; --on-ink-2: rgba(246, 247, 241, .74); --on-ink-3: rgba(246, 247, 241, .5); --rule-on-ink: rgba(246, 247, 241, .1); --mono: ui-monospace, SFMono-Regular, Menlo, monospace; }
 .app { display: grid; grid-template-columns: var(--rail-w) minmax(0, 1fr); min-height: 100vh; }
 .skip { position: absolute; left: -9999px; top: 8px; z-index: 300; background: #fff; color: var(--ink); padding: 8px 12px; border-radius: var(--radius); }
 .skip:focus { left: 8px; }
@@ -551,9 +551,9 @@ main>.takeaway { margin-top:12px; font-size:17px; }
 .overview-actions { display:flex; flex-wrap:wrap; gap:10px; }
 .overview-actions .btn { min-height:48px; padding:0 20px; font-size:14px; }
 .overview-note { font-size:11px; color:var(--muted); margin-top:18px; }
-.workflow-preview { display:block; background:var(--ink); color:#fff; border:1px solid #293249; border-radius:10px; padding:24px; text-decoration:none; transition:transform .2s,border-color .2s; }
+.workflow-preview { display:block; background:var(--ink); color:#fff; border:1px solid #444444; border-radius:10px; padding:24px; text-decoration:none; transition:transform .2s,border-color .2s; }
 .workflow-preview:hover { transform:translateY(-3px); border-color:var(--accent); }
-.preview-top { display:flex; align-items:center; justify-content:space-between; color:#C6B6FF; font-size:10px; font-weight:600; letter-spacing:.12em; margin-bottom:20px; }
+.preview-top { display:flex; align-items:center; justify-content:space-between; color:#FFC7BF; font-size:10px; font-weight:600; letter-spacing:.12em; margin-bottom:20px; }
 .preview-arrow { font-size:24px; }
 .preview-message { background:#fff; border-radius:5px; padding:18px; color:var(--ink); }
 .preview-message>div { display:flex; align-items:center; gap:9px; font-size:12px; }
@@ -561,14 +561,14 @@ main>.takeaway { margin-top:12px; font-size:17px; }
 .preview-message .pill { margin-left:auto; }
 .preview-avatar { width:30px; height:30px; display:grid; place-items:center; background:var(--accent-soft); border-radius:50%; color:var(--accent-text); font-size:10px; }
 .preview-message blockquote { margin:16px 0 0; font-size:16px; line-height:1.55; }
-.preview-connector { text-align:center; color:#A595CF; font-size:21px; padding:6px; }
-.preview-decision { padding:18px; border:1px solid #4A4263; background:#22253D; border-radius:5px; }
-.preview-label { font-size:9px; letter-spacing:.1em; color:#C6B6FF; }
+.preview-connector { text-align:center; color:#FFB8AF; font-size:21px; padding:6px; }
+.preview-decision { padding:18px; border:1px solid #57504E; background:#34302F; border-radius:5px; }
+.preview-label { font-size:9px; letter-spacing:.1em; color:#FFC7BF; }
 .preview-decision h2 { margin:9px 0; font-size:21px; color:#fff; }
 .preview-decision p { font-size:12px; color:#CBD0DD; }
 .preview-proof { display:flex; gap:6px; flex-wrap:wrap; margin-top:16px; }
-.preview-proof span { font-size:10px; border:1px solid #53536D; border-radius:3px; padding:4px 7px; color:#E2DBFF; }
-.preview-bottom { display:flex; justify-content:space-between; gap:10px; padding-top:20px; font-size:12px; color:#DDD5F5; }
+.preview-proof span { font-size:10px; border:1px solid #6B5D59; border-radius:3px; padding:4px 7px; color:#FAD9D5; }
+.preview-bottom { display:flex; justify-content:space-between; gap:10px; padding-top:20px; font-size:12px; color:#F4DCD8; }
 .overview-scorecard { display:grid; grid-template-columns:1fr 1.1fr .9fr; border:1px solid var(--line); background:#fff; border-radius:7px; margin:0 0 54px; }
 .overview-scorecard>div { padding:26px; }
 .overview-scorecard>div+div { border-left:1px solid var(--line); }
@@ -650,3 +650,26 @@ main>.takeaway { margin-top:12px; font-size:17px; }
 /* Case drawer sits above the persistent navigation and restores focus on close. */
 .drawer-bg { z-index:180; }
 .drawer { z-index:181; }
+
+/* CanadaVisa visual language adapted for an operations workspace. */
+@font-face { font-family: Raleway; src: url('/fonts/raleway-600.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
+h1,h2,h3,.rail__title { font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:600; }
+:root { --focus:#B52218; --on-ink-3:rgba(255,255,255,.65); }
+.rail { border-top:4px solid var(--accent); }
+.rail__brand { min-height:98px; }
+.rail__mark { background:var(--accent-action); color:#fff; border-radius:3px; width:30px; height:34px; }
+.rail__title { font-size:17px; letter-spacing:-.04em; color:#fff; }
+.rail__title span { color:var(--accent-on-dark); }
+.rail__sub { font-size:11px; margin-top:4px; }
+.topbar { border-top:4px solid var(--accent); }
+.overview-hero { border-bottom:1px solid var(--line); margin-bottom:32px; }
+.overview-lead h1 { letter-spacing:-.045em; }
+.overview-lead h1 span { color:var(--accent-action); }
+.overview-client { font-size:12px; color:var(--muted); margin:0 0 12px; }
+.service-context { display:flex; flex-wrap:wrap; gap:6px; margin:18px 0 0; }
+.service-context span { padding:5px 9px; border:1px solid var(--line-strong); border-radius:3px; background:#fff; font-size:11px; color:var(--ink-2); }
+.workflow-preview { border-top:4px solid var(--accent); border-radius:5px; }
+.module-card { border-top:3px solid var(--accent); }
+.module-icon { border-radius:50%; }
+.overview-scorecard { border-radius:4px; }
+@media(max-width:640px) { .overview-client { font-size:11px; } .service-context { gap:5px; } }

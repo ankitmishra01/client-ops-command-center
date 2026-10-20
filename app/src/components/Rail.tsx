@@ -64,8 +64,8 @@ export default function Rail({ badges, children }: { badges: Badges; children: R
       <a className="skip" href="#content">Skip to content</a>
       <aside className="rail" id="rail" aria-label="Site navigation">
         <div className="rail__brand">
-          <Link href="/" className="rail__mark" aria-label={`${PRODUCT}, home`}>CO</Link>
-          <div className="rail__brandtext"><div className="rail__title">Client Ops</div><div className="rail__sub">Command Center</div><div className="rail__asof">Prototype · Oct 2026</div></div>
+          <Link href="/" className="rail__mark" aria-label={`${PRODUCT}, home`}>CV</Link>
+          <div className="rail__brandtext"><div className="rail__title">Canada<span>Visa</span></div><div className="rail__sub">Client Ops · concept workspace</div><div className="rail__asof">Prototype · Oct 2026</div></div>
           <button className="rail__expand" onClick={() => setOpen((o) => !o)} aria-label={open ? "Collapse navigation" : "Expand navigation"} aria-expanded={open} aria-controls="rail"><Ic name="expand" /></button>
         </div>
         <nav aria-label="Primary" className="rail__navwrap">
