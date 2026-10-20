@@ -1,74 +1,27 @@
 import Link from "next/link";
 import Shell from "@/components/Shell";
 import { INBOX, SILENT, WEEKLY } from "@/lib/data";
-import { defaultModelInputs, rootCauseClusters, windowTotals } from "@/lib/metrics";
+import { defaultModelInputs, windowTotals } from "@/lib/metrics";
 import { runModel } from "@/lib/model";
 
 export default function Home() {
   const last = windowTotals(WEEKLY, "ALL", 4);
   const first = windowTotals(WEEKLY, "ALL", 4, 22);
   const target = last.escalations_per_100_files * 0.65;
-  const removable = rootCauseClusters(WEEKLY, 8).reduce((s, c) => s + c.removable_share, 0);
   const model = runModel(defaultModelInputs(WEEKLY));
-  const silenceFix = rootCauseClusters(WEEKLY, 8).find((c) => c.root_cause === "status_silence")?.removable_share ?? 0;
-  const tiles = [
-    { k: "Escalations per 100 open files", v: last.escalations_per_100_files.toFixed(2), was: `from ${first.escalations_per_100_files.toFixed(2)} in April`, goal: `90-day target ≤ ${target.toFixed(2)}`, cls: "y" },
-    { k: "CSAT (4 or 5 out of 5)", v: `${(last.csat * 100).toFixed(0)}%`, was: `from ${(first.csat * 100).toFixed(0)}% in April`, goal: "90-day target +5 points", cls: "" },
-    { k: "Google rating, new reviews", v: last.rating.toFixed(2), was: `from ${first.rating.toFixed(2)} in April`, goal: "90-day target above 4.6", cls: "" },
-    { k: "Silent files (paid, no update 14+ days)", v: `${(last.silent_file_rate * 100).toFixed(0)}%`, was: `from ${(first.silent_file_rate * 100).toFixed(0)}% in April`, goal: "90-day target under 5%", cls: "p" },
+  const modules = [
+    { n: "01", href: "/triage/", title: "Own every client message", tag: "Triage & escalation", detail: "Inspect the thread, see why it was prioritised, and review a reply before anyone sends it.", metric: `${INBOX.length} messages`, label: "across four channels", icon: "↳" },
+    { n: "02", href: "/csat/", title: "Fix what keeps going wrong", tag: "Client experience", detail: "Connect satisfaction to recurring service failures and identify the process worth fixing next.", metric: `${SILENT.length} silent files`, label: "with named owners", icon: "◎" },
+    { n: "03", href: "/hiring/", title: "Build capacity deliberately", tag: "People operations", detail: "Follow requisitions, interviewer capacity and onboarding as the team scales from 60 to 100.", metric: "15 open roles", label: "in the synthetic hiring plan", icon: "+" },
+    { n: "04", href: "/plan/", title: "Make the investment case", tag: "First 90 days", detail: "Change the assumptions. See how less repeat work translates into capacity and a phased rollout.", metric: `${model.hires_deferred} hires deferred`, label: "at illustrative default assumptions", icon: "↗" },
   ];
-  return (
-    <Shell>
-      <section className="hero">
-        <div>
-          <p className="hero-eyebrow">Simulated target on synthetic data</p>
-          <h1>Escalations per 100 client files: from {last.escalations_per_100_files.toFixed(2)} to {target.toFixed(2)} in 90 days.</h1>
-          <p className="hero-lede">A working prototype of the system a Head of Operations &amp; Customer Success would build first at a fast-growing immigration practice: every client message triaged, owned and answered on time, satisfaction tied to root causes, hiring run as a pipeline, and a 90-day plan with the arithmetic.</p>
-          <div className="hero-actions">
-            <Link className="btn hero-cta" href="/ai/">Try the AI workbench →</Link>
-            <Link className="btn ghost hero-cta" href="/triage/">Open the triage queue</Link>
-          </div>
-        </div>
-        <ol className="sequence">
-          <li><span>01</span><strong>Triage</strong>Every message labelled, timed and owned; a lawyer approves risky replies.</li>
-          <li><span>02</span><strong>Fix causes</strong>{(removable * 100).toFixed(0)}% of volume traced to causes a system can remove.</li>
-          <li><span>03</span><strong>Then hire</strong>{model.hires_deferred} customer success hires deferred at default assumptions.</li>
-        </ol>
-      </section>
-
-      <div className="tiles" aria-label="Headline KPIs, last 4 weeks, synthetic">
-        {tiles.map((t) => <div key={t.k} className={`tile ${t.cls}`}><span className="k">{t.k}</span><strong>{t.v}</strong><span className="was">{t.was}</span><span className="goal">{t.goal}</span></div>)}
-      </div>
-      <p className="small muted" style={{ margin: "6px 0 24px" }}>Last four weeks of synthetic data for a firm whose volume grew about five times in six months. Targets are proposals for the 90-day plan.</p>
-
-      <section id="tour" className="tour" aria-label="60-second tour">
-        <h2>Start with the AI workflow. Then inspect the operating system.</h2>
-        <ol>
-          <li><Link href="/ai/"><span className="n">AI</span><strong>Put the workflow under pressure</strong><span>Try a deadline, ambiguous message or prompt injection. Inspect evidence, review the handoff and run ten safety checks.</span></Link></li>
-          <li><Link href="/triage/"><span className="n">1</span><strong>One message, start to finish</strong><span>A client paid, heard nothing for 12 days and posted a one-star review. See it classified, timed, routed and answered with a lawyer-approved draft.</span></Link></li>
-          <li><Link href="/csat/"><span className="n">2</span><strong>Why clients write in</strong><span>Silence after payment is the biggest root cause. Proactive status updates alone would remove an estimated {(silenceFix * 100).toFixed(0)}% of all messages.</span></Link></li>
-          <li><Link href="/hiring/"><span className="n">3</span><strong>Hiring as a pipeline</strong><span>15 roles, a candidate board, interviewer load and an onboarding tracker for growing from 60 to about 100 people.</span></Link></li>
-          <li><Link href="/plan/"><span className="n">4</span><strong>The first 90 days</strong><span>Baseline, pilot in one practice area, scale to all five. Drag the sliders to see hours saved and hires deferred.</span></Link></li>
-        </ol>
-      </section>
-
-      <div className="bigcards">
-        <Link href="/triage/" className="bigcard"><span className="panel-index">01 · Escalations &amp; complaints</span><h2>Triage</h2><p>{INBOX.length} email, portal, phone and review messages over 30 days with live SLA timers, owners, statuses, the full thread and a reply draft for approval.</p><span className="go">Open triage →</span></Link>
-        <Link href="/csat/" className="bigcard"><span className="panel-index">02 · Client experience</span><h2>CSAT &amp; reviews</h2><p>26 weeks of CSAT, Google rating and escalations by practice area, a tagged review feed, root-cause clusters and today&apos;s {SILENT.length} silent files.</p><span className="go">Open the dashboard →</span></Link>
-        <Link href="/hiring/" className="bigcard"><span className="panel-index">03 · People operations</span><h2>Hiring</h2><p>Requisitions, a candidate board, time to hire, offer acceptance, interviewer load and onboarding progress for every new hire.</p><span className="go">Open hiring →</span></Link>
-        <Link href="/plan/" className="bigcard dark"><span className="panel-index">04 · Plan</span><h2>First 90 days</h2><p>A week-by-week timeline, a KPI scorecard and an interactive &quot;systems before headcount&quot; model.</p><span className="go">Open the plan →</span></Link>
-      </div>
-
-      <section className="card why" aria-label="Why this matters for CanadaVisa">
-        <p className="eyebrow" style={{ marginTop: 0 }}>Why this matters for CanadaVisa</p>
-        <div className="why-grid">
-          <div><h3>A builder, not an administrator</h3><p>The role asks for someone who builds better systems. Everything here is working software with tests, not slides, and it was built with the same AI tools the firm is adopting.</p></div>
-          <div><h3>Systems before headcount</h3><p>Each root cause has a fix, and the model turns removed volume into hires the firm does not need to make: {model.hires_deferred} in customer success at default assumptions.</p></div>
-          <div><h3>Five practice areas</h3><p>Express Entry, work permits, family sponsorship, citizenship and criminal inadmissibility. Every queue, chart and target splits by them.</p></div>
-          <div><h3>The themes clients raise</h3><p>Unreturned calls and missed consults, silence after payment, files closed without explanation and details lost in handoffs are each a tracked root cause with a fix.</p></div>
-          <div><h3>Guardrails built in</h3><p>Lawyer-approved templates only, no automated legal advice, client data kept in approved systems, and a lawyer signs off anything with a deadline or an escalation.</p></div>
-        </div>
-      </section>
-    </Shell>
-  );
+  return <Shell>
+    <section className="overview-hero">
+      <div className="overview-lead"><p className="eyebrow">Client operations, designed for scale</p><h1>Better client care.<br /><span>Less repeat work.</span></h1><p className="overview-description">One place to triage messages, prevent repeat complaints and build the team. A hands-on operating prototype for an AI-native immigration practice.</p><div className="overview-actions"><Link className="btn" href="/ai/">Try the AI workbench <span aria-hidden="true">→</span></Link><a href="#workspace" className="btn ghost">Explore the workspace</a></div><p className="overview-note">No sign-in needed · synthetic scenarios · nothing is sent</p></div>
+      <Link href="/ai/" className="workflow-preview" aria-label="Open the AI workbench and try the deadline scenario"><div className="preview-top"><span>LIVE WORKFLOW DEMO</span><span className="preview-arrow" aria-hidden="true">↗</span></div><div className="preview-message"><div><span className="preview-avatar">CL</span><span>Client message <small>Synthetic example</small></span><span className="pill P1">P1</span></div><blockquote>“We must respond within 6 days. This is my third message and no one has replied.”</blockquote></div><div className="preview-connector" aria-hidden="true">↓</div><div className="preview-decision"><span className="preview-label">RECOMMENDED NEXT STEP</span><h2>Family case lead + lawyer</h2><p>Deadline evidence → urgent review → owned follow-up</p><div className="preview-proof"><span>Evidence visible</span><span>Human review</span><span>No auto-send</span></div></div><div className="preview-bottom">Try this case and inspect the reasoning <span aria-hidden="true">→</span></div></Link>
+    </section>
+    <section className="overview-scorecard" aria-label="Illustrative operational scorecard"><div className="scorecard-title"><p className="eyebrow">The outcome to improve</p><h2>Fewer escalations.<br />A more predictable service.</h2><p>Last four weeks of synthetic data. Targets are proposed, not achieved results.</p></div><div className="scorecard-primary"><span>Escalations per 100 open files</span><div><strong>{last.escalations_per_100_files.toFixed(2)}</strong><span aria-hidden="true">→</span><strong className="target">{target.toFixed(2)}</strong></div><small>Current simulation <span>Proposed day-90 target</span></small></div><div className="scorecard-secondary"><div><span>Client satisfaction</span><strong>{Math.round(last.csat * 100)}%</strong><small>Previously {Math.round(first.csat * 100)}% · proposed target +5 pts</small></div><div><span>Silent-file rate</span><strong>{Math.round(last.silent_file_rate * 100)}%</strong><small>No update in 14+ days · proposed target &lt;5%</small></div></div></section>
+    <section id="workspace" className="workspace-section"><div className="workspace-heading"><div><p className="eyebrow">Explore the operating system</p><h2>From one difficult message<br />to a better way of working.</h2></div><p>Start with the AI workbench, then follow the operational decisions behind it.</p></div><div className="module-grid">{modules.map((m) => <Link href={m.href} className="module-card" key={m.n}><div className="module-top"><span>{m.n} / {m.tag}</span><span className="module-icon" aria-hidden="true">{m.icon}</span></div><h3>{m.title}</h3><p>{m.detail}</p><div className="module-bottom"><div><strong>{m.metric}</strong><small>{m.label}</small></div><span aria-hidden="true">→</span></div></Link>)}</div></section>
+    <section className="overview-principles"><div><p className="eyebrow">The operating principle</p><h2>Improve the system.<br /> Then add capacity.</h2></div><div><span>01</span><h3>Make the evidence visible</h3><p>Show the source, rule and unresolved facts behind a decision.</p></div><div><span>02</span><h3>Keep people accountable</h3><p>Give each case an owner and keep consequential decisions with a reviewer.</p></div><div><span>03</span><h3>Earn the right to scale</h3><p>Test difficult cases, measure service quality and expand only when the pilot holds up.</p></div></section>
+  </Shell>;
 }

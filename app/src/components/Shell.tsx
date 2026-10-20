@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Rail from "@/components/Rail";
-import { DISCLAIMER, GITHUB_URL } from "@/lib/brand";
+import { DISCLAIMER, GITHUB_URL, PRODUCT } from "@/lib/brand";
 import { HIRING, INBOX, SILENT } from "@/lib/data";
 import type { Badges } from "@/lib/nav";
 import { INBOX_NOW } from "@/lib/taxonomy";
@@ -20,9 +20,9 @@ function badges(): Badges {
 export default function Shell({ children }: { children: React.ReactNode }) {
   return (
     <Rail badges={badges()}>
-      <div className="disclaimer" role="note"><strong>Prototype by Ankit Mishra · synthetic data · not affiliated with CanadaVisa.</strong> <span>{DISCLAIMER}</span> <Link href="/about/">Methodology and limits</Link></div>
+      <div className="prototype-bar" role="note"><div><span className="prototype-tag">WORKING PROTOTYPE</span><span>By Ankit Mishra · synthetic data · not affiliated with CanadaVisa</span></div><Link href="/about/">How this demo works ↗</Link></div>
       <main id="content" tabIndex={-1}>{children}</main>
-      <footer><strong>Prototype by Ankit Mishra · synthetic data · not affiliated with CanadaVisa.</strong> {DISCLAIMER} Every message, client, file number, staff name, review and metric is generated; nothing comes from a real case file. Nothing here is legal advice. <Link href="/about/">About</Link> · <a href={GITHUB_URL}>Source on GitHub</a>.</footer>
+      <footer className="site-footer"><div><strong>{PRODUCT}</strong><p>{DISCLAIMER}</p><span>Synthetic data. No live integrations or client messages sent. Not legal advice.</span></div><div className="footer-links"><Link href="/about/">Methodology</Link><a href={GITHUB_URL}>GitHub ↗</a><a href="#content">Back to top ↑</a></div></footer>
     </Rail>
   );
 }

@@ -15,8 +15,8 @@ export default function Page() {
   return (
     <Shell>
       <h1>Escalations and complaints triage</h1>
-      <p className="takeaway">Every inbound email, portal message, phone note and review is labelled by practice area, intent, root cause, tone and deadline, put in an SLA queue, routed to an owner and given a draft reply that a person approves.</p>
-      <p className="lede">340 synthetic messages from the last 30 days (email, client portal, phone notes and Google reviews; a sample of total volume) across five practice areas: Express Entry, work permits, family sponsorship, citizenship and criminal inadmissibility. The classifier is a set of plain rules in code, so every label shows the phrase that produced it. Drafts come only from lawyer-approved templates, are checked for legal advice, and are never sent: approval records the decision in your browser.</p>
+      <p className="takeaway">Prioritise the next response. Give every message an owner.</p>
+      <p className="lede">Explore 340 synthetic messages across five practice areas. Open a case to inspect its evidence, thread and reviewable reply. Nothing is sent.</p>
       <Triage messages={INBOX} />
 
       <div className="grid2" style={{ marginTop: 20 }}>
