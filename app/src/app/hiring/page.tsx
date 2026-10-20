@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Shell from "@/components/Shell";
 import Kanban from "@/components/Kanban";
+import CaseManagerFunnel from "@/components/CaseManagerFunnel";
+import Link from "next/link";
 import { HIRING } from "@/lib/data";
 import { HEADCOUNT, LOAD_LIMIT_HOURS, NEW_HIRES, ONBOARDING, STAGES, TEAMS, stepsDue } from "@/lib/hiring";
 
@@ -22,7 +24,7 @@ export default function Page() {
     <Shell>
       <h1>Hiring pipeline and onboarding</h1>
       <p className="takeaway">Scaling from {now} to about {target} people in six months is a recruiting operation in its own right: {openings} openings across {reqs.length} roles, every one needing interviewers who also carry a caseload.</p>
-      <p className="lede">Synthetic requisitions, candidates and interviewers. The plan hires {cs.target - cs.now} customer success people rather than {(cs.target_without_systems ?? cs.target) - cs.now}, because the system fixes on the CSAT page absorb part of the volume growth; the 90-day page shows the arithmetic.</p>
+      <p className="lede">Synthetic requisitions, candidates and interviewers. The plan hires {cs.target - cs.now} customer success people rather than {(cs.target_without_systems ?? cs.target) - cs.now}, because the system fixes on the CSAT page absorb part of the volume growth; the 90-day page shows the arithmetic. Before a requisition opens, the work it covers goes through the <Link href="/decide/">fix, automate or hire</Link> check.</p>
       <div className="kpis">
         <div className="kpi"><div className="v">{now} → {target}</div><div className="l">Headcount today → plan (April 2027)</div></div>
         <div className="kpi y"><div className="v">{without - target}</div><div className="l">Roles not hired because systems come first</div></div>
@@ -40,6 +42,8 @@ export default function Page() {
         </div>
         <p className="small muted">The screen is where volume is won or lost: at {Math.round(funnel[0] / Math.max(1, funnel[1]))} applicants per screened candidate, a structured screening form and a scored work sample save more interviewer time than any later step.</p>
       </div>
+
+      <CaseManagerFunnel req={reqs.find((r) => r.title === "Case manager")!} acceptance={offers_120d.accepted / offers_120d.made} planHires={HEADCOUNT["Case management"].target - HEADCOUNT["Case management"].now} />
 
       <Kanban reqs={reqs} candidates={candidates} />
 
@@ -111,7 +115,7 @@ export default function Page() {
             <li>Self-scheduling for interviews against panel calendars, with the weekly load limit enforced.</li>
             <li>Structured scorecards per stage, so offers are decided on the same criteria across interviewers.</li>
             <li>Offer accepted → employee record, accounts and equipment requests created without retyping (the onboarding view below).</li>
-            <li>Compensation bands and levels per role family written down before the hiring wave, not after it.</li>
+            <li>Compensation bands and levels per role family written down before the hiring wave, not after it (<Link href="/people/#pay-bands">illustrative bands</Link>).</li>
           </ul>
         </div>
       </div>
@@ -135,7 +139,7 @@ export default function Page() {
             </tbody>
           </table>
         </div>
-        <p className="small muted">{ONBOARDING.filter((s) => s.mode !== "Manual").length} of {ONBOARDING.length} steps run without anyone remembering to start them. The manual ones are the ones that should be human: the welcome, shadowing, the first supervised queue and goal setting.</p>
+        <p className="small muted">{ONBOARDING.filter((s) => s.mode !== "Manual").length} of {ONBOARDING.length} steps run without anyone remembering to start them. The manual ones are the ones that should be human: the welcome, shadowing, the first supervised queue and goal setting. Offboarding and leave follow the same pattern on the <Link href="/people/#checklists">People ops</Link> page.</p>
       </div>
     </Shell>
   );

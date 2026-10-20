@@ -16,7 +16,7 @@ export default function Page() {
     <Shell>
       <h1>Escalations and complaints triage</h1>
       <p className="takeaway">Prioritise the next response. Give every message an owner.</p>
-      <p className="lede">Explore 340 synthetic messages across five practice areas. Open a case to inspect its evidence, thread and reviewable reply. Nothing is sent.</p>
+      <p className="lede">Explore 340 synthetic messages from the client portal and email, plus phone notes and Google reviews, across five practice areas. Every complaint is captured, categorised, given an owner and a root cause, so recurring patterns show up on the CSAT page. Open a case to inspect its evidence, thread and reviewable reply. Nothing is sent.</p>
       <Triage messages={INBOX} />
 
       <div className="grid2" style={{ marginTop: 20 }}>

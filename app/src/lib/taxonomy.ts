@@ -59,7 +59,8 @@ export const SLA_HOURS: Record<Priority, number> = { P1: 4, P2: 24, P3: 48 };
 export const PRIORITY_LABEL: Record<Priority, string> = { P1: "P1 deadline", P2: "P2 at risk", P3: "P3 routine" };
 
 export type Channel = "email" | "portal" | "phone" | "review";
-export const CHANNEL_LABEL: Record<Channel, string> = { email: "Email", portal: "Client portal", phone: "Phone note", review: "Google review" };
+/** Labels in the firm's own order: complaints arrive through the client portal and email, plus phone notes and Google reviews. */
+export const CHANNEL_LABEL: Record<Channel, string> = { portal: "Client portal", email: "Email", phone: "Phone note", review: "Google review" };
 export const STATUSES = ["New", "In progress", "Waiting on client", "Escalated", "Resolved"] as const;
 export type Status = (typeof STATUSES)[number];
 export type ThreadItem = { at: string; from: "client" | "firm" | "system"; author: string; text: string };

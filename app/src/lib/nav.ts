@@ -1,6 +1,6 @@
 /** Navigation model for the left rail, the top-bar breadcrumb and the keyboard shortcuts. Pure, so routes and keys can be tested. */
 export type Badge = "triage" | "silent" | "reqs";
-export type Icon = "overview" | "ai" | "triage" | "csat" | "hiring" | "plan" | "about";
+export type Icon = "overview" | "ai" | "triage" | "csat" | "decide" | "hiring" | "people" | "plan" | "about";
 export type NavItem = { href: string; label: string; key: string; icon: Icon; badge?: Badge };
 export type NavGroup = { name: string; items: NavItem[] };
 export type Badges = Partial<Record<Badge, { n: number; tone: "red" | "amber"; label: string }>>;
@@ -13,7 +13,9 @@ export const NAV_GROUPS: NavGroup[] = [
     { href: "/csat/", label: "CSAT & reviews", key: "C", icon: "csat", badge: "silent" },
   ] },
   { name: "Team & plan", items: [
+    { href: "/decide/", label: "Fix or hire", key: "F", icon: "decide" },
     { href: "/hiring/", label: "Hiring", key: "H", icon: "hiring", badge: "reqs" },
+    { href: "/people/", label: "People ops", key: "E", icon: "people" },
     { href: "/plan/", label: "First 90 days", key: "P", icon: "plan" },
   ] },
   { name: "Prototype", items: [{ href: "/about/", label: "About & methodology", key: "M", icon: "about" }] },

@@ -21,4 +21,6 @@ test("active item: home only on /, inner pages with or without a trailing slash"
   assert.equal(activeItem("/csat/").href, "/csat/");
   assert.equal(activeItem("/hiring/").href, "/hiring/");
   assert.deepEqual(breadcrumb("/plan/"), ["Team & plan", "First 90 days"]);
+  assert.deepEqual(breadcrumb("/people/"), ["Team & plan", "People ops"]);
+  assert.equal(activeItem("/decide").href, "/decide/");
 });
