@@ -121,7 +121,7 @@ export default function Triage({ messages }: { messages: Message[] }) {
             {shown.map((r) => {
               const d = store.decisions[r.m.id]; const sla = slaOf(r); const st = statusOf(r);
               return (
-                <tr key={r.m.id} className={`row${sel === r.m.id ? " sel" : ""}`} onClick={() => setSel(r.m.id)} tabIndex={0} onKeyDown={(e) => { if (e.key === "Enter") setSel(r.m.id); }}>
+                <tr key={r.m.id} className={`row${sel === r.m.id ? " sel" : ""}`} onClick={() => setSel(r.m.id)} tabIndex={0} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setSel(r.m.id); } }}>
                   <td>{sla.state === "none" ? <span className="muted small">{st === "Resolved" ? "Closed" : "Replied"}</span> : <span className={`pill timer ${sla.state}`}>{fmtTimer(sla.hours_left)}</span>}</td>
                   <td><span className={`status-chip s-${st.replace(/ /g, "-").toLowerCase()}`}>{st}</span></td>
                   <td><span className={`pill ${r.c.priority}`}>{r.c.priority}</span></td>
@@ -151,7 +151,25 @@ function Drawer({ row, store, status, sla, ownerOf, onClose, update, toast }: { 
   const [editing, setEditing] = useState(false);
   const [reason, setReason] = useState("");
   useEffect(() => { setText(store.decisions[m.id]?.text ?? draftReply(m, c)); setEditing(false); setReason(""); }, [m.id]); // eslint-disable-line react-hooks/exhaustive-deps
-  useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === "Escape") onClose(); }; window.addEventListener("keydown", k); return () => window.removeEventListener("keydown", k); }, [onClose]);
+  const drawerRef = useRef<HTMLElement>(null);
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
+  useEffect(() => {
+    const previous = document.activeElement as HTMLElement | null;
+    const overflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    drawerRef.current?.querySelector<HTMLButtonElement>("button")?.focus();
+    const k = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeRef.current();
+      if (e.key !== "Tab") return;
+      const nodes = Array.from(drawerRef.current?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href], input:not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex="0"]') ?? []).filter((n) => n.getClientRects().length > 0);
+      const first = nodes[0], last = nodes[nodes.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last?.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first?.focus(); }
+    };
+    window.addEventListener("keydown", k);
+    return () => { window.removeEventListener("keydown", k); document.body.style.overflow = overflow; previous?.focus(); };
+  }, []);
   const d = store.decisions[m.id];
   const placeholders = (text.match(/\[[^\]]+\]/g) ?? []).length;
   const guards = guardrails(text, c);
@@ -169,7 +187,7 @@ function Drawer({ row, store, status, sla, ownerOf, onClose, update, toast }: { 
   return (
     <>
       <div className="drawer-bg" onClick={onClose} />
-      <aside className="drawer" role="dialog" aria-modal="true" aria-label={`Message ${m.id}`}>
+      <aside ref={drawerRef} className="drawer" role="dialog" aria-modal="true" aria-label={`Message ${m.id}`}>
         <button className="close sm" onClick={onClose}>Close</button>
         <div className="sku">{m.id} · {CHANNEL_LABEL[m.channel]} · {m.matter ?? "New enquiry"}</div>
         <h2 style={{ marginTop: 6 }}>{m.subject}</h2>
