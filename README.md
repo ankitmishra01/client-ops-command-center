@@ -54,7 +54,7 @@ All in [`app/src/lib/classify.ts`](app/src/lib/classify.ts) and [`app/src/lib/ro
 ## How it is built
 
 - Next.js 15, React 19, TypeScript. Static pages from committed JSON in `app/data/`, plus one optional API route. No database, no environment variables needed.
-- Design: Ankit Mishra's house design language (ink, paper, violet; hairlines; 4px radius). Deliberately not any firm's branding.
+- Design: CanadaVisa-inspired red, white and charcoal, with locally hosted Raleway headings (OFL license in app/public/fonts). Independent application prototype; no affiliation or endorsement.
 - Tests: 25 Node tests covering the classifier, deadlines, SLA, routing, draft guardrails and lawyer sign-off, the business-case model, and data invariants (including that the committed JSON matches the generator exactly). CI runs typecheck, tests and build on every push.
 - `noindex` on every page.
 - Built with Claude Code, with the author deciding the scope, the rules, every threshold and every sentence.
