@@ -11,7 +11,7 @@ export default function Page() {
     <Shell>
       <h1>About this prototype</h1>
       <p className="takeaway">A working sketch of the operating system a Head of Operations &amp; Customer Success would build first: one queue for client messages, a dashboard that ties satisfaction to root causes, a hiring pipeline for the scale-up, and a plan that puts systems before headcount.</p>
-      <p className="lede">Prepared by Ankit Mishra for the Head of Operations &amp; Customer Success application at CanadaVisa / Cohen Immigration Law. It is not affiliated with or endorsed by either, uses none of their data, branding or content, and is not legal advice. Everything below says what is real and what is illustrative.</p>
+      <p className="lede">Prepared by Ankit Mishra for the Head of Operations &amp; Customer Success application at CanadaVisa / Cohen Immigration Law. It is not affiliated with or endorsed by either, uses synthetic data, and is not legal advice. The visual theme takes inspiration from CanadaVisa’s public website. Everything below says what is real and what is illustrative.</p>
 
       <div className="grid2">
         <div className="card t-violet">
